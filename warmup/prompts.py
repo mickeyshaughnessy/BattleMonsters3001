@@ -10,7 +10,7 @@ generate_monster = """
     "energy" : 10,
     "monster_types" : "Fire Ape Monk",
     "abilities" : "Fire Eye - range distance attack enabled",
-    "seed" = "%s"
+    "seed" : "Fire Monkey Librarian"
     }
 
     Input_prompt = %s

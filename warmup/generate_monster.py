@@ -5,20 +5,6 @@ import json
 
 from utils import execute_completion
 
-#def execute_completion(prompt):
-#
-#    resp = requests.post(
-#            "http://localhost:11434/api/generate", 
-#            json={"model" : "mistral", "prompt" : prompt},
-#            stream=False)
-#    
-#    _text = ""
-#    for r in resp.iter_lines():
-#        r = json.loads(r)
-#        _text += r.get("response")
-#    return _text
-
-
 if __name__ == "__main__":
     _text = execute_completion(make_seeds % 100)
     with open("generated_seeds.txt", 'w') as f:

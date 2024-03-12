@@ -18,7 +18,7 @@ def execute_completion(prompt):
 
 
 if __name__ == "__main__":
-    _text = execute_completion(make_seeds % 16)
+    _text = execute_completion(make_seeds % 100)
     with open("generated_seeds.txt", 'w') as f:
         f.write(_text)
 

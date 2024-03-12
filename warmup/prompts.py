@@ -1,3 +1,6 @@
+image_prefix = """Korean battle monster video game pixelated 64-bit """
+
+
 generate_monster = """
     You always respond with just JSON. Nothing more, nothing less.
 

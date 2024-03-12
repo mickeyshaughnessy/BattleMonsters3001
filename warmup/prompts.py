@@ -31,7 +31,7 @@ hatch_egg = """ Given the egg as input, generate a new monster
 }
 
   Child = {
-      "description":
+      "description": "
 """
 
 generate_monster = """
@@ -80,3 +80,17 @@ make_seeds = """
     17. Circus Freak Jailer
     18.
     """
+
+generate_map_seeds = """
+   Generate %s MonsterBattle 3001 map seed phrases.
+
+   1. Snowy Tundra
+   2. Outer Space Asteroid Habitat
+   3. Jungle Fire Temple
+   4. California State Insane Asylum
+   5. Desert Monument
+   6. Great Plains Western United States
+   7. Scablands
+   8. Mountain Monastery
+   """
+

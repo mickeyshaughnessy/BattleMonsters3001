@@ -10,7 +10,8 @@ if __name__ == "__main__":
     with open("generated_seeds.txt", 'w') as f:
         f.write(_text)
 
-    
+    print(_text)
+
     with open("generated_monsters.txt", 'w') as f:
         lines = _text.split("\n")
         for line in lines:

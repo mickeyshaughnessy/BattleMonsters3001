@@ -52,11 +52,38 @@ Monster =
     "seed" : "Plasma Alligator Sage"
     }
 
+    "abilities" : "
+
+    Output =
+{"abilities" :
+"Electro Healing - heals itself with plasma" : {
+  "level1" : "+10% chance to heal when defending",
+  "level2" : "+15 chance to heal when defending",
+  "level3" : "+20% chance to heal when defending",
+  "level4" : "+25% chance to heal when defending",
+  "level5" : "+45% chance to heal when defending",
+  },
+"Legendary Crocus's Reverie" : {
+  "level1" : "Monster must defend. Reduce all damage to 0, except from Cybor, Alien, Cold and Electrical.", 
+  "level2" : "Monster must defend. Reduce all damage to 0, except from Cold and Alien.", 
+  "level3" : "Monster must defend. Reduce all damage to 0, except from Cold, Electrical and Cyborg.", 
+  "level4" : "Monster must defend. Reduce all damage to 0, except from Cyborg",
+  "level5" : "Monster must defend. Reduce all damage to 0, except from Alien", 
+  "levelX" : "Monster must defend and can not move. Reflect all damage +25%" 
+  }
+}
+
+Input = %s
+
+Output = 
+"""
 #generate_egg = """
 
 hatch_egg = """ Given the egg parents as input, generate a new monster.
 
 You always return valid JSON and never anything else.
+
+Example:
 
     Parent X =  {
 "description" : "The Galactic Kraken Colossus is a monstrous sea creature of immense size and power, hailing from the furthest reaches of space. Its colossal tentacles can crush ships with ease and its eyes beam powerful energy blasts. A fearsome opponent.",
@@ -95,14 +122,13 @@ generate_monster = """
 
     Output = {"description" : "The Fire Monkey Kung King Fu is dangerously also an ancient and powerful librarian, responsible for shelving books in the temple library at Shau Kang. He attacks with arcane knowledge and raw firepower.",
     "name" : "Kung King Fu"
-    "power" : "15",
-    "toughness" : "8",
-    "speed" : "29",
+    "power" : 29,
+    "toughness" : 8,
+    "speed" : 29,
     "energy" : 10,
     "monster_types" : "Fire Ape Monk",
     "weakness" : "All forms of Water",
     "immunity" : "Mind Control and Temptation",
-    "abilities" : "",
     "seed" : "Fire Monkey Librarian"
     }
 
@@ -113,13 +139,13 @@ generate_monster = """
 
 
 make_seeds = """
-    Generate %s MonsterBattle 3001 monster seed phrases.
+    Generate %s MonsterBattle 3001 monster seed phrases:
 
-    1. red fox Hunter
+    1. Red Fox Hunter
     2. Giga Ape Druid
     3. Elemental octopus ninja
     4. Godzilla Uberdinosaur Spirit
-    5. Undead zombie warlock
+    5. Undead zombie Warlock
     6. Blue Dragon Lumberjack
     7. Dark Elf Detective
     8. Alien Cyborg Warrior

@@ -18,7 +18,8 @@ if __name__ == "__main__":
             monster.replace("\n", "")
             print(monster)
             try:
-                f.write(monster+"\n")
+                f.write(monster)
                 json.loads(monster)
             except:
                 print("failed json loads")
+            f.write("\n")

@@ -1,8 +1,63 @@
 image_prefix = """Korean battle monster video game pixelated 64-bit """
 
+generate_abilities = """
+You are an assistant who generates JSON outputs for a Monster battle game.
+You receive Monster objects and output potential abilities, including for egg hatching, monster ranching, and most importantly, Battles!
+
+Battle abilities determine the monster's impact on the battlefield, so they should be most common. Legendary abilites should sometimes be present, with over-the-top effects.
+
+Here's a basic example:
+
+Monster = 
+{"description" : "The Dark Naga Warrior is a dark and mysterious figure, armed with ancient weapons and protective armor. She can manipulate water, creating powerful waves and currents to attack or protect.",
+"power" : "20",
+"toughness" : "14",
+"speed" : "18",
+"energy" : 15,
+"monster_types" : "Dark Naga Warrior",
+"weakness" : "All forms of Light",
+"immunity" : "Poison and Paralysis",
+}
+
+Output = 
+{"abilities" :
+"Water Shield - absorbs water-based attacks" : {
+  "level1" : "-30% to Water-based damage",
+  "level2" : "-40% to Water-based damage",
+  "level3" : "-50% to Water-based damage",
+  "level4" : "-60% to Water-based damage",
+  "level5" : "-70% to Water-based damage"
+  },
+"Hypnosis - ability to put enemies under her control" : {
+  "level1" : "Nearby Monsters become aligned with chance 5%",
+  "level2" : "Nearby Monsters become aligned with chance 10%",
+  "level3" : "Nearby Monsters become aligned with chance 25%",
+  "level4" : "Nearby Monsters become aligned with chance 40%",
+  "level5" : "Nearby Monsters become aligned with chance 50%"
+  }
+}
+
+Here's a more complex example:
+
+Monster = 
+ {"description" : "The Plasma Alligator Sage is a wise and ancient creature, living in the swamps of electrified waters. It can manipulate plasma to defend itself and to heal its wounds.",
+    "name" : "Plasma Alligator Sage",
+    "power" : "12",
+    "toughness" : "13",
+    "speed" : "15",
+    "energy" : 8,
+    "monster_types" : "Plasma Crocodile Sage",
+    "weakness" : "Cold attacks and Electrical shock",
+    "immunity" : "Poison and Psychic powers",
+    "seed" : "Plasma Alligator Sage"
+    }
+
 #generate_egg = """
 
-hatch_egg = """ Given the egg as input, generate a new monster 
+hatch_egg = """ Given the egg parents as input, generate a new monster.
+
+You always return valid JSON and never anything else.
+
     Parent X =  {
 "description" : "The Galactic Kraken Colossus is a monstrous sea creature of immense size and power, hailing from the furthest reaches of space. Its colossal tentacles can crush ships with ease and its eyes beam powerful energy blasts. A fearsome opponent.",
 "power" : "50",
@@ -30,8 +85,7 @@ hatch_egg = """ Given the egg as input, generate a new monster
 "seed" : "Dark Naga Warrior"
 }
 
-  Child = {
-      "description": "
+  Child = 
 """
 
 generate_monster = """
@@ -48,7 +102,7 @@ generate_monster = """
     "monster_types" : "Fire Ape Monk",
     "weakness" : "All forms of Water",
     "immunity" : "Mind Control and Temptation",
-    "abilities" : "Fire Eye - range distance attack enabled",
+    "abilities" : "",
     "seed" : "Fire Monkey Librarian"
     }
 
@@ -92,5 +146,6 @@ generate_map_seeds = """
    6. Great Plains Western United States
    7. Scablands
    8. Mountain Monastery
+   9. Surface of Mars
    """
 

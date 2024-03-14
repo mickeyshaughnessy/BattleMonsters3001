@@ -137,11 +137,10 @@ generate_monster = """
     Output = 
     """
 
-
 make_seeds = """
-    Generate %s MonsterBattle 3001 monster seed phrases:
+    Generate %s new MonsterBattle 3001 monster seed phrases:
 
-    1. Red Fox Hunter
+    1. red fox Hunter
     2. Giga Ape Druid
     3. Elemental octopus ninja
     4. Godzilla Uberdinosaur Spirit
@@ -151,7 +150,7 @@ make_seeds = """
     8. Alien Cyborg Warrior
     9. Zombie Insect
     10. Giant Elk Priestess
-    11. Elder Dragon Nicol Bolas
+    11. Elder Dragon Scientist 
     12. Elemental Lightning Crew
     13. Apprentice Necromancer
     14. Skeleton

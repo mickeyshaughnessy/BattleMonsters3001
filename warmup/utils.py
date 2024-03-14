@@ -5,9 +5,7 @@ def execute_completion(prompt):
 
     resp = requests.post(
             "http://localhost:11434/api/generate",
-            #json={"model" : "mistral", "prompt" : prompt},
-            #json={"model" : "nous-hermes", "prompt" : prompt},
-            json={"model" : "mixtral", "prompt" : prompt},
+            json={"model" : "mistral", "prompt" : prompt},
             stream=False)
 
     _text = ""

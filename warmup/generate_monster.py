@@ -5,8 +5,10 @@ import json
 
 from utils import execute_completion
 
+NSEEDS = 200
+
 if __name__ == "__main__":
-    _text = execute_completion(p_make_seeds % 100)
+    _text = execute_completion(p_make_seeds % NSEEDS)
     with open("generated_seeds.txt", 'w') as f:
         f.write(_text)
 

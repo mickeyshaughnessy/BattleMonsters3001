@@ -210,6 +210,4 @@ p_battle_handler = """
     Input = %s 
 
     Output = 
-    """
-
 """

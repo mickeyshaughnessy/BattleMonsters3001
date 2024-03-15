@@ -1,6 +1,6 @@
 image_prefix = """Korean battle monster video game pixelated 64-bit """
 
-generate_abilities = """
+p_generate_abilities = """
 You are an assistant who generates JSON outputs for a Monster battle game.
 You receive Monster objects and output potential abilities, including for egg hatching, monster ranching, and most importantly, Battles!
 
@@ -22,18 +22,18 @@ Monster =
 Output = 
 {"abilities" :
 "Water Shield - absorbs water-based attacks" : {
-  "level1" : "-30% to Water-based damage",
-  "level2" : "-40% to Water-based damage",
-  "level3" : "-50% to Water-based damage",
-  "level4" : "-60% to Water-based damage",
-  "level5" : "-70% to Water-based damage"
+  "level1" : "-0.30 to Water-based damage",
+  "level2" : "-0.40 to Water-based damage",
+  "level3" : "-0.50 to Water-based damage",
+  "level4" : "-0.60 to Water-based damage",
+  "level5" : "-0.70 to Water-based damage"
   },
 "Hypnosis - ability to put enemies under her control" : {
-  "level1" : "Nearby Monsters become aligned with chance 5%",
-  "level2" : "Nearby Monsters become aligned with chance 10%",
-  "level3" : "Nearby Monsters become aligned with chance 25%",
-  "level4" : "Nearby Monsters become aligned with chance 40%",
-  "level5" : "Nearby Monsters become aligned with chance 50%"
+  "level1" : "Nearby Monsters become aligned with chance 0.05",
+  "level2" : "Nearby Monsters become aligned with chance 0.10",
+  "level3" : "Nearby Monsters become aligned with chance 0.25",
+  "level4" : "Nearby Monsters become aligned with chance 0.40",
+  "level5" : "Nearby Monsters become aligned with chance 0.50"
   }
 }
 
@@ -57,11 +57,11 @@ Monster =
     Output =
 {"abilities" :
 "Electro Healing - heals itself with plasma" : {
-  "level1" : "+10% chance to heal when defending",
-  "level2" : "+15 chance to heal when defending",
-  "level3" : "+20% chance to heal when defending",
-  "level4" : "+25% chance to heal when defending",
-  "level5" : "+45% chance to heal when defending",
+  "level1" : "+0.10 chance to heal when defending",
+  "level2" : "+0.15 chance to heal when defending",
+  "level3" : "+0.20 chance to heal when defending",
+  "level4" : "+0.25 chance to heal when defending",
+  "level5" : "+0.45 chance to heal when defending",
   },
 "Legendary Crocus's Reverie" : {
   "level1" : "Monster must defend. Reduce all damage to 0, except from Cybor, Alien, Cold and Electrical.", 
@@ -69,7 +69,7 @@ Monster =
   "level3" : "Monster must defend. Reduce all damage to 0, except from Cold, Electrical and Cyborg.", 
   "level4" : "Monster must defend. Reduce all damage to 0, except from Cyborg",
   "level5" : "Monster must defend. Reduce all damage to 0, except from Alien", 
-  "levelX" : "Monster must defend and can not move. Reflect all damage +25%" 
+  "levelX" : "Monster must defend and can not move. Reflect all damage +0.25" 
   }
 }
 
@@ -79,7 +79,7 @@ Output =
 """
 #generate_egg = """
 
-hatch_egg = """ Given the egg parents as input, generate a new monster.
+p_hatch_egg = """ Given the egg parents as input, generate a new monster.
 
 You always return valid JSON and never anything else.
 
@@ -94,8 +94,6 @@ Example:
 "monster_types" : "Kraken Colossus",
 "weakness" : "Plasma and Sonic attacks",
 "immunity" : "Energy Shields and Gravity Manipulation",
-"abilities" : ["Tentacle Grab - melee attack enabling grappling and restraint",
-"Energy Blast - long range energy projectile attack"]
 "seed" : "Galactic_Kraken_Colossus"
 }
 
@@ -108,14 +106,13 @@ Example:
 "monster_types" : "Dark Naga Warrior",
 "weakness" : "All forms of Light",
 "immunity" : "Poison and Paralysis",
-"abilities" : ["Water Shield - absorbs water-based attacks", "Hypnosis - ability to put enemies under her control"],
 "seed" : "Dark Naga Warrior"
 }
 
   Child = 
 """
 
-generate_monster = """
+p_generate_monster = """
     You always respond with just JSON. Nothing more, nothing less.
 
     Input_prompt = Fire Monkey Librarian
@@ -137,8 +134,8 @@ generate_monster = """
     Output = 
     """
 
-make_seeds = """
-    Generate %s new MonsterBattle 3001 monster seed phrases:
+p_make_seeds = """
+    Generate %s new, unique, interesting MonsterBattle 3001 monster seed phrases:
 
     1. red fox Hunter
     2. Giga Ape Druid
@@ -160,7 +157,7 @@ make_seeds = """
     18.
     """
 
-generate_map_seeds = """
+p_generate_map_seeds = """
    Generate %s MonsterBattle 3001 map seed phrases.
 
    1. Snowy Tundra
@@ -174,3 +171,45 @@ generate_map_seeds = """
    9. Surface of Mars
    """
 
+
+p_battle_handler = """
+   You are a battle handling submodule. 
+   You always respond with just JSON, nothing more, nothing less.
+   You always think carefully.
+   You always respond with just JSON.
+
+   Your inputs are Monster JSON objects and a Battle JSON object.
+   Your outputs are modified Monster objects and Battle objects.
+
+   Monsters can move on the 10x10 battle board, attack, or defend.
+   Each Monster can take at most one action (move, attack, defend).
+
+   Example:
+   Input = 
+   {
+       "Battle Name" : "Busy Tokyo Metropolis",
+       "Monsters" : [{
+         "Monster Name": "Godzilla",
+         "power" : 10,
+         "toughness" : 3,
+         "speed" : 16,
+         "position_x" : 0,
+         "position_y" : 4,
+         },{
+         "Monster Name" : "Ape Prince Konga",
+         "power" : 5,
+         "toughness" : 1,
+         "speed" : 6,
+         "position_x" : 0,
+         "position_y" : 5
+         }]
+    }
+
+    Output = 
+    
+    Input = %s 
+
+    Output = 
+    """
+
+"""

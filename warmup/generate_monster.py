@@ -1,4 +1,4 @@
-from prompts import generate_monster, make_seeds
+from prompts import p_generate_monster, p_make_seeds
 
 import requests
 import json
@@ -6,21 +6,22 @@ import json
 from utils import execute_completion
 
 if __name__ == "__main__":
-    _text = execute_completion(make_seeds % 100)
+    _text = execute_completion(p_make_seeds % 100)
     with open("generated_seeds.txt", 'w') as f:
         f.write(_text)
 
     print(_text)
 
     with open("generated_monsters.txt", 'w') as f:
-        lines = _text.split("\n")
-        for line in lines:
-            monster = execute_completion(generate_monster % line)
-            monster.replace("\n", "")
-            print(monster)
-            try:
-                f.write(monster)
-                json.loads(monster)
-            except:
-                print("failed json loads")
-            f.write("\n")
+        with open("generated_monsters.json", 'w') as fout:
+            lines = _text.split("\n")
+            for line in lines:
+                monster = execute_completion(p_generate_monster % line)
+                m = monster.replace("\n", "")
+                print(monster)
+                try:
+                    f.write(monster+"\n")
+                    json.loads(monster)
+                    fout.write(m + "\n")
+                except:
+                    print("failed json loads")

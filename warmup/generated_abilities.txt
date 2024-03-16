@@ -1,0 +1,23 @@
+ {"abilities" :
+"Bow Mastery - increases accuracy and damage with bow attacks": {
+  "level1" : "+0.10 to hit chance with bows",
+  "level2" : "+0.15 to hit chance with bows, +0.10 to damage with bows",
+  "level3" : "+0.20 to hit chance with bows, +0.15 to damage with bows",
+  "level4" : "+0.25 to hit chance with bows, +0.20 to damage with bows",
+  "level5" : "+0.30 to hit chance with bows, +0.25 to damage with bows"
+},
+"Wisdom of the Forest - increases allies' stats": {
+  "level1" : "+1 to all allies' power and energy",
+  "level2" : "+2 to all allies' power and energy",
+  "level3" : "+3 to all allies' power and energy",
+  "level4" : "+4 to all allies' power and energy",
+  "level5" : "+5 to all allies' power and energy"
+},
+"Legendary Archer's Ambush" : {
+  "level1" : "Monster can use stealth, reducing chances of being targeted in battles.",
+  "level2" : "Monster can use stealth and fires a critical shot when attacking from stealth.",
+  "level3" : "Monster can use stealth, fires a critical shot when attacking from stealth and has increased evasion.",
+  "level4" : "Monster can use stealth, fires a critical shot when attacking from stealth, has increased evasion and heals itself upon taking damage.",
+  "level5" : "Monster can use stealth, fires a critical shot when attacking from stealth, has increased evasion and heals all allies when taking damage."
+}
+}

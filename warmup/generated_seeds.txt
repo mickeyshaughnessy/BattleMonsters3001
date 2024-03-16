@@ -1,0 +1,151 @@
+ 20. Ice Witch Guardian
+21. Venus Flytrap Giant
+22. Plague Doctor Mummy
+23. Fire Phoenix Monk
+24. Steampunk Kraken
+25. Crystal Golem Alchemist
+26. Ghostly Specter Chef
+27. Shadow Vampire Sheriff
+28. Cryomancer Snowman
+29. Pterodactyl Pirate Captain
+30. Squid Samurai
+31. Silent Forest Dryad
+32. Techno Mantis Assassin
+33. Rainbow Unicorn Archer
+34. Jellyfish Queen
+35. Space Shark Astronaut
+36. Swamp Witch Healer
+37. Dragonfly Ninja
+38. Ghost Pirate Skeleton
+39. Mecha Spider Queen
+40. Fire Ant Colony
+41. Electric Eel Sorcerer
+42. Dino-Bird of Prey
+43. Lava Golem Blacksmith
+44. Ice Cream Truck Robber
+45. Vampire Bat Barista
+46. Forest Troll Treekeeper
+47. Ghost Ship Captain
+48. Meteorite Gargoyle
+49. Jelly Bean Goblin
+50. Electric Eel Trainer
+51. Ice Cream Sundae Sage
+52. Giant Bumblebee Queen
+53. Swamp Witch Hexenmeister
+54. Fire Snake Monk
+55. Glow-in-the-Dark Jellyfish
+56. Mummy Curator
+57. Space Whale Cosmonaut
+58. Lava Gargoyle Sorceress
+59. Ghostly Phantom Sheriff
+60. Mecha Mantis Warrior
+61. Ice Cream Sundae Witch
+62. Dino-Bird of Prey Hunter
+63. Crystal Golem Engineer
+64. Venus Flytrap Gardener
+65. Alien Probe Scientist
+66. Plague Doctor Alchemist
+67. Steampunk Octopus
+68. Jelly Bean Goblin Warrior
+69. Techno Mantis Healer
+70. Rainbow Unicorn Paladin
+71. Fire Phoenix Archer
+72. Cryomancer Snowman Samurai
+73. Pterodactyl Pirate Cook
+74. Squid Samurai Chef
+75. Silent Forest Dryad Warrior
+76. Swamp Witch Healer Hexenmeister
+77. Electric Eel Trainer Sage
+78. Ghost Pirate Captain Mummy
+79. Ice Cream Sundae Witch Sheriff
+80. Fire Snake Monk Sage
+81. Glow-in-the-Dark Jellyfish Alchemist
+82. Forest Troll Treekeeper Warrior
+83. Lava Gargoyle Engineer
+84. Ghost Ship Captain Mummy
+85. Meteorite Gargoyle Scientist
+86. Crystal Golem Alchemist Healer
+87. Venus Flytrap Gardener Witch
+88. Plague Doctor Alchemist Warrior
+89. Steampunk Octopus Engineer
+90. Jelly Bean Goblin Archer
+91. Techno Mantis Trainer
+92. Rainbow Unicorn Paladin Healer
+93. Fire Phoenix Monk Warrior
+94. Cryomancer Snowman Sage
+95. Dino-Bird of Prey Witch
+96. Lava Gargoyle Engineer Mummy
+97. Ghostly Phantom Chef
+98. Mecha Mantis Healer Sorceress
+99. Ice Cream Sundae Witch Engineer
+100. Forest Troll Treekeeper Sage
+101. Crystal Golem Scientist Warrior
+102. Venus Flytrap Gardener Warrior
+103. Plague Doctor Alchemist Mummy
+104. Steampunk Octopus Trainer
+105. Jelly Bean Goblin Sage
+106. Techno Mantis Healer Sage
+107. Rainbow Unicorn Paladin Engineer
+108. Fire Phoenix Monk Chef
+109. Cryomancer Snowman Archer
+110. Dino-Bird of Prey Trainer
+111. Lava Gargoyle Engineer Warrior
+112. Ghostly Phantom Warrior Sheriff
+113. Mecha Mantis Healer Scientist
+114. Ice Cream Sundae Witch Sage
+115. Forest Troll Treekeeper Trainer
+116. Crystal Golem Scientist Healer
+117. Venus Flytrap Gardener Warrior
+118. Plague Doctor Alchemist Sage
+119. Steampunk Octopus Warrior
+120. Jelly Bean Goblin Engineer
+121. Techno Mantis Healer Trainer
+122. Rainbow Unicorn Paladin Engineer
+123. Fire Phoenix Monk Healer
+124. Cryomancer Snowman Archer
+125. Dino-Bird of Prey Sage
+126. Lava Gargoyle Engineer Warrior Mummy
+127. Ghostly Phantom Warrior Cook
+128. Mecha Mantis Healer Scientist Sorceress
+129. Ice Cream Sundae Witch Engineer Warrior
+130. Forest Troll Treekeeper Healer Sage
+131. Crystal Golem Scientist Warrior Mummy
+132. Venus Flytrap Gardener Trainer
+133. Plague Doctor Alchemist Engineer
+134. Steampunk Octopus Witch
+135. Jelly Bean Goblin Healer
+136. Techno Mantis Archer
+137. Rainbow Unicorn Paladin Trainer
+138. Fire Phoenix Monk Sage
+139. Cryomancer Snowman Engineer
+140. Dino-Bird of Prey Healer
+141. Lava Gargoyle Engineer Scientist Mummy
+142. Ghostly Phantom Warrior Chef
+143. Mecha Mantis Healer Scientist Sorceress Mummy
+144. Ice Cream Sundae Witch Trainer
+145. Forest Troll Treekeeper Sage Healer
+146. Crystal Golem Scientist Engineer Mummy
+147. Venus Flytrap Gardener Warrior Mummy
+148. Plague Doctor Alchemist Warrior Healer
+149. Steampunk Octopus Healer Trainer
+150. Jelly Bean Goblin Archer
+151. Techno Mantis Engineer
+152. Rainbow Unicorn Paladin Witch
+153. Fire Phoenix Monk Healer
+154. Cryomancer Snowman Sage
+155. Dino-Bird of Prey Trainer Warrior
+156. Lava Gargoyle Engineer Scientist Mummy Sorceress
+157. Ghostly Phantom Chef Warrior
+158. Mecha Mantis Healer Trainer Sorceress
+159. Ice Cream Sundae Witch Engineer Healer
+160. Forest Troll Treekeeper Sage Warrior
+161. Crystal Golem Scientist Warrior Engineer
+162. Venus Flytrap Gardener Engineer Mummy
+163. Plague Doctor Alchemist Warrior Witch
+164. Steampunk Octopus Healer Warrior
+165. Jelly Bean Goblin Engineer Trainer
+166. Techno Mantis Archer Sage
+167. Rainbow Unicorn Paladin Scientist
+168. Fire Phoenix Monk Sage Engineer
+169. Cryomancer Snowman Archer Healer
+170. Dino-Bird of Prey Trainer Engineer.

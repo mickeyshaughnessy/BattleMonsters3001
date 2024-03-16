@@ -10,14 +10,14 @@ interface IMonsters {
     function mint(address to, string memory uri) external;
 }
 
-contract Eggs is ERC721URIStorage, Ownable, ReentrancyGuard {
+contract MonsterEggs is ERC721URIStorage, Ownable, ReentrancyGuard {
     uint public nextTokenId;
     address public monstersAddress;
 
     event Minted(address to, uint tokenId, string uri);
     event Hatched(uint tokenId, address owner, string newMonsterURI);
 
-    constructor() ERC721("Eggs", "EGG") {}
+    constructor() ERC721("MonsterEggs", "MEGG") {}
 
     function mint(address to, string memory uri) public onlyOwner {
         uint tokenId = nextTokenId++;
@@ -27,7 +27,7 @@ contract Eggs is ERC721URIStorage, Ownable, ReentrancyGuard {
     }
 
     function hatch(uint tokenId, string memory newMonsterURI) public onlyOwner nonReentrant {
-        require(_exists(tokenId), "Egg does not exist.");
+        require(_exists(tokenId), "MonsterEgg does not exist.");
         address owner = ownerOf(tokenId);
         _burn(tokenId);
         IMonsters(monstersAddress).mint(owner, newMonsterURI);

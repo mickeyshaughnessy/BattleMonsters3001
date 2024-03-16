@@ -33,4 +33,8 @@ contract MonsterEggs is ERC721URIStorage, Ownable, ReentrancyGuard {
         IMonsters(monstersAddress).mint(owner, newMonsterURI);
         emit Hatched(tokenId, owner, newMonsterURI);
     }
+
+    function _baseURI() internal pure override returns (string memory) {
+        return "ipfs://your-base-uri/";
+    }
 }

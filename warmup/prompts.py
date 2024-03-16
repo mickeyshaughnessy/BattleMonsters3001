@@ -199,7 +199,7 @@ p_make_seeds = """
     """
 
 p_generate_map_seeds = """
-   Generate %s MonsterBattle 3001 map seed phrases.
+   Generate %s unique, interesting MonsterBattle 3001 map seed phrases.
 
    1. Snowy Tundra
    2. Outer Space Asteroid Habitat
@@ -210,6 +210,10 @@ p_generate_map_seeds = """
    7. Scablands
    8. Mountain Monastery
    9. Surface of Mars
+   10. Downtown Kyoto
+   11. The Great Pyramids at Giza
+   12. Las Vegas Strip
+   13. Moscow
    """
 
 

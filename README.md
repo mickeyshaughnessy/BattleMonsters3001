@@ -42,8 +42,8 @@ When a monster's hit point become zero or less, the monster is removed from the 
 ## Breeding Pen
 ![image](https://github.com/mickeyshaughnessy/BattleMonsters3001/assets/1209295/464b6725-9c1f-4d55-ade7-901cfc3c8b3e)
 Up to 4 monsters can occupy a player's Breeding Pen.
-When 2 or more monsters are in a breeding pen, a new Egg may be generated. 
-Each Egg has an egg_id as well as the monster_ids of the parents.
+When 2 or more monsters are in a breeding pen, a new Egg may be laid. 
 
 # MonsterBucks (MBUCK$$$)
-![image](https://github.com/mickeyshaughnessy/BattleMonsters3001/assets/1209295/c266733a-90bb-4b43-aca6-dabce6ca34d9)
+<img src="https://github.com/mickeyshaughnessy/BattleMonsters3001/assets/1209295/c266733a-90bb-4b43-aca6-dabce6ca34d9" width="400"/>
+

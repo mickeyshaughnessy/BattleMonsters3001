@@ -24,16 +24,15 @@ New players begin the game with 4 Eggs and one Monster.
 Eggs can be traded on the Lakewood Egg Exchange for MBUCK$$$.
 
 # Monsters (MONST)
+<img src="https://github.com/mickeyshaughnessy/BattleMonsters3001/assets/1209295/5ca75b16-de81-4a63-a416-7614b7454e8b" width="400"/>
 Monster tokens hatch from Eggs and can be used to:
  * fight in Battles or 
  * occupy one of the 4 stalls in the player's Breeding Pen
 
 Monsters can not be traded, they can be upgraded. 
-![image](https://github.com/mickeyshaughnessy/BattleMonsters3001/assets/1209295/5ca75b16-de81-4a63-a416-7614b7454e8b)
 
 ## Battles
-//![image](https://github.com/mickeyshaughnessy/BattleMonsters3001/assets/1209295/86b16072-3ce8-4df0-a2ec-bacb9b4e3d7a)
-<img src="https://github.com/mickeyshaughnessy/BattleMonsters3001/assets/1209295/86b16072-3ce8-4df0-a2ec-bacb9b4e3d7a" width="200"/>
+![image](https://github.com/mickeyshaughnessy/BattleMonsters3001/assets/1209295/86b16072-3ce8-4df0-a2ec-bacb9b4e3d7a)
 
 Monsters can be deployed to and removed from Battles. 
 In battle, monsters can both lose hit points and extract resources (MonsterBucks).

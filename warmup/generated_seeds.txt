@@ -1,151 +1,181 @@
- 20. Ice Witch Guardian
-21. Venus Flytrap Giant
-22. Plague Doctor Mummy
-23. Fire Phoenix Monk
-24. Steampunk Kraken
-25. Crystal Golem Alchemist
-26. Ghostly Specter Chef
-27. Shadow Vampire Sheriff
-28. Cryomancer Snowman
-29. Pterodactyl Pirate Captain
-30. Squid Samurai
-31. Silent Forest Dryad
-32. Techno Mantis Assassin
-33. Rainbow Unicorn Archer
-34. Jellyfish Queen
-35. Space Shark Astronaut
-36. Swamp Witch Healer
-37. Dragonfly Ninja
-38. Ghost Pirate Skeleton
-39. Mecha Spider Queen
-40. Fire Ant Colony
-41. Electric Eel Sorcerer
-42. Dino-Bird of Prey
-43. Lava Golem Blacksmith
-44. Ice Cream Truck Robber
-45. Vampire Bat Barista
-46. Forest Troll Treekeeper
-47. Ghost Ship Captain
-48. Meteorite Gargoyle
-49. Jelly Bean Goblin
-50. Electric Eel Trainer
-51. Ice Cream Sundae Sage
-52. Giant Bumblebee Queen
-53. Swamp Witch Hexenmeister
-54. Fire Snake Monk
-55. Glow-in-the-Dark Jellyfish
-56. Mummy Curator
-57. Space Whale Cosmonaut
-58. Lava Gargoyle Sorceress
-59. Ghostly Phantom Sheriff
-60. Mecha Mantis Warrior
-61. Ice Cream Sundae Witch
-62. Dino-Bird of Prey Hunter
-63. Crystal Golem Engineer
-64. Venus Flytrap Gardener
-65. Alien Probe Scientist
-66. Plague Doctor Alchemist
-67. Steampunk Octopus
-68. Jelly Bean Goblin Warrior
-69. Techno Mantis Healer
-70. Rainbow Unicorn Paladin
-71. Fire Phoenix Archer
-72. Cryomancer Snowman Samurai
-73. Pterodactyl Pirate Cook
-74. Squid Samurai Chef
-75. Silent Forest Dryad Warrior
-76. Swamp Witch Healer Hexenmeister
-77. Electric Eel Trainer Sage
-78. Ghost Pirate Captain Mummy
-79. Ice Cream Sundae Witch Sheriff
-80. Fire Snake Monk Sage
-81. Glow-in-the-Dark Jellyfish Alchemist
-82. Forest Troll Treekeeper Warrior
-83. Lava Gargoyle Engineer
-84. Ghost Ship Captain Mummy
-85. Meteorite Gargoyle Scientist
-86. Crystal Golem Alchemist Healer
-87. Venus Flytrap Gardener Witch
-88. Plague Doctor Alchemist Warrior
-89. Steampunk Octopus Engineer
-90. Jelly Bean Goblin Archer
-91. Techno Mantis Trainer
-92. Rainbow Unicorn Paladin Healer
-93. Fire Phoenix Monk Warrior
-94. Cryomancer Snowman Sage
-95. Dino-Bird of Prey Witch
-96. Lava Gargoyle Engineer Mummy
-97. Ghostly Phantom Chef
-98. Mecha Mantis Healer Sorceress
-99. Ice Cream Sundae Witch Engineer
-100. Forest Troll Treekeeper Sage
-101. Crystal Golem Scientist Warrior
-102. Venus Flytrap Gardener Warrior
-103. Plague Doctor Alchemist Mummy
-104. Steampunk Octopus Trainer
-105. Jelly Bean Goblin Sage
-106. Techno Mantis Healer Sage
-107. Rainbow Unicorn Paladin Engineer
-108. Fire Phoenix Monk Chef
-109. Cryomancer Snowman Archer
-110. Dino-Bird of Prey Trainer
-111. Lava Gargoyle Engineer Warrior
-112. Ghostly Phantom Warrior Sheriff
-113. Mecha Mantis Healer Scientist
-114. Ice Cream Sundae Witch Sage
-115. Forest Troll Treekeeper Trainer
-116. Crystal Golem Scientist Healer
-117. Venus Flytrap Gardener Warrior
-118. Plague Doctor Alchemist Sage
-119. Steampunk Octopus Warrior
-120. Jelly Bean Goblin Engineer
-121. Techno Mantis Healer Trainer
-122. Rainbow Unicorn Paladin Engineer
-123. Fire Phoenix Monk Healer
-124. Cryomancer Snowman Archer
-125. Dino-Bird of Prey Sage
-126. Lava Gargoyle Engineer Warrior Mummy
-127. Ghostly Phantom Warrior Cook
-128. Mecha Mantis Healer Scientist Sorceress
-129. Ice Cream Sundae Witch Engineer Warrior
-130. Forest Troll Treekeeper Healer Sage
-131. Crystal Golem Scientist Warrior Mummy
-132. Venus Flytrap Gardener Trainer
-133. Plague Doctor Alchemist Engineer
-134. Steampunk Octopus Witch
-135. Jelly Bean Goblin Healer
-136. Techno Mantis Archer
-137. Rainbow Unicorn Paladin Trainer
-138. Fire Phoenix Monk Sage
-139. Cryomancer Snowman Engineer
-140. Dino-Bird of Prey Healer
-141. Lava Gargoyle Engineer Scientist Mummy
-142. Ghostly Phantom Warrior Chef
-143. Mecha Mantis Healer Scientist Sorceress Mummy
-144. Ice Cream Sundae Witch Trainer
-145. Forest Troll Treekeeper Sage Healer
-146. Crystal Golem Scientist Engineer Mummy
-147. Venus Flytrap Gardener Warrior Mummy
-148. Plague Doctor Alchemist Warrior Healer
-149. Steampunk Octopus Healer Trainer
-150. Jelly Bean Goblin Archer
-151. Techno Mantis Engineer
-152. Rainbow Unicorn Paladin Witch
-153. Fire Phoenix Monk Healer
-154. Cryomancer Snowman Sage
-155. Dino-Bird of Prey Trainer Warrior
-156. Lava Gargoyle Engineer Scientist Mummy Sorceress
-157. Ghostly Phantom Chef Warrior
-158. Mecha Mantis Healer Trainer Sorceress
-159. Ice Cream Sundae Witch Engineer Healer
-160. Forest Troll Treekeeper Sage Warrior
-161. Crystal Golem Scientist Warrior Engineer
-162. Venus Flytrap Gardener Engineer Mummy
-163. Plague Doctor Alchemist Warrior Witch
-164. Steampunk Octopus Healer Warrior
-165. Jelly Bean Goblin Engineer Trainer
-166. Techno Mantis Archer Sage
-167. Rainbow Unicorn Paladin Scientist
-168. Fire Phoenix Monk Sage Engineer
-169. Cryomancer Snowman Archer Healer
-170. Dino-Bird of Prey Trainer Engineer.
+ 20. Crystal Golem Sorcerer
+21. Steampunk Manticore Engineer
+22. Ghost Pirate Captain
+23. Glowing Slime Alchemist
+24. Electric Eel Samurai
+25. Skeleton Archer
+26. Shadowy Phantom Bard
+27. Spider Queen Weaver
+28. Giant Crab Sage
+29. Meteorite Golem
+30. Plague Doctor
+31. Starfish Wizard
+32. Mechanical T-Rex Knight
+33. Spectral Horseman
+34. Ice Cream Monster Chef
+35. Vampire Bat Bartender
+36. Radioactive Scorpion Ranger
+37. Gnome Blacksmith
+38. Angelic Unicorn Healer
+39. Lava Goblin Shaman
+40. Cosmic Marshmallow Mage
+41. Tree Gnome Ranger
+42. Electric Eel Scientist
+43. Ghostly Phantom Knight
+44. Ice Cream Sundae Engineer
+45. Skeleton Archer King
+46. Robot Samurai
+47. Mutated Gorilla Shaman
+48. Alien Plant Master
+49. Steampunk Griffin Engineer
+50. Shadowy Spectre Bard
+51. Giant Bear Monk
+52. Cybernetic Dragon Knight
+53. Skeletal Necromancer
+54. Space Jellyfish Wizard
+55. Robot Samurai Commander
+56. Electric Eel Summoner
+57. Cave Troll Alchemist
+58. Ice Cream Monster Warrior
+59. Cybernetic Crab Sage
+60. Lava Golem Priestess
+61. Starfish Samurai
+62. Mechanical Dragon Engineer
+63. Robot Ninja
+64. Ghostly Phantom Summoner
+65. Steampunk Gryphon Engineer
+66. Ice Cream Monster Healer
+67. Mutated Spider Queen
+68. Cybernetic Chimera Warrior
+69. Robot Knight Commander
+70. Skeleton Archer Queen
+71. Electric Eel Sage
+72. Space Jellyfish Engineer
+73. Lava Golem Samurai
+74. Crystal Golem Knight
+75. Starfish Necromancer
+76. Robot Samurai Apprentice
+77. Mutated T-Rex
+78. Alien Plant Warrior
+79. Steampunk Manticore Sage
+80. Ghostly Phantom Ranger
+81. Ice Cream Monster Scientist
+82. Cybernetic Dragon Necromancer
+83. Robot Ninja Apprentice
+84. Lava Golem Summoner
+85. Crystal Golem Healer
+86. Starfish Archer
+87. Mechanical Gryphon Sage
+88. Robot Samurai Master
+89. Mutated Kraken
+90. Alien Plant Priestess
+91. Steampunk Manticore Warrior
+92. Ghostly Phantom Monk
+93. Ice Cream Monster Knight
+94. Cybernetic Dragon Ranger
+95. Robot Ninja Master
+96. Lava Golem Archer
+97. Crystal Golem Summoner
+98. Starfish Priestess
+99. Mechanical Griffon Healer
+100. Robot Samurai Sage
+101. Mutated Ankylosaurus
+102. Alien Plant Warrior Queen
+103. Steampunk Gryphon Knight
+104. Ghostly Phantom Scientist
+105. Ice Cream Monster Summoner
+106. Cybernetic Dragon Healer
+107. Robot Ninja Apprentice
+108. Lava Golem Archer King
+109. Crystal Golem Knight Queen
+110. Starfish Samurai Master
+111. Mechanical Gryphon Summoner
+112. Robot Samurai Sage Master
+113. Mutated Triceratops
+114. Alien Plant Mage
+115. Steampunk Manticore Healer
+116. Ghostly Phantom Warrior
+117. Ice Cream Monster Archer
+118. Cybernetic Dragon Ranger
+119. Robot Ninja Master Apprentice
+120. Lava Golem Knight
+121. Crystal Golem Summoner Queen
+122. Starfish Healer
+123. Mechanical Griffon Archer
+124. Robot Samurai Apprentice Master
+125. Mutated Pterodactyl
+126. Alien Plant Commander
+127. Steampunk Gryphon Warrior Queen
+128. Ghostly Phantom Priestess
+129. Ice Cream Monster Archer King
+130. Cybernetic Dragon Sage
+131. Robot Ninja Master Apprentice
+132. Lava Golem Healer
+133. Crystal Golem Knight Queen
+134. Starfish Summoner
+135. Mechanical Griffon Archer
+136. Robot Samurai Sage Apprentice
+137. Mutated Quetzalcoatl
+138. Alien Plant Warlord
+139. Steampunk Manticore Sage Master
+140. Ghostly Phantom Necromancer
+141. Ice Cream Monster Ranger
+142. Cybernetic Dragon Archer
+143. Robot Ninja Apprentice Master Apprentice
+144. Lava Golem Scientist
+145. Crystal Golem Summoner King
+146. Starfish Healer Queen
+147. Mechanical Griffon Knight
+148. Robot Samurai Sage Master Apprentice
+149. Mutated Basilisk
+150. Alien Plant Elementalist
+151. Steampunk Gryphon Summoner
+152. Ghostly Phantom Monk Master
+153. Ice Cream Monster Sage
+154. Cybernetic Dragon Archer Queen
+155. Robot Ninja Apprentice Knight
+156. Lava Golem Archer King
+157. Crystal Golem Healer Queen
+158. Starfish Warrior
+159. Mechanical Griffon Sage
+160. Robot Samurai Master Apprentice
+161. Mutated T-Rex Ranger
+162. Alien Plant Archdruid
+163. Steampunk Manticore Healer Queen
+164. Ghostly Phantom Knight
+165. Ice Cream Monster Sage King
+166. Cybernetic Dragon Warrior
+167. Robot Ninja Master Apprentice Knight
+168. Lava Golem Archer Master
+169. Crystal Golem Summoner Queen Apprentice
+170. Starfish Monk
+171. Mechanical Griffon Healer Apprentice
+172. Robot Samurai Sage Apprentice Apprentice
+173. Mutated Amphibian
+174. Alien Plant Summoner
+175. Steampunk Gryphon Archer
+176. Ghostly Phantom Warrior Queen
+177. Ice Cream Monster Scientist
+178. Cybernetic Dragon Knight Apprentice
+179. Robot Ninja Sage
+180. Lava Golem Healer King
+181. Crystal Golem Archer
+182. Starfish Warrior Queen
+183. Mechanical Griffon Summoner Master
+184. Robot Samurai Apprentice
+185. Mutated Mosasaurus
+186. Alien Plant Champion
+187. Steampunk Manticore Healer Apprentice
+188. Ghostly Phantom Necromancer Queen
+189. Ice Cream Monster Archer Master
+190. Cybernetic Dragon Sage Master
+191. Robot Ninja Master Knight
+192. Lava Golem Warrior
+193. Crystal Golem Healer Apprentice
+194. Starfish Summoner Queen
+195. Mechanical Griffon Archer Master
+196. Robot Samurai Sage Apprentice Knight
+197. Mutated Apatosaurus
+198. Alien Plant Archdruidess
+199. Steampunk Gryphon Summoner Queen
+200. Ghostly Phantom Monk Master Master.

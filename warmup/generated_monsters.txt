@@ -1,1642 +1,1988 @@
- {"description" : "The Ice Witch - Frostbite Fiona - is a powerful and ancient guardian of the frozen realm. She can summon blizzards and control ice formations. Her frosty gaze is said to freeze hearts as well.",
-     "name" : "Frostbite Fiona",
-     "power" : 35,
-     "toughness" : 40,
-     "speed" : 15,
-     "energy" : 25,
-     "monster_types" : "Ice Witch",
-     "weakness" : "Fire",
-     "immunity" : "Magic",
-     "seed" : "Ice Witch Guardian"
-     }
- {"description" : "The Venus Flytrap Giant is a massive version of the classic carnivorous plant. It uses its large, sensitive leaves to capture and digest prey. Its powerful roots can also be used to immobilize opponents.",
-    "power" : 35,
-    "toughness" : 80,
-    "speed" : 4,
-    "energy" : 12,
-    "monster_types" : "Plant",
-    "weakness" : "Fire",
-    "immunity" : "Poison",
-    "seed" : "Venus Flytrap Giant",
-    "legendary" : true
-    }
+ ["{\"description\" : \"A 20-level Crystal Golem Sorcerer is a powerful construct sorcerer, infused with the magical power of crystals.\",\n" +
+ "\"power\" : 130,\n" +
+ "\"toughness\" : 160,\n" +
+ "\"speed\" : 8,\n" +
+ "\"energy\" : 120,\n" +
+ "\"monster_types\" : \"Construct Sorcerer\",\n" +
+ "\"weakness\" : \"Fire\",\n" +
+ "\"seed\" : \"Crystal Golem Sorcerer\"}",\
+ {\"description\" : \"Just a regular Crystal Golem with no sorcerer abilities.\",\n" +
+ "\"power\" : 100,\n" +
+ "\"toughness\" : 200,\n" +
+ "\"speed\" : 4,\n" +
+ "\"energy\" : 0,\n" +
+ "\"monster_types\" : \"Construct\",\n" +
+ "\"weakness\" : \"Cold\",\n" +
+ "\"seed\" : \"Crystal Golem\"}\"]
  {
-"description" : "The Plague Doctor Mummy is a mummified monstrosity, once a doctor who specialized in the spread of diseases. It can inflict debilitating illnesses upon its enemies and heal itself with foul concoctions. It is immune to most status effects.",
-"power" : 35,
-"toughness" : 42,
-"speed" : 10,
-"energy" : 15,
-"monster_types" : "Plague Doctor Mummy",
-"weakness" : "Fire",
-"immunity" : "Poison and Disease",
-"seed" : "Plague Doctor Mummy"
-}
- {"description" : "The Fire Phoenix Monk is a monstrous entity of flames and martial prowess. It wields the power of fire, both in offense and defense.",
- "power" : 23,
- "toughness" : 15,
- "speed" : 20,
- "energy" : 25,
- "monster_types" : "Fire Bird Monk",
- "weakness" : "Water",
- "seed" : "Fire Phoenix Monk"
- }
- {
-"description" : "The Steampunk Kraken is a colossal and fearsome sea monster with advanced steampunk technology integrated into its body. It uses its massive tentacles to grab and drag ships onto the rocks, while its steam-powered cannons rain destruction upon any intruders.",
-"power" : 150,
-"toughness" : 200,
-"speed" : 35,
-"energy" : 150,
-"monster_types" : "Steampunk Sea Monster",
-"weakness" : "Electricity and Fire",
-"immunity" : "Poison",
-"seed" : "Steampunk Kraken"
-}
- {"description" : "The Crystal Golem - Alchemist - is a sentient construct made primarily of various types of crystals. It has an advanced knowledge in alchemy, often using its abilities to manipulate and transform the elements. Its body can repair itself through crystal growth.",
- "power" : 35,
- "toughness" : 42,
- "speed" : 7,
- "energy" : 15,
- "monster_types" : "Golem Alchemist",
- "weakness" : "Sonic",
- "immunity" : "Fire",
- "seed" : "Crystal Golem Alchemist"
- }
- {"description" : "The Ghostly Specter Chef is a ethereal being, often found haunting kitchens and feasting on the souls of the living. It can manipulate food with its ghostly touch, creating dishes that can either heal or harm.",
- "power" : 18,
- "toughness" : 6,
- "speed" : 15,
- "energy" : 20,
- "monster_types" : "Ghost",
- "weakness" : "Bright Light",
- "immunity" : "Physical Attacks",
- "seed" : "Ghostly Specter Chef"
- }
- {"description" : "The Shadow Vampire Sheriff is a cunning and ruthless leader of the undead forces, able to manipulate darkness and control shadows. He feeds on the life force of living beings and can turn others into his minions.",
- "name" : "Shadow Sheriff",
- "power" : 35,
- "toughness" : 27,
- "speed" : 18,
- "energy" : 15,
- "monster_types" : "Vampire Shadow",
- "weakness" : "Sunlight",
- "immunity" : "Darkness and Cold",
- "seed" : "Shadow Vampire Sheriff"
- }
- {"description" : "The Cryomancer Snowman is a magical snowman with the ability to freeze its enemies solid. It's not just an ordinary snowman, it's a mage!",
-    "power" : 28,
-    "toughness" : 15,
-    "speed" : 7,
-    "energy" : 20,
-    "monster_types" : "Cryomancer Snowman",
-    "weakness" : "Fire",
-    "immunity" : "Heat",
-    "seed" : "Cryomancer Snowman"
-    }
- {"description" : "The Pterodactyl Pirate Captain leads his crew of fearsome flying reptiles from the high seas, striking terror into the hearts of any ship they encounter. With a fearsome roar and a cutlass in hand, he is both a formidable airborne combatant and an experienced navigator.",
- "name" : "Captain Razorbeak",
- "power" : 50,
- "toughness" : 35,
- "speed" : 45,
- "energy" : 25,
- "monster_types" : "Pterodactyl Pirate",
- "weakness" : "Ice",
- "immunity" : "Poison and Paralysis",
- "seed" : "Pterodactyl Pirate Captain"
- }
- {"description" : "Squid Samurai is a powerful underwater warrior, trained in the ancient art of squid combat. He wields two trident-spears and can shoot ink to confuse enemies.",
-    "power" : 30,
-    "toughness" : 25,
-    "speed" : 15,
-    "energy" : 20,
-    "monster_types" : "Squid Samurai",
-    "weakness" : "Fire",
-    "seed" : "Squid Samurai"
-    }
- {"description" : "The Silent Forest Dryad, also known as Y'Lan, is a wise and ancient being of the forest. It has the power to manipulate plants and can heal other creatures. It speaks only in whispers and prefers to keep to itself.",
-    "power" : 15,
-    "toughness" : 20,
-    "speed" : 8,
-    "energy" : 30,
-    "monster_types" : "Dryad",
-    "weakness" : "Fire",
-    "immunity" : "Poison and Silence",
-    "seed" : "Silent Forest Dryad"
-    }
- {"description" : "The Techno Mantis Assassin is a stealthy and deadly mechanical arthropod, with razor-sharp mandibles and advanced technology integrated into its exoskeleton. It moves quickly and silently, making it a formidable foe in any environment. Its primary goal is to eliminate targets with precision.",
- "power" : 35,
- "toughness" : 24,
- "speed" : 38,
- "energy" : 12,
- "monster_types" : "Techno Mantis",
- "weakness" : "Electromagnetic Pulse",
- "immunity" : "Poison and Psychic attacks",
- "seed" : "Techno Mantis Assassin"
- }
- {"description" : "A magical Rainbow Unicorn Archer with a quiver of multicolored arrows. It's known for its ability to fly and shoot rainbow arrows at enemies.",
-    "name" : null, // Legendary monsters don't always have names
-    "power" : 14,
-    "toughness" : 7,
-    "speed" : 23,
-    "energy" : 15,
-    "monster_types" : "Rainbow Unicorn",
-    "weakness" : "Shadow",
-    "immunity" : "Poison and Fire",
-    "seed" : "Rainbow Unicorn Archer"
-    }
- {
-"description" : "The Jellyfish Queen is a colossal, ethereal jellyfish that commands the depths of the ocean. She has the power to create and control other jellyfish and can paralyze her enemies with her sting. She lays legendary eggs and provides bonuses for aquatic resources.",
-"name" : "Jellyfish Queen",
-"power" : 72,
-"toughness" : 60,
-"speed" : 15,
-"energy" : 35,
-"monster_types" : "Jellyfish Queen",
-"weakness" : "Bright Light",
-"immunity" : "Poison and Electricity",
-"seed" : "Jellyfish Queen"
-}
- {"description" : "The Space Shark Astronaut is a cosmic predator, evolved to withstand the vacuum of space and equipped with advanced technology. It navigates the universe in search of new planets to explore and conquer.",
-     "power" : 55,
-     "toughness" : 30,
-     "speed" : 45,
-     "energy" : 35,
-     "monster_types" : "Space Shark",
-     "weakness" : "Laser Weapons",
-     "immunity" : "Vacuum and Radiation",
-     "seed" : "Space Shark Astronaut"
-    }
- {"description" : "The Swamp Witch Healer is a malevolent healer, who dwells deep in the swamps. She can heal nearby creatures and herself, as well as inflict poison on her enemies. Her gaze alone can cause fear.",
-    "power" : 15,
-    "toughness" : 30,
-    "speed" : 8,
-    "energy" : 22,
-    "monster_types" : "Swamp Witch",
-    "weakness" : "Fire",
-    "immunity" : "Cold",
-    "seed" : "Swamp Witch Healer"
-    }
- {"description" : "The Dragonfly Ninja is a stealthy and agile insectoid warrior, with the ability to fly and camouflage itself in its surroundings. It wields razor-sharp mandibles and can emit an irritating pheromone cloud.",
-     "power" : 12,
-     "toughness" : 8,
-     "speed" : 45,
-     "energy" : 10,
-     "monster_types" : "Dragonfly",
-     "weakness" : "Thunder",
-     "seed" : "Dragonfly Ninja"
-    }
- {"description" : "A Ghost Pirate Skeleton is a spectral undead pirate, often found haunting the seas in search of lost treasure. They can pass through walls and disappear at will, making them a formidable adversary.",
-    "power" : 15,
-    "toughness" : 3,
-    "speed" : 6,
-    "energy" : 0,
-    "monster_types" : "Ghost Pirate Skeleton",
-    "weakness" : "Holy Water",
-    "seed" : "Ghost Pirate Skeleton"
-    }
- {
-"description" : "The Mecha Spider Queen is a mechanical nightmare, a spider of gargantuan size with metal limbs and advanced weaponry. She lays traps and deploys minions to protect her territory.",
-"name" : null,
-"power" : 85,
-"toughness" : 95,
-"speed" : 15,
-"energy" : 70,
-"monster_types" : "Mecha Arachnid",
-"weakness" : "Fire",
-"immunity" : "Poison and Sonic",
-"seed" : "Mecha Spider Queen"
-}
- {
-"description" : "A massive, fiery mound of anger and biting mandibles. The Fire Ant Colony is a hive mind of relentless insectoid soldiers, with an unquenchable thirst for destruction and a seemingly limitless supply of reinforcements.",
-"power" : 50,
-"toughness" : 45,
-"speed" : 25,
-"energy" : 35,
-"monster_types" : "Fire Ant",
-"weakness" : "Cold",
-"immunity" : "Poison and Electricity",
-"seed" : "Fire Ant Colony"
-}
- {"description" : "The Electric Eel Sorcerer is a formidable foe, using its eel-like agility to strike from the water's depths. It wields powerful sorcery that can inflict electrical damage on its enemies.",
-    "power" : 53,
-    "toughness" : 24,
-    "speed" : 26,
-    "energy" : 30,
-    "monster_types" : "Electric Eel Sorcerer",
-    "weakness" : "Heat",
-    "immunity" : "Poison",
-    "seed" : "Electric Eel Sorcerer"
-    }
- {"description" : "The Dino-Bird of Prey is a fearsome creature, with the body of a bird and the head of a dinosaur. It hunts its prey relentlessly from the sky, using its sharp talons and beak to kill and tear apart its victims. Its wings give it unmatched mobility and speed.",
-     "power" : 35,
-     "toughness" : 20,
-     "speed" : 45,
-     "energy" : 15,
-     "monster_types" : "Dino-Bird",
-     "weakness" : "Ice",
-     "seed" : "Dino-Bird of Prey"
-     }
- {"description" : "The Lava Golem Blacksmith is a fiery, molten being that has taken the role of crafting and constructing in its lava-filled volcanic domain. It can manipulate molten rock to create and repair various structures and weapons.",
-"power" : 52,
-"toughness" : 73,
-"speed" : 1,
-"energy" : 6,
-"monster_types" : "Lava Golem",
-"weakness" : "Ice",
-"immunity" : "Fire",
-"seed" : "Lava Golem Blacksmith"
-}
- {"description" : "This Ice Cream Truck isn't what it seems, it's a cunning robber looking to steal your hard-earned coins! It hides in plain sight and strikes when you least expect it.",
-    "power" : 12,
-    "toughness" : 15,
-    "speed" : 8,
-    "energy" : 0,
-    "monster_types" : "Vehicle",
-    "weakness" : "Surprise Attacks",
-    "seed" : "Ice Cream Truck Robber"
-    }
- {"description" : "The Vampire Bat - Espresso Sips - is a caffeinated and nocturnal creature with a knack for brewing the perfect cup of coffee. It feeds on the energy of living beings, but prefers a nice hot beverage to keep its wings in tip-top shape.
-    "power" : 15,
-    "toughness" : 10,
-    "speed" : 13,
-    "energy" : -20,
-    "monster_types" : "Vampire Bat Barista",
-    "weakness" : "Garlic and Sunlight",
-    "immunity" : "Coffee Beans and Darkness",
-    "seed" : "Vampire Bat Barista"
-    }
- {"description" : "The Forest Troll Treekeeper is a large and powerful troll that lives deep within the forest, guarding the ancient trees and keeping them healthy. It is incredibly strong and can manipulate plant life to its will.",
-"power" : 65,
-"toughness" : 85,
-"speed" : 10,
-"energy" : 45,
-"monster_types" : "Forest Troll",
-"weakness" : "Fire",
-"seed" : "Forest Troll Treekeeper"
-}
- {
-"description" : "The Ghost Ship Captain, a spectral being that commands the haunted waters of the Sea of Souls, is an enigmatic and feared figure. He leads his crew of restless spirits in pirate raids against the living, seeking to add more souls to his collection.",
-"name" : "Captain Ghostbeard",
-"power" : 55,
-"toughness" : 32,
-"speed" : 18,
-"energy" : 30,
-"monster_types" : "Ghost Pirate Captain",
-"weakness" : "Sunlight and Bananas",
-"immunity" : "Ice",
-"seed" : "Ghost Ship Captain"
-}
- {
-"description" : "The Meteorite Gargoyle is a space-dwelling creature that crash-landed on the planet, bringing with it an intense heat and fiery breath. It has a strong immune system and can absorb energy from its surroundings.",
-"power" : 50,
-"toughness" : 55,
-"speed" : 15,
-"energy" : 30,
-"monster_types" : "Gargoyle",
-"weakness" : "Cold",
-"immunity" : "Fire",
-"seed" : "Meteorite Gargoyle"
-}
- {"description" : "The Jelly Bean Goblin is a mischievous creature that loves to eat jelly beans and play pranks on other creatures. They have the ability to camouflage themselves in their surroundings, making them hard to spot.",
-     "power" : 3,
-     "toughness" : 4,
-     "speed" : 5,
-     "energy" : 2,
-     "monster_types" : "Goblin",
-     "weakness" : "Sunlight",
-     "seed" : "Jelly Bean Goblin"
-    }
- {"description" : "This Electric Eel Trainer is a skilled trainer, known for its ability to control and harness the raw power of Electric Eels. It can summon multiple electric eels allies and deliver powerful electric shocks.",
- "power" : 35,
- "toughness" : 15,
- "speed" : 20,
- "energy" : 30,
- "monster_types" : "Trainer",
- "weakness" : "Ice",
- "seed" : "Electric Eel Trainer"}
- {"description" : "The Ice Cream Sundae Sage is a magical being that has taken the form of a delectable dessert. It's said that by partaking in its sweet offerings, one can gain wisdom and insights from the ethereal realm. Its powers are unknown but rumors speak of its ability to bestow blessings or curses.",
-     "power" : 12,
-     "toughness" : 5,
-     "speed" : 3,
-     "energy" : 6,
-     "monster_types" : "Ice Cream Sundae",
-     "weakness" : "Hot and Spicy Foods",
-     "immunity" : "Cold and Frozen",
-     "name" : "Sage of the Sundae",
-     "seed" : "51. Ice Cream Sundae Sage"
-     }
- {
-"description" : "The Giant Bumblebee Queen is a massive, regal bee with an intimidating sting that can paralyze her enemies. She is the queen of her hive and protects it at all costs.",
-"name" : null,
-"power" : 52,
-"toughness" : 48,
-"speed" : 15,
-"energy" : 30,
-"monster_types" : "Giant Bee",
-"weakness" : "Ice",
-"immunity" : "Poison",
-"seed" : "Giant Bumblebee Queen"
-}
- {"description" : "The Swamp Witch Hexenmeister is a cunning and malevolent sorcerer who dwells in the darkest corners of swamps. She has the ability to control plants, summon foul creatures, and cast powerful hexes on her enemies.",
- "power" : 53,
- "toughness" : 47,
- "speed" : 15,
- "energy" : 50,
- "monster_types" : "Swamp Witch",
- "weakness" : "Fire",
- "immunity" : "Cold and Poison",
- "seed" : "Swamp Witch Hexenmeister"
- }
- {"description" : "The Fire Snake Monk is a highly trained monk with the ability to breathe fire. It moves swiftly and can strike quickly with its fangs, dealing both fire and physical damage.",
-     "power" : 35,
-     "toughness" : 25,
-     "speed" : 38,
-     "energy" : 10,
-     "monster_types" : "Fire Snake Monk",
-     "weakness" : "Water",
-     "seed" : "Fire Snake Monk"
-     }
- {
-"description" : "The Glow-in-the-Dark Jellyfish is a bioluminescent creature that can light up its surroundings in the dark depths of the ocean. It attacks by stinging its prey with its tentacles.",
-"power" : 5,
-"toughness" : 3,
-"speed" : 10,
-"energy" : 2,
-"monster_types" : "Jellyfish",
-"weakness" : "Fire",
-"seed" : "Glow-in-the-Dark Jellyfish"
-}
- {"description" : "The Mummy Curator, a long-dead and carefully preserved keeper of treasures, guards the ancient tombs with a zealous determination. It has the ability to reanimate other mummies and can imbue objects with a magical curse.",
- "name" : "Mummy Curator",
- "power" : 45,
- "toughness" : 78,
- "speed" : 10,
- "energy" : 25,
- "monster_types" : "Mummy",
- "weakness" : "Fire and Sunlight",
- "immunity" : "Cold and Darkness",
- "seed" : "Mummy Curator"
- }
- {"description" : "The Space Whale Cosmonaut is a majestic and intelligent space-faring cetacean. Equipped with advanced technology, it explores the final frontier of space. Its cosmic bubbles can warp gravity and its sonar can detect energy signatures.",
-     "power" : 150,
-     "toughness" : 120,
-     "speed" : 30,
-     "energy" : 75,
-     "monster_types" : "Space Whale Cosmonaut",
-     "weakness" : "Solar Energy",
-     "immunity" : "Cold",
-     "seed" : "SpaceWhaleCosmonaut"
-    }
- {
-"description" : "The Lava Gargoyle - S'yrax - is a sorceress of extreme heat and magma, able to conjure lava flows and manipulate the temperature around her. She is a fierce guardian and protector of ancient volcanic ruins.",
-"name" : "S'yrax",
-"power" : 58,
-"toughness" : 63,
-"speed" : 15,
-"energy" : 20,
-"monster_types" : "Gargoyle Lava Sorceress",
-"weakness" : "Ice",
-"immunity" : "Fire and Magma",
-"seed" : "Lava Gargoyle Sorceress"
-}
- {"description" : "The Ghostly Phantom Sheriff is a spectral lawman, sworn to protect the peace of the afterlife. He can pass through solid objects and is difficult to detect due to his ethereal nature.",
- "name" : "Ghostly Phantom Sheriff",
- "power" : 15,
- "toughness" : 10,
- "speed" : 25,
- "energy" : 12,
- "monster_types" : "Spectral Undead",
- "weakness" : "Bright Light",
- "immunity" : "Physical Attacks and Poison",
- "seed" : "Ghostly Phantom Sheriff"
- }
- {"description" : "The Mecha Mantis Warrior is a mechanical marvel of engineering, infused with the essence of a giant mantis. It boasts powerful jaws and legs, and its mechanical components grant it advanced abilities and armor. Its energy-based attacks can leave a trail of destruction.",
-    "power" : 75,
-    "toughness" : 35,
-    "speed" : 25,
-    "energy" : 100,
-    "monster_types" : "Mecha Insectoid",
-    "weakness" : "Acid",
-    "immunity" : "Poison and Psychic",
-    "seed" : "Mecha Mantis Warrior"
-    }
- {"description" : "The Ice Cream Sundae Witch is a sweet but mischievous creature that feeds on joy and happiness. She can create illusions of herself, making it hard to determine which one is the real witch. Her attacks consist of projectiles of ice cream and whipped cream, along with her magical spells.",
-    "power" : 30,
-    "toughness" : 25,
-    "speed" : 18,
-    "energy" : 45,
-    "monster_types" : "Ice Cream Witch",
-    "weakness" : "Sunlight",
-    "immunity" : "Frost",
-    "name" : "Sweet Tooth",
-    "seed" : "61. Ice Cream Sundae Witch"
-    }
- {
-"description" : "The Dino-Bird of Prey is a terrifying flying reptile with the agility and cunning of a bird of prey. It hunts its prey from the sky, swooping down at incredible speeds to deliver fatal blows.",
-"power" : 35,
-"toughness" : 25,
-"speed" : 40,
-"energy" : 15,
-"monster_types" : "Dino-Bird",
-"weakness" : "Ice",
-"seed" : "Dino-Bird of Prey Hunter"
-}
- {"description" : "The Crystal Golem - Engineer Edition - is a unique golem construct made from rare and valuable crystals. It's designed to create, repair and improve other golems, making it an invaluable ally for any golem-based civilization.
-    ",
-     "power" : 35,
-     "toughness" : 75,
-     "speed" : 8,
-     "energy" : 15,
-     "monster_types" : "Golem Engineer",
-     "weakness" : "Sonic Waves",
-     "immunity" : "Magic",
-     "seed" : "Crystal Golem Engineer"
-    }
- {"description" : "The Venus Flytrap Gardener is a carnivorous plant gardener with a specialty in maintaining Venus Flytraps. It uses its traps to ensnare and digest prey, providing nutrients for itself and its garden. ",
- "power" : 5,
- "toughness" : 12,
- "speed" : 3,
- "energy" : 10,
- "monster_types" : "Plant Carnivore",
- "weakness" : "Sunlight and High Temperature",
- "seed" : "Venus Flytrap Gardener"
- }
- {
-"description" : "The 65th Alien Probe, designated as 'Scientist', is a sentient and inquisitive being from the X'thar Galaxy. It specializes in collecting data and knowledge from various species and planets. It has advanced technology to analyze samples and solve complex problems.",
-"name" : null,
-"power" : 15,
-"toughness" : 7,
-"speed" : 8,
-"energy" : 20,
-"monster_types" : "Alien Probe Scientist",
-"weakness" : "Heat",
-"immunity" : "Poison and Cold",
-"seed" : "65th Alien Probe Scientist"
-}
- {"description" : "The Plague Doctor Alchemist is a shrouded figure, known for their expertise in toxic brews and deadly concoctions. They wield a mix of contagion and healing abilities, able to spread disease or cure afflictions. Their masked visage is both feared and respected.",
+"description" : "The Steampunk Manticore - Grease Monkey - is a legendary engineer, known for its uncanny ability to repair and maintain complex machinery. It has the agility of a manticore and the intellect of an engineer. It uses steam power in its attacks.",
+"name" : "Grease Monkey",
 "power" : 35,
 "toughness" : 40,
-"speed" : 20,
-"energy" : 30,
-"monster_types" : "Plague Doctor Alchemist",
-"weakness" : "Fire",
-"immunity" : "Poison",
-"seed" : "Plague Doctor Alchemist"
-}
- {
-"description" : "The Steampunk Octopus is a mechanical marvel of the deep sea, engineered by the most advanced underwater civilizations. Its tentacles are covered in gears and cogs, and it moves with a graceful yet methodical precision.",
-"power" : 35,
-"toughness" : 28,
 "speed" : 15,
-"energy" : 30,
-"monster_types" : "Octopus",
-"weakness" : "Explosives",
+"energy" : 25,
+"monster_types" : "Steampunk Manticore Engineer",
+"weakness" : "Electromagnetic Pulse",
 "immunity" : "Fire",
-"seed" : "Steampunk Octopus"
+"seed" : "Steampunk Manticore Engineer"
 }
- {"description" : "The Jelly Bean Goblin Warrior is a mischievous and unpredictable creature, resembling a goblin but made entirely out of jelly. Its power comes from its ability to morph into various shapes, making it a formidable adversary in battle.",
-    "power" : 15,
-    "toughness" : 8,
-    "speed" : 20,
-    "energy" : 10,
-    "monster_types" : "Jelly Goblin",
-    "weakness" : "Heat",
-    "seed" : "Jelly Bean Goblin Warrior"
-    }
- {"description" : "The Techno Mantis Healer is a cybernetic insectoid healer, equipped with advanced medical technology to mend its allies and itself. It has an exceptional agility and can cloak itself in the battlefield.",
- "power" : 32,
- "toughness" : 18,
- "speed" : 45,
- "energy" : 12,
- "monster_types" : "Techno Insectoid",
- "weakness" : "Physical attacks",
- "immunity" : "Electricity and Radiation",
- "seed" : "Techno Mantis Healer"
- }
- {
-"description" : "The Rainbow Unicorn Paladin is a legendary creature of pure good, radiating an aura of healing and protection. It wields a divine sword that deals holy damage and can cast powerful spells. Its horn shines with all the colors of the rainbow.",
-"name" : "Rainbow Unicorn Paladin",
-"power" : 70,
-"toughness" : 65,
-"speed" : 30,
-"energy" : 50,
-"monster_types" : "Rainbow Unicorn Paladin",
-"weakness" : "Darkness and Poison",
-"immunity" : "Holy and Positive Energy",
-"seed" : "Rainbow Unicorn Paladin"
-}
- {"description" : "The Fire Phoenix Archer is a fierce and deadly archer with the ability to ignite arrows, leaving trails of fire in its wake. It can fly, making it difficult to hit from the ground.",
- "power" : 35,
- "toughness" : 25,
- "speed" : 40,
- "energy" : 15,
- "monster_types" : "Phoenix",
- "weakness" : "Water",
- "immunity" : "Fire",
- "seed" : "Fire Phoenix Archer"
- }
- ["{'description' : 'Cryomancer Snowman Samurai - Snow Sam - is a legendary snowman samurai from the frigid wastelands of Frostbite Peaks. He commands the elements of ice and snow, using them to create deadly blizzards and freeze his enemies in their tracks.',
-  'name' : 'Snow Sam',
-  'power' : 50,
-  'toughness' : 75,
-  'speed' : 10,
-  'energy' : 30,
-  'monster_types' : 'Cryomancer Snowman Samurai',
-  'weakness' : 'Fire',
-  'immunity' : 'Heat and Fire',
-  'seed' : '72. Cryomancer Snowman Samurai'}"
-]
- {"description" : "The Pterodactyl Pirate Cook is a fearsome aerial pirate, known for its savory dishes and unexpected attacks from the sky. It has a menacing beak, webbed feet, and a pirate hat. Its diet consists mainly of sea creatures.",
-    "power" : 35,
+ {"description" : "The Ghost Pirate Captain is a spectral figure leading his crew of ghostly pirates on the high seas. He and his crew can pass through walls and leave behind a trail of fear, causing panic in nearby creatures.",
+    "name" : "Captain Fearbeard",
+    "power" : 25,
     "toughness" : 18,
-    "speed" : 40,
-    "energy" : 25,
-    "monster_types" : "Flying Reptile Pirate",
-    "weakness" : "Ice",
-    "seed" : "Pterodactyl Pirate Cook"
+    "speed" : 20,
+    "energy" : 22,
+    "monster_types" : "Ghost Pirate",
+    "weakness" : "Blessed Relics",
+    "immunity" : "Fire",
+    "seed" : "Ghost Pirate Captain"
     }
- {"description" : "Squid Samurai Chef, also known as the Cephalopod Sensei, is a master of both the kitchen and the sword. He is often found in underwater temples or sushi bars, preparing dishes for his aquatic followers.",
-     "name" : null,
-     "power" : 23,
+ {"description" : "The Glowing Slime Alchemist is a unique and valuable addition to any lab or research facility. It can produce an array of chemicals and elixirs, but be careful not to disturb it while it's working as it may release harmful substances. Its slimy touch can also be used for healing.",
+     "power" : 5,
+     "toughness" : 3,
+     "speed" : 1,
+     "energy" : 7,
+     "monster_types" : "Slime Alchemist",
+     "weakness" : "Fire",
+     "immunity" : "Cold",
+     "seed" : "Glowing Slime Alchemist"
+     }
+ {"description" : "A 24-volt Electric Eel Samurai is a formidable adversary, both in the water and on land. With its powerful eel tail, it delivers electric shocks to immobilize its enemies. Clad in full samurai armor, it wields a katana charged with electricity, dealing extra damage.",
+     "power" : 35,
      "toughness" : 18,
      "speed" : 20,
      "energy" : 15,
-     "monster_types" : "Squid Samurai",
+     "monster_types" : "Electric Eel Samurai",
      "weakness" : "Fire",
-     "immunity" : "Poison",
-     "seed" : "Squid Samurai Chef"
+     "seed" : "24. Electric Eel Samurai"
+    }
+ {"description" : "A skeletal archer, armed with a longbow and quiver full of arrows.",
+    "power" : 3,
+    "toughness" : 1,
+    "speed" : 3,
+    "energy" : 0,
+    "monster_types" : "Undead",
+    "weakness" : "Electricity",
+    "seed" : "Skeleton Archer"
+    }
+ {"description" : "The Shadowy Phantom Bard is a mysterious and elusive creature, often found haunting abandoned theaters and performance halls. It can manipulate shadows to create illusions and confuse its enemies. Its music is said to bring melancholy to the hearts of those who hear it.",
+    "power" : 15,
+    "toughness" : 6,
+    "speed" : 12,
+    "energy" : 10,
+    "monster_types" : "Shadowy Phantom",
+    "weakness" : "Bright Light",
+    "immunity" : "Sound Silence",
+    "seed" : "Shadowy Phantom Bard",
+    "name" : "The Unnamed Bard of Shadows"
     }
  {
-"description" : "The Silent Forest Dryad Warrior is a stealthy and deadly defender of the forest. With the ability to manipulate vegetation, it can trap enemies and heal itself. It is known to be particularly fierce when threatened.",
-"power" : 50,
-"toughness" : 45,
-"speed" : 18,
-"energy" : 25,
-"monster_types" : "Dryad Warrior",
+"description" : "The Spider Queen Weaver is a legendary arachnid monarch, weaving intricate webs and commanding her minions. She lays eggs that hatch into powerful spiders.",
+"name" : "Spider Queen Weaver",
+"power" : 75,
+"toughness" : 90,
+"speed" : 12,
+"energy" : 60,
+"monster_types" : "Spider Queen",
 "weakness" : "Fire",
-"immunity" : "Poison and Silence",
-"seed" : "Silent Forest Dryad Warrior"
+"immunity" : "Poison and Paralysis",
+"seed" : "Spider Queen Weaver"
 }
- {"description" : "The Swamp Witch Hexenmeister is a powerful and enigmatic healer. She can manipulate the energies of life and decay, making her a formidable ally or enemy. Her touch can heal the most grievous wounds and restore vitality.",
- "name" : "Hexenmeister",
- "power" : 32,
- "toughness" : 50,
- "speed" : 15,
- "energy" : 45,
- "monster_types" : "Swamp Witch Healer",
- "weakness" : "Holy Water",
- "immunity" : "Poison and Disease",
- "seed" : "Swamp Witch Healer Hexenmeister"
- }
- {"description" : "Meet the Electric Eel Trainer Sage - a master of electricity and eels, who has honed his abilities to train and control these electric beasts. He attacks with both his wisdom and raw electrical power.",
- "name" : "Eel Master",
- "power" : 32,
- "toughness" : 14,
- "speed" : 16,
- "energy" : 25,
- "monster_types" : "Electric Eel Trainer Sage",
- "weakness" : "Fire",
- "immunity" : "Cold",
- "seed" : "77. Electric Eel Trainer Sage"
- }
- {
-"description" : "The Ghost Pirate Captain Mummy, a ghastly figure of the high seas, commands an eerie crew of spectral pirates. He haunts the waters around Treasure Isle, relentlessly seeking lost gold and ancient cursed treasures.",
-"name" : "Captain Coinseized",
-"power" : 50,
-"toughness" : 42,
-"speed" : 18,
-"energy" : 35,
-"monster_types" : "Ghost Pirate Mummy",
-"weakness" : "Holy Light",
-"immunity" : "Physical attacks",
-"seed" : "78. Ghost Pirate Captain Mummy"
-}
- ["Error in input: '79' is not a valid Monster name or description.",
- "To create a Monster JSON object, please provide a valid name or description."]
-
-Input_prompt = Ice Cream Sundae Witch Sheriff
-
-Output = {
-"description" : "The Ice Cream Sundae Witch Sheriff is a sweet but mischievous creature. She has the power to create and manipulate ice cream treats, using them as weapons or to lure victims closer. Her whip of sprinkles can leave enemies chilled and incapacitated.",
-"power" : 35,
-"toughness" : 18,
-"speed" : 24,
-"energy" : 25,
-"monster_types" : "Ice Cream Witch",
-"weakness" : "Fire",
-"immunity" : "Cold",
-"seed" : "Ice Cream Sundae Witch Sheriff"
-}
- {"description" : "The Fire Snake Sage - Pyroo Wise - is an ancient and powerful monk and sage, known for his mastery of fire magic and wisdom. He can breathe fire and manipulate the elements. He improves knowledge acquisition and increases the power of nearby fire creatures.",
-"name" : "Pyroo Wise",
-"power" : 85,
-"toughness" : 60,
-"speed" : 25,
-"energy" : 75,
-"monster_types" : "Fire Snake Monk Sage",
-"weakness" : "Ice",
-"immunity" : "Mind Control and Temptation",
-"seed" : "80. Fire Snake Monk Sage"
-}
- {"description" : "The Glow-in-the-Dark Jellyfish Alchemist is a luminescent creature that can brew potions and elixirs using its own bioluminescent properties. It floats gracefully through the deepest depths, ready to trade knowledge for treasure.",
-    "name" : null,
-    "power" : 12,
-    "toughness" : 3,
-    "speed" : 45,
+ {"description" : "The Giant Crab Sage is a wise and ancient crustacean who dwells in the depths of the ocean. He imparts his knowledge of the sea to young crabs, and has the ability to manipulate water currents and create tidal waves.",
+    "power" : 35,
+    "toughness" : 60,
+    "speed" : 7,
     "energy" : 20,
-    "monster_types" : "Jellyfish Alchemist",
-    "weakness" : "Sunlight",
-    "immunity" : "Poison and Acid",
-    "seed" : "Glow-in-the-Dark Jellyfish Alchemist"
+    "monster_types" : "Crab",
+    "weakness" : "Fire",
+    "immunity" : "Ice and Rock",
+    "seed" : "Giant Crab Sage"
     }
- {"description" : "The Forest Troll Treekeeper Warrior is a massive and powerful troll with the ability to communicate with trees, call upon tree spirits for aid, and wield a mighty axe. He is fiercely protective of his forest home.",
- "power" : 90,
- "toughness" : 85,
- "speed" : 15,
- "energy" : 35,
- "monster_types" : "Troll",
- "weakness" : "Fire",
- "immunity" : "Poison",
- "seed" : "Forest Troll Treekeeper Warrior"
- }
- {"description" : "The Lava Gargoyle Engineer is a twisted creation of molten rock and mechanical ingenuity. It can manipulate lava flow, creating complex traps and constructs for its adversaries. Its engineering skills grant it the ability to repair other monsters.",
-    "power" : 67,
-    "toughness" : 53,
-    "speed" : 23,
-    "energy" : 25,
-    "monster_types" : "Gargoyle",
-    "weakness" : "Water",
-    "immunity" : "Fire",
-    "seed" : "Lava Gargoyle Engineer"
-    }
- {"description" : "The Ghost Ship Captain Mummy is an undead mariner, cursed to sail the seas for eternity on his haunted ship. He leads a crew of spectral pirates and can summon ghostly storms.",
- "name" : "Captain Groansbeard",
- "power" : 50,
- "toughness" : 35,
- "speed" : 20,
- "energy" : 25,
- "monster_types" : "Ghost Pirate Captain Mummy",
- "weakness" : "Sunlight",
- "immunity" : "Fire and Poison",
- "seed" : "Ghost Ship Captain Mummy"
- }
- {
-"description" : "The Meteorite Gargoyle - Dr. Rocksteady - is a rogue scientist from outer space who crashed into this world on a meteorite. He has the ability to create and manipulate rocks, as well as being highly intelligent and inventive. Be careful not to upset him or he may unleash his rocky wrath!",
-"name" : "Dr. Rocksteady",
-"power" : 50,
-"toughness" : 75,
-"speed" : 15,
-"energy" : 35,
-"monster_types" : "Meteorite Gargoyle Scientist",
-"weakness" : "Solar Energy",
-"immunity" : "Poison and Psychic",
-"seed" : "85. Meteorite Gargoyle Scientist"
-}
- {
-"description" : "The Crystal Golem Alchemist Healer is a unique construct made of shimmering crystal. It has the ability to heal itself and other creatures with its soothing touch, as well as brew powerful potions for various uses.",
-"power" : 50,
-"toughness" : 76,
-"speed" : 15,
-"energy" : 30,
-"monster_types" : "Golem",
-"weakness" : "Sonic attacks",
-"immunity" : "Poison and Radiation",
-"seed" : "Crystal Golem Alchemist Healer",
-"special_abilities" : ["Healing Touch", "Potion Brewing"]
-}
- {"description" : "The Venus Flytrap Gardener Witch is a mysterious and ancient gardener who cultivates the rarest and most deadly of flora. She can manipulate plants to attack, heal herself or create traps. Her garden is full of unexpected surprises and hidden dangers.",
-"name" : "Venus Flytrap Gardener Witch",
-"power" : 35,
-"toughness" : 28,
-"speed" : 10,
-"energy" : 25,
-"monster_types" : "Plant Witch",
-"weakness" : "Fire",
-"immunity" : "Poison and Cold",
-"seed" : "Venus Flytrap Gardener Witch",
-"unique_ability" : "Plant Manipulation"
-}
- {"description" : "The Plague Doctor, Alchemist, and Warrior Xylox is a formidable foe that combines the deadly powers of disease, potion-making, and battle prowess. Be wary as his touch can spread infection, and his elixirs can heal or harm.",
-     "name" : "Xylox",
-     "power" : 50,
-     "toughness" : 45,
-     "speed" : 18,
-     "energy" : 35,
-     "monster_types" : ["Plague Doctor", "Alchemist", "Warrior"],
-     "weakness" : "Fire",
-     "immunity" : "Poison and Disease",
-     "seed" : "88. Plague Doctor Alchemist Warrior"
-    }
- {
-"description" : "The Steampunk Octopus Engineer is a mechanical marvel of a creature, built from the remnants of an ancient sea monster and advanced steampunk technology. It can manipulate gears and pipes, as well as create complex machinery with its tentacles. It's known to be a master inventor in the realm of steampunk.",
-"name" : null,
-"power" : 65,
-"toughness" : 50,
-"speed" : 18,
-"energy" : 25,
-"monster_types" : "Octopus",
-"weakness" : "Electricity",
-"immunity" : "Poison and Fire",
-"seed" : "Steampunk Octopus Engineer"
-}
- {"description" : "The Jelly Bean Goblin Archer is a mischievous and agile goblin who wields a longbow and shoots jelly beans as ammunition. They can blend in with their environment due to their colorful appearance.",
-     "power" : 12,
-     "toughness" : 8,
-     "speed" : 15,
-     "energy" : 6,
-     "monster_types" : "Goblin Archers",
-     "weakness" : "Fire",
-     "seed" : "Jelly Bean Goblin Archer"
+ {"description" : "A colossal golem made entirely of meteoritic metal, it crashes through its surroundings with brute force.",
+     "power" : 81,
+     "toughness" : 95,
+     "speed" : 3,
+     "energy" : 0,
+     "monster_types" : "Golem",
+     "weakness" : "Water",
+     "immunity" : "Poison and Radiation",
+     "seed" : "Meteorite Golem"
      }
- {"description" : "The Techno Mantis Trainer is a highly advanced and skilled mentor for other Techno Mantis warriors. He carries an arsenal of high-tech weaponry and can call upon reinforcements when needed.",
- "power" : 60,
- "toughness" : 35,
- "speed" : 45,
- "energy" : 25,
- "monster_types" : "Mantis Technomancer",
- "weakness" : "Sonic Waves",
- "seed" : "Techno Mantis Trainer"
- }
- {"description" : "The 92 Rainbow Unicorn Paladin Healer is a mythical creature of pure light and good magic. It uses its horn to heal wounds and protect allies, and wields a shining lance as a potent weapon. It's known for its gentle demeanor and selfless healing.",
-     "name" : "Rainbow Unicorn Paladin Healer",
+ {"description" : "The Plague Doctor is a shrouded figure in a long robe and mask, known to bring devastating plagues to entire lands. Its breath can spread diseases, its touch contaminates, and it's immune to most debuffs.",
+    "power" : 15,
+    "toughness" : 35,
+    "speed" : 8,
+    "energy" : 10,
+    "monster_types" : "Plague Bringer",
+    "weakness" : "Fire",
+    "immunity" : "Poison and Debuffs",
+    "seed" : "Plague Doctor"
+    }
+ {
+"description" : "The Starfish Wizard is an otherworldly magician that dwells deep in the ocean. It's covered in shimmering starfish scales, and it uses its psychic abilities to manipulate water currents, creating whirlpools and tidal waves.",
+"power" : 54,
+"toughness" : 32,
+"speed" : 8,
+"energy" : 31,
+"monster_types" : "Starfish",
+"weakness" : "Fire",
+"immunity" : "Mind Control and Temptation",
+"seed" : "Starfish Wizard"
+}
+ {"description" : "A towering, armored Mechanical T-Rex Knight, wielding a massive steel weapon. It moves with a grace and precision that belies its immense size.",
+     "power" : 75,
+     "toughness" : 100,
+     "speed" : 6,
+     "energy" : 30,
+     "monster_types" : "Mechanical Dinosaur Knight",
+     "weakness" : "Fire",
+     "immunity" : "Poison and Paralysis",
+     "seed" : "Mechanical T-Rex Knight"
+    }
+ {"description" : "The Spectral Horseman is a terrifying undead warrior, riding on a spectral steed. It wields a ghostly lance and is known to haunt the battlefields of old wars.",
      "power" : 35,
      "toughness" : 25,
-     "speed" : 15,
-     "energy" : 60,
-     "monster_types" : "Unicorn Paladin Healer",
-     "weakness" : "Dark Magic and Poison",
-     "immunity" : "Radiation and Disease",
-     "seed" : "Rainbow Unicorn Paladin Healer"
-     }
- {"description" : "The Fire Phoenix Monk Warrior is a rare and fierce creature, combining the power of fire and the discipline of a monk warrior. It can summon flames to attack or defend itself, and its agility makes it a formidable opponent in combat.",
- "power" : 93,
- "toughness" : 75,
- "speed" : 60,
- "energy" : 80,
- "monster_types" : "Fire Bird Monk Warrior",
- "weakness" : "Water and Ice",
- "immunity" : "Mind Control and Temptation",
- "name" : "Unknown",
- "seed" : "93. Fire Phoenix Monk Warrior"
- }
- {
-"description" : "The Cryomancer Snowman Sage is a powerful and ancient creature of the frozen wastes. It can manipulate ice and snow, and use its magical abilities to freeze opponents in their tracks. It is a wise sage and a master of winter magic.",
-"name" : "Snowman Sage",
-"power" : 50,
-"toughness" : 60,
-"speed" : 10,
-"energy" : 30,
-"monster_types" : "Cryomancer Snowman",
-"weakness" : "Sunlight and Fire",
-"immunity" : "Fire and Magnetic attacks",
-"seed" : "Cryomancer Snowman Sage"
-}
- {
-"description" : "The Dino-Bird of Prey Witch is a fearsome and cunning creature, combining the agility and sharp vision of a bird with the magical abilities of a witch. It can cast spells that hinder or enhance its prey, making every hunt a deadly affair.",
-"power" : 50,
-"toughness" : 25,
-"speed" : 35,
-"energy" : 40,
-"monster_types" : "Dino-Bird of Prey Witch",
-"weakness" : "Magic",
-"immunity" : "Poison and Physical Damage Reduction",
-"seed" : "Dino-Bird of Prey Witch"
-}
-
-If the input prompt starts with a number, assume it is a seed for generating a random monster instead of an explicit name. In such cases, generate a random name for the monster in addition to the other fields.
- {"description" : "The Lava Gargoyle - Engineer Mummys' - are mummified lava gargoyles, engineered to be the ultimate guardians of ancient lava temples. They can manipulate lava and create complex traps. Their engineering skills make them formidable adversaries.",
- "power" : 96,
- "toughness" : 81,
- "speed" : 25,
- "energy" : 78,
- "monster_types" : "Lava Mummy Gargoyle",
- "weakness" : "Ice",
- "immunity" : "Fire and Poison",
- "seed" : "Lava Gargoyle Engineer Mummy"
- }
- {"description" : "The Ghostly Phantom Chef is a cooking apparition, who roams the kitchens of haunted castles and mansions, preparing spectral feasts for its ethereal guests. It can infuse dishes with supernatural flavors that provide powerful effects, but beware its touch is as cold as ice.",
- "power" : 12,
- "toughness" : 5,
- "speed" : 10,
- "energy" : 8,
- "monster_types" : "Ghostly Phantom",
- "weakness" : "Warmth",
- "immunity" : "Physical Damage",
- "seed" : "Ghostly Phantom Chef"
- }
- {"description" : "The Mecha Mantis - Healing Hands - is a sorceress with a mechanical exoskeleton, enhancing her already formidable healing abilities. Her mechanized limbs are also deadly weapons in combat.",
- "name" : "Healing Hands",
- "power" : 50,
- "toughness" : 35,
- "speed" : 18,
- "energy" : 60,
- "monster_types" : "Mech Insect Healer",
- "weakness" : "Cold Based Attacks",
- "immunity" : "Poison and Bleed",
- "seed" : "Meca Mantis Healer Sorceress"
- }
- {"description" : "The 99. Ice Cream Sundae Witch Engineer is a rogue ice cream vendor, disguised as a sweet treat, but do not let the facade fool you. She carries an array of ice cream-based projectiles and can engineer traps to freeze enemies in their tracks.",
- "power" : 35,
- "toughness" : 18,
- "speed" : 25,
- "energy" : 20,
- "monster_types" : "Witch Engineer",
- "weakness" : "Fire",
- "seed" : "99. Ice Cream Sundae Witch Engineer"
-}
- {"description" : "The Forest Troll Treekeeper Sage is a powerful and ancient guardian of the forest, with deep knowledge of nature and its secrets. He can communicate with trees, call upon their power, and heal nearby creatures. He is extremely difficult to move from his chosen spot.",
-"power" : 75,
-"toughness" : 120,
-"speed" : 6,
-"energy" : 30,
-"monster_types" : "Forest Troll Sage",
-"weakness" : "Fire",
-"immunity" : "Cold and Poison",
-"seed" : "Forest Troll Treekeeper Sage"
-}
- {"description" : "The Crystal Golem - Dr. Quartz - is a scientific warrior with advanced crystal technology. It's highly intelligent, analytical and can create powerful crystalline weapons from the ground.",
-    "name" : "Dr. Quartz",
-    "power" : 50,
-    "toughness" : 75,
-    "speed" : 10,
-    "energy" : 35,
-    "monster_types" : "Crystal Golem Scientist Warrior",
-    "weakness" : "Acid",
-    "immunity" : "Electricity",
-    "seed" : "101. Crystal Golem Scientist Warrior"
-    }
- {
-"description" : "The Venus Flytrap Gardener Warrior is a fierce protector of its carnivorous garden, using traps and raw power to keep intruders at bay.",
-"power" : 25,
-"toughness" : 18,
-"speed" : 7,
-"energy" : 0,
-"monster_types" : "Plant, Carnivore",
-"weakness" : "Fire",
-"seed" : "Venus Flytrap Gardener Warrior"
-}
- {
-"description" : "The Plague Doctor Alchemist Mummy is a fearsome undead creature, once a renowned alchemist who gained immortality through dark necromantic practices. It carries a variety of deadly plagues in its vials and can brew new ones on the spot. Its breath releases clouds of poisonous gas.",
-"name" : "Plague Doctor Alchemist Mummy",
-"power" : 35,
-"toughness" : 45,
-"speed" : 10,
-"energy" : 25,
-"monster_types" : "Mummy, Plague Doctor, Alchemist",
-"weakness" : "Fire",
-"immunity" : "Poison and Disease",
-"seed" : "Plague Doctor Alchemist Mummy"
-}
- {"description" : "The Steampunk Octopus Trainer, a master of the deep sea realms, has the ability to summon and train various mechanical octopuses as well as manipulating water currents. They are often found in steampunk-themed underwater cities.",
-     "power" : 50,
-     "toughness" : 42,
      "speed" : 18,
-     "energy" : 35,
-     "monster_types" : "Steampunk Octopus",
-     "weakness" : "Electricity and Fire",
-     "seed" : "Steampunk Octopus Trainer"
-     }
- {"description" : "The Jelly Bean Goblin Sage is a magical creature with an insatiable appetite for jelly beans. It uses its vast knowledge to concoct powerful potions from the ingredients it finds in the forest. It is known to have a mischievous side, often playing pranks on other creatures. Its power comes from the magical properties of the jelly beans it consumes.",
-    "power" : 10,
-    "toughness" : 5,
-    "speed" : 7,
-    "energy" : 2,
-    "monster_types" : "Goblin Sage",
-    "weakness" : "None",
-    "immunity" : "Poison",
-    "name" : "Jelly Bean Goblin Sage",
-    "seed" : "105. Jelly Bean Goblin Sage"
-    }
- {"description" : "The Techno Mantis Sage is an advanced technologically-enhanced mantis healer. It uses its tech-infused mandibles to apply nanites and tech-enhancements to wounded allies. Its wisdom grants it the ability to heal even the most grievous of wounds.",
- "name" : "Techno Mantis Sage",
- "power" : 35,
- "toughness" : 45,
- "speed" : 18,
- "energy" : 20,
- "monster_types" : "Technology Enhanced Insectoid Healer",
- "weakness" : "Fire and Sonic attacks",
- "immunity" : "Poison and Psychic",
- "seed" : "Techno Mantis Healer Sage"
- }
- ["Error in input: '107' is not a valid monster name or description.",
- "Description of Rainbow Unicorn Paladin Engineer:",
- "{",
- "\"description\" : \"The Rainbow Unicorn Paladin Engineer, a rare and magnificent being, combines the magical purity of a unicorn with the divine strength of a paladin and the creative ingenuity of an engineer. They have the power to heal allies, smite enemies, and construct mechanical wonders.\",",
- "\"name\" : \"Rainbow Unicorn Paladin Engineer\",",
- "\"power\" : 35,",
- "\"toughness\" : 25,",
- "\"speed\" : 18,",
- "\"energy\" : 30,",
- "\"monster_types\" : [\"Unicorn\", \"Paladin\", \"Engineer\"]",
- "\"weakness\" : [\"Shadow\", \"Poison\"],",
- "\"immunity\" : [\"" ",
- "\"Mind Control\",",
- "\"Temptation\",",
- "\"Fire\",",
- "\"Cold\",",
- "\"Electricity\",",
- "\"Poison\"",
- "\"]\",",
- "\"seed\" : \"Rainbow Unicorn Paladin Engineer\"",
- "}"
- ]
- ["Error in input format: '108. Fire Phoenix Monk Chef' should be a string"]
-
-Output = {"description" : "The Fire Phoenix Monk Chef is a monk of the fiery culinary arts. He can infuse his dishes with flames, and his attacks are imbued with the taste of victory. He is also a skilled healer.",
-"name" : "Fire Phoenix Monk Chef",
-"power" : 35,
-"toughness" : 25,
-"speed" : 40,
-"energy" : 15,
-"monster_types" : "Phoenix Monk Chef",
-"weakness" : "Water",
-"immunity" : "Fire",
-"seed" : "108. Fire Phoenix Monk Chef"
-}
- {"description" : "The Cryomancer Snowman - Frostbite Frank - is a snowman armed with icy arrows that can freeze his enemies on impact. He is a powerful mage that excels in cold magic.",
-    "power" : 25,
-    "toughness" : 15,
-    "speed" : 7,
-    "energy" : 20,
-    "monster_types" : "Cryomancer Snowman",
-    "weakness" : "Sunlight",
-    "immunity" : "Fire",
-    "seed" : "109. Cryomancer Snowman Archer"
-    }
- {"description" : "The 110. Dino-Bird of Prey Trainer is an expert in handling and commanding various predatory birds, making them even more deadly. They can call upon their trained birds to aid them in battle.",
-    "power" : 35,
-    "toughness" : 27,
-    "speed" : 42,
-    "energy" : 18,
-    "monster_types" : "Bird Trainer",
-    "weakness" : "Ice",
-    "immunity" : "Poison and Fear",
-    "seed" : "Dino-Bird of Prey Trainer"
-    }
- {"description" : "The Lava Gargoyle Engineer Warrior, model number 111, is a mechanical construct of molten rock and iron, designed for battle. It wields various advanced weaponry, able to manipulate lava flows and create traps.",
- "power" : 50,
- "toughness" : 75,
- "speed" : 15,
- "energy" : 30,
- "monster_types" : "Lava Construct",
- "weakness" : "Water",
- "immunity" : "Fire",
- "seed" : "Lava Gargoyle Engineer Warrior"
- }
- {
-"description" : "The Ghostly Phantom Warrior Sheriff is a spectral law enforcer, sworn to protect the peace of the land from both the living and the dead. With a phantom steed as its mount, this monstrous figure strikes fear into the hearts of all it encounters.",
-"name" : "Ghostly Phantom Warrior Sheriff",
-"power" : 50,
-"toughness" : 35,
-"speed" : 25,
-"energy" : 30,
-"monster_types" : "Spectral Cavalier",
-"weakness" : "Physical attacks",
-"immunity" : "Ghostly touch and fear",
-"seed" : "Ghostly Phantom Warrior Sheriff"
-}
- {
-"description" : "The Mecha Mantis Healer Scientist is a mechanically enhanced mantis with advanced healing abilities. It can repair and upgrade other machines, as well as provide medical assistance to injured beings.",
-"name" : "",
-"power" : 35,
-"toughness" : 25,
-"speed" : 15,
-"energy" : 10,
-"monster_types" : "Mech Insect",
-"weakness" : "Physical Attacks",
-"immunity" : "Electrical Damage",
-"seed" : "Mecha Mantis Healer Scientist"
-}
- {"description" : "The Ice Cream Sundae Witch Sage is a mystical dessert-loving creature, known for her enchanted ice cream creations. She can conjure up various flavors and toppings with a wave of her spoon. Be careful, though, as she is also known to place curses on those who take the last scoop without asking.",
- "name" : "Ice Cream Sundae Witch Sage",
- "power" : 15,
- "toughness" : 12,
- "speed" : 8,
- "energy" : 10,
- "monster_types" : "Witch Ice Cream Maker",
- "weakness" : "Heat",
- "immunity" : "Cold and Sweet",
- "seed" : "Ice Cream Sundae Witch Sage"
- }
- {"description" : "The Forest Troll Treekeeper Trainer is a large, hulking troll with a deep understanding of forest magic and the ability to train other forest creatures. He is a powerful protector and guardian of the forest.",
- "power" : 75,
- "toughness" : 85,
- "speed" : 10,
- "energy" : 60,
- "monster_types" : "Forest Troll",
- "weakness" : "Fire",
- "immunity" : "Cold",
- "seed" : "Forest Troll Treekeeper Trainer"
- }
- {"description" : "The Crystal Golem - Dr. Quartz - is a scientist healer, capable of healing itself and other crystalline organisms. It is often found in laboratories deep within the crystal caves.",
- "name" : "Dr. Quartz",
- "power" : 35,
- "toughness" : 70,
- "speed" : 1,
- "energy" : 20,
- "monster_types" : "Crystal Golem Scientist Healer",
- "weakness" : "Fire",
- "immunity" : "Poison and Radiation",
- "seed" : "116. Crystal Golem Scientist Healer"
- }
- {"description" : "The Venus Flytrap Gardener Warrior is a carnivorous plant master, who uses its traps to ensnare and devour opponents. It is an expert at tending and growing Venus Flytraps, using their nutrients to fuel its own growth and power.",
-"power" : 15,
-"toughness" : 20,
-"speed" : 8,
-"energy" : 12,
-"monster_types" : "Venus Flytrap",
-"weakness" : "Fire",
-"immunity" : "Poison",
-"seed" : "Venus Flytrap Gardener Warrior"
-}
- {
-"description" : "The Plague Doctor Alchemist Sage is a mysterious figure shrouded in robes and masks, wielding the power of both healing and contagion. He can apply debuffs to enemies or buff allies and is known for his potent elixirs and deadly plagues.",
-"name" : "Unknown",
-"power" : 32,
-"toughness" : 15,
-"speed" : 8,
-"energy" : 14,
-"monster_types" : "Plague Doctor Alchemist Sage",
-"weakness" : "Fire",
-"immunity" : "Poison and Disease",
-"seed" : "Plague Doctor Alchemist Sage"
-}
- {
-"description" : "The Steampunk Octopus Warrior is a technologically advanced octopus with an armored exoskeleton and powerful mechanical tentacles. It is a formidable warrior, using its tentacles to wield weapons and protect its steampowered core.",
-"name" : null,
-"power" : 50,
-"toughness" : 75,
-"speed" : 18,
-"energy" : 30,
-"monster_types" : "Steampunk Octopus",
-"weakness" : "Electricity",
-"immunity" : "Fire",
-"seed" : "Steampunk Octopus Warrior"
-}
- {"description" : "A mischievous goblin engineer with a sweet tooth, this creature constructs mechanical marvels out of jelly beans and other candies. It's as unpredictable as it is delicious.",
-    "power" : 12,
-    "toughness" : 8,
-    "speed" : 10,
-    "energy" : 5,
-    "monster_types" : "Goblin Jelly Bean Engineer",
-    "weakness" : "Strawberry",
-    "immunity" : "Fire",
-    "seed" : "Jelly Bean Goblin Engineer"
-    }
- {
-"description" : "The Techno Mantis Healer Trainer, with the ID number 121, is an advanced version of the regular Techno Mantis. It has the ability to heal other Techno Mantises and train them into more powerful forms. Its primary focus is on healing and support.",
-"power" : 35,
-"toughness" : 45,
-"speed" : 20,
-"energy" : 15,
-"monster_types" : "Techno Mantis Healer Trainer",
-"weakness" : "Plasma",
-"immunity" : "Poison",
-"seed" : "121. Techno Mantis Healer Trainer"
-}
- ["Error in input: '122. Rainbow Unicorn Paladin Engineer' is not a valid monster name"]
-
-Output for valid input:
-
-Input_prompt = Rainbow Unicorn Paladin Engineer
-
-Output = {"description" : "The mythical Rainbow Unicorn - Innomine the Wise - is both a holy paladin and an ingenious engineer. She can create enchanted gadgets and heal allies with her magic. She is immune to all forms of poison and has a powerful smite ability.",
-"name" : "Innomine the Wise",
-"power" : 25,
-"toughness" : 35,
-"speed" : 15,
-"energy" : 30,
-"monster_types" : ["Unicorn", "Paladin", "Engineer"],
-"weakness" : "None",
-"immunity" : ["Poison"],
-"seed" : "Rainbow Unicorn Paladin Engineer"
-}
- {"description" : "The Fire Phoenix Monk Healer is a unique and powerful creature. It's a monk that has learned to harness the power of fire, using it both for offense and healing. Its wings allow it to fly short distances, making it a versatile fighter.",
- "name" : "Fire Phoenix Monk Healer",
- "power" : 15,
- "toughness" : 12,
- "speed" : 18,
- "energy" : 10,
- "monster_types" : ["Fire Bird Monk"],
- "weakness" : "Ice",
- "immunity" : "Poison and Psychic",
- "seed" : "FirePhoenixMonkHealer"
- }
- {"description" : "The Cryomancer Snowman - Frostbite Fletcher - is a skilled archer with the ability to freeze his targets, turning them into snow statues. He uses this power wisely in battle and can often be found in colder climates.",
-     "power" : 18,
-     "toughness" : 25,
-     "speed" : 13,
      "energy" : 10,
-     "monster_types" : "Snowman Archer",
-     "weakness" : "Sunlight",
-     "immunity" : "Fire",
-     "seed" : "Cryomancer Snowman Archer"
+     "monster_types" : "Spectral Cavalry",
+     "weakness" : "Holy Light",
+     "immunity" : "Physical Attacks",
+     "seed" : "Spectral Horseman"
      }
- {
-"description" : "The 125 Dino-Bird of Prey Sage is a rare and wise creature that soars through the skies in search of knowledge. It has excellent eyesight and can glide long distances, making it a fearsome hunter. Its sage-like wisdom makes it an invaluable ally in any quest for knowledge.",
-"power" : 25,
-"toughness" : 10,
-"speed" : 35,
-"energy" : 30,
-"monster_types" : "Dino-Bird",
-"weakness" : "Ice",
-"immunity" : "Fire",
-"seed" : "125 Dino-Bird of Prey Sage"
-}
-
-(Note: Since the input was not a clear creature name, I assumed "Dino-Bird of Prey Sage" as a possible interpretation. Adjust the output accordingly if the intended name is different.)
- {"description" : "The Lava Gargoyle Engineer Warrior Mummy is a terrifying fusion of ancient undead engineering and fiery destruction. It wields advanced technology, imbued with the power of lava and the unyielding resilience of a mummy. Be cautious, for its wrath knows no bounds.",
- "power" : 50,
- "toughness" : 75,
- "speed" : 10,
- "energy" : 35,
- "monster_types" : ["Undead", "Engineer", "Warrior"],
- "weakness" : "Water",
- "immunity" : ["Fire", "Temptation"],
- "seed" : "Lava Gargoyle Engineer Warrior Mummy"
- }
- {"description" : "A Ghostly Phantom Warrior Chef is an ethereal being, once a great warrior, now haunting the kitchens of the ghost realm's finest feasts. It can pass through walls and manipulate energy to create spectral dishes that have both tantalizing tastes and fearsome consequences.",
-"power" : 34,
-"toughness" : 12,
-"speed" : 25,
-"energy" : 18,
-"monster_types" : "Ghostly Phantom Warrior",
-"weakness" : "Salt",
-"immunity" : "Physical attacks",
-"seed" : "Ghostly Phantom Warrior Cook"
-}
- {
-"description" : "The Mecha Mantis - Dr. Healinghands - is a hybrid of machine and mantis, with advanced technology integrated into its body. It functions as both a healer and a scientist, constructing and repairing other mechanical beings. As a sorceress, it can cast powerful healing spells and manipulate energy fields.",
-"name" : "Dr. Healinghands",
-"power" : 15,
-"toughness" : 43,
-"speed" : 8,
-"energy" : 25,
-"monster_types" : "Mecha Mantis Healer Scientist Sorceress",
-"weakness" : "Fire and Physical Impact",
-"immunity" : "Magic",
-"seed" : "128. Mecha Mantis Healer Scientist Sorceress"
-}
- ["Invalid input: '129. Ice Cream Sundae Witch Engineer Warrior' is not a valid monster name format.",
- "To generate a monster, please use a descriptive name such as 'Ice Cream Sundae Witch Engineer Warrior - Sundae Sorceress'",
- "Output will be in JSON format with fields: description, power, toughness, speed, energy, monster\_types, weakness, immunity and seed"]
- {
-"description" : "The Forest Troll - Treekeeper Healer Sage - is a powerful healer and guardian of the forest, known for its immense knowledge and magical abilities. It can manipulate trees to create barriers or hinder enemies, and it has a strong connection with nature that enhances plant growth and healing.",
-"name" : "Treekeeper Healer Sage",
-"power" : 90,
-"toughness" : 120,
-"speed" : 15,
-"energy" : 80,
-"monster_types" : "Forest Troll Healer Sage",
-"weakness" : "Fire",
-"immunity" : "Poison and Disease",
-"seed" : "130. Forest Troll Treekeeper Healer Sage"
-}
- {"description" : "The Crystal Golem Scientist Warrior Mummy is an ancient guardian of crystal mines, combining the powers of a golem, scientist, and warrior with the resilience of a mummy. It can create magical constructs to aid it in battle, as well as analyze and manipulate the properties of minerals and gems.",
-"name" : null,
-"power" : 50,
-"toughness" : 75,
-"speed" : 15,
-"energy" : 35,
-"monster_types" : "Golem, Scientist, Mummy, Guardian",
-"weakness" : "Magic Missile",
-"immunity" : "Physical attacks",
-"seed" : "Crystal Golem Scientist Warrior Mummy"
-}
- {"description" : "The Venus Flytrap Gardener Trainer is a master of cultivating and training carnivorous plants, especially the infamous Venus Flytraps. They can manipulate plant growth and release powerful toxins when threatened.",
- "power" : 25,
- "toughness" : 30,
- "speed" : 10,
- "energy" : 15,
- "monster_types" : "Plant",
- "weakness" : "Fire",
- "immunity" : "Poison",
- "seed" : "Venus Flytrap Gardener Trainer"
- }
- ["{\"description\" : \"The Plague Doctor Alchemist Engineer is a master of disease and invention. He can create toxic clouds and inflict various debilitating effects on his enemies, as well as build complex machines to aid in battle or automate tasks. He has a deep understanding of alchemy and biology.\",\
-  \"name\" : \"Plague Doctor Alchemist Engineer\",\
-  \"power\" : 50,\
-  \"toughness\" : 25,\
-  \"speed\" : 18,\
-  \"energy\" : 30,\
-  \"monster_types\" : [\"Plague Doctor\", \"Alchemist\", \"Engineer\"],\
-  \"weakness\" : [\""", "Iron\"", """],\
-  \"immunity\" : [\""", "Fire\"", """],\
-  \"seed\" : \"133. Plague Doctor Alchemist Engineer\"}",\
-  {\"description\" : \"Just a regular Plague Doctor, no alchemy or engineering skills here.\",\
-  \"power\" : 20,\
-  \"toughness\" : 15,\
-  \"speed\" : 12,\
-  \"energy\" : 5,\
-  \"monster_types\" : \"Plague Doctor\",\
-  \"weakness\" : "Iron",\
-  \"seed\" : \"Plague Doctor\"}]
- {
-"description" : "The Steampunk Octopus Witch is an otherworldly creature of the depths, adorned with intricate gears and pipes. With a cackle and a wave of her tentacles, she can summon powerful steam-based spells.",
-"name" : null,
-"power" : 50,
-"toughness" : 70,
-"speed" : 15,
-"energy" : 35,
-"monster_types" : "Steampunk Octopus",
-"weakness" : "Fire",
-"immunity" : "Cold",
-"seed" : "Steampunk Octopus Witch"
-}
- {"description" : "The Jelly Bean Goblin Healer is a mischievous and sweet creature that prefers to help others rather than fight. It has the power to heal nearby allies with its gooey substance and can blend in well with its surroundings.",
-     "power" : 5,
-     "toughness" : 3,
-     "speed" : 7,
-     "energy" : 2,
-     "monster_types" : "Goblin",
-     "weakness" : "Poison",
-     "immunity" : "Fire",
-     "seed" : "Jelly Bean Goblin Healer"
-     }
- {"description" : "The Techno Mantis Archer is a technologically advanced insectoid creature with exceptional agility and deadly accuracy. It can manipulate technology to create complex traps and projectiles.",
-    "power" : 25,
-    "toughness" : 18,
-    "speed" : 34,
-    "energy" : 15,
-    "monster_types" : "Techno Mantis",
-    "weakness" : "Sonic",
-    "immunity" : "Poison and Toxic",
-    "seed" : "Techno Mantis Archer"
+ {"description" : "A unique and quirky monster, the Ice Cream Monster Chef whips up a storm of frozen delights with its long ice cream scoops for arms. Be careful not to get caught in its sweet but deadly sundae surprise!",
+    "power" : 15,
+    "toughness" : 12,
+    "speed" : 8,
+    "energy" : 30,
+    "monster_types" : "Ice Cream Maker",
+    "weakness" : "Fire",
+    "immunity" : "Cold",
+    "seed" : "Ice Cream Monster Chef"
     }
- {"description" : "The Rainbow Unicorn Paladin Trainer, a mythical and wise being, is the guardian of all unicorns. They are known to impart their knowledge and train other unicorns in the art of Paladinism. Their rainbow hue represents their ability to call upon all elements and their power comes from their pure heart.",
-     "name" : "Rainbow Unicorn Paladin Trainer",
-     "power" : 100,
-     "toughness" : 90,
-     "speed" : 8,
-     "energy" : 65,
-     "monster_types" : "Unicorn Paladin",
-     "weakness" : "None",
-     "immunity" : "Darkness",
-     "seed" : "Rainbow Unicorn Paladin Trainer"
-    }
- {
-"description" : "The Fire Phoenix Monk Sage is a rare and ancient being, combining the wisdom of a sage with the raw power and agility of a monk and the fiery intensity of a phoenix. It can ignite itself to attack or heal, and its wisdom grants it powerful insights and abilities.",
-"name" : "Unknown", // Name should be generated based on input, e.g. "Ignis Sapiens"
-"power" : 35,
-"toughness" : 18,
-"speed" : 27,
-"energy" : 42,
-"monster_types" : ["Fire", "Phoenix", "Monk", "Sage"],
-"weakness" : "Water",
-"immunity" : ["Mind Control", "Temptation"],
-"seed" : "138. Fire Phoenix Monk Sage"
-}
- {"description" : "The Cryomancer Snowman Engineer is a frigid and cunning engineer, capable of constructing elaborate ice structures and manipulating the temperature to freeze its enemies solid.",
- "name" : "",
- "power" : 25,
- "toughness" : 35,
- "speed" : 10,
- "energy" : 30,
- "monster_types" : "Cryomancer Snowman",
- "weakness" : "Fire",
- "immunity" : "Heat",
- "seed" : "Cryomancer Snowman Engineer"
- }
- {
-"description" : "The Dino-Bird of Prey - Healer is a rare and enigmatic creature, part bird, part dinosaur, with the unique ability to heal other creatures. It can be found in the high mountains, soaring above the peaks.",
-"power" : 15,
-"toughness" : 32,
-"speed" : 45,
-"energy" : 10,
-"monster_types" : "Dino-Bird",
-"weakness" : "Poison",
-"immunity" : "Magic",
-"seed" : "Dino-Bird of Prey Healer",
-"healing_factor" : 25
-}
- {"description" : "A Lava Gargoyle Engineer Scientist Mummy is a unique monster, a fusion of ancient Egyptian curses and modern technology. This mummy has been imbued with the power to create and control lava flows, as well as advanced engineering skills. It can also draw upon its past lives to gain temporary boosts in combat.",
- "power" : 50,
- "toughness" : 75,
- "speed" : 15,
- "energy" : 30,
- "monster_types" : "Mummy Engineer Scientist Lava Gargoyle",
- "weakness" : "Ice",
- "immunity" : "Poison and Radiation",
- "seed" : "Lava Gargoyle Engineer Scientist Mummy"
- }
- {
-"description" : "The Ghostly Phantom Warrior Chef is a spectral being with the cooking skills of a master. He can materialize in the kitchen to prepare a feast, and his dishes have the power to heal or harm. He attacks with phantom strikes and ethereal flames.",
-"name" : null,
-"power" : 35,
-"toughness" : 12,
-"speed" : 18,
-"energy" : 15,
-"monster_types" : "Ghostly Phantom Chef",
-"weakness" : "Bright Light",
-"immunity" : "Poison and Physical Damage",
-"seed" : "Ghostly Phantom Warrior Chef"
-}
- ["{\"description\" : \"The Mecha-Mantis Healer Scientist Sorceress Mummy is an ancient and powerful being, a fusion of technology and the undead. It heals its allies with advanced medical knowledge and unleashes arcane attacks. Its tough exoskeleton provides strong protection.\",
-\"name\" : \"Healer Scientist Sorceress Mummy\",
-\"power\" : 50,
-\"toughness\" : 75,
-\"speed\" : 18,
-\"energy\" : 30,
-\"monster_types\" : [\ "Mecha\", \"Undead\", \"Healer\", \"Scientist\", \"Sorceress\" ],
-\"weakness\" : [\ "Fire\", \"Radiation\" ],
-\"immunity\" : [ \"Plant\", \"Poison\" ],
-\"seed\" : \"Mecha Mantis Healer Scientist Sorceress Mummy\"}",
-{"description" : \"Just a basic mummy with no notable features or abilities, other than the usual shambling and groaning.\",
-\"power\" : 10,
-\"toughness\" : 35,
-\"speed\" : 6,
-\"energy\" : 0,
-\"monster_types\" : \"Mummy\",
-\"weakness\" : \"Fire\",
-\"seed\" : \"Basic Mummy\"}]
- {"description" : "The Ice Cream Sundae Witch - Sweet Tooth - is a friendly but mischievous witch trainer from the land of Dessertia. She uses her enchanted ice cream scoops to summon various sweet treats and elemental powers. Her favorite desserts are chocolate, strawberry, and cookies & cream.",
-     "name" : "Sweet Tooth",
-     "power" : 12,
-     "toughness" : 7,
+ {"description" : "Vampire Bat Bartender is a nighttime mixologist at the Fang's Tap, a popular bar in Transylvania. He serves up potions and elixirs to travelers passing through. With a quick snap of his fangs, he can refill your health or drain it away.",
+     "name" : null,
+     "power" : 15,
+     "toughness" : 12,
      "speed" : 8,
      "energy" : 5,
-     "monster_types" : "Witch Ice Cream Sundae Trainer",
-     "weakness" : "Salty Foods",
-     "seed" : "Ice Cream Sundae Witch Trainer"
+     "monster_types" : "Vampire Bat",
+     "weakness" : "Garlic and Sunlight",
+     "immunity" : "Poison",
+     "seed" : "Vampire Bat Bartender"
      }
- {"description" : "The Forest Troll Treekeeper Sage Healer is a wise and ancient troll who lives deep in the forest, taking care of all plants and healing other creatures with his magical herbs. He can also manipulate growth and has a powerful connection to nature.",
- "name" : "Treekeeper",
- "power" : 50,
- "toughness" : 90,
- "speed" : 7,
- "energy" : 30,
- "monster_types" : "Forest Troll Sage Healer",
+ {"description" : "The Radioactive Scorpion Ranger is a mutated scorpion with advanced tactical skills and the ability to emit radiation. It uses its stinger as both a weapon and a tool for exploration, seeking out valuable resources.",
+    "power" : 15,
+    "toughness" : 20,
+    "speed" : 7,
+    "energy" : 10,
+    "monster_types" : "Scorpion",
+    "weakness" : "Ice",
+    "immunity" : "Poison",
+    "seed" : "Radioactive Scorpion Ranger"
+    }
+ {"description" : "The Gnome Blacksmith is a hardworking and skilled craftsman, always ready to forge new weapons or repair old ones. He has a strong affinity for metals and can smith rare alloys.",
+     "power" : 12,
+     "toughness" : 8,
+     "speed" : 6,
+     "energy" : 5,
+     "monster_types" : "Gnome",
+     "weakness" : "Cold",
+     "seed" : "Gnome Blacksmith"
+     }
+ {"description" : "The Angelic Unicorn Healer is a celestial being that radiates light and healing energy. It uses its horn to heal wounds and restore life to the weary. Its wings carry it swiftly through the skies.",
+     "name" : "Angelic Unicorn",
+     "power" : 35,
+     "toughness" : 28,
+     "speed" : 40,
+     "energy" : 50,
+     "monster_types" : "Unicorn Angel",
+     "weakness" : "Shadow",
+     "immunity" : "Poison and Disease",
+     "seed" : "Angelic Unicorn Healer"
+    }
+ {"description" : "The Lava Goblin Shaman is a fiery and volatile creature from the depths of the Magma Mountains. It has the ability to summon smaller Lava Goblins and cast powerful fire spells.",
+    "power" : 35,
+    "toughness" : 25,
+    "speed" : 40,
+    "energy" : 20,
+    "monster_types" : "Goblin",
+    "weakness" : "Water",
+    "seed" : "Lava Goblin Shaman"
+    }
+ {"description" : "The Cosmic Marshmallow Mage is a strange and otherworldly entity, resembling a marshmallow with cosmic powers. It can manipulate energy fields and cast spells that are as sweet as they are powerful.",
+    "power" : 35,
+    "toughness" : 15,
+    "speed" : 20,
+    "energy" : 50,
+    "monster_types" : "Cosmic Mage",
+    "weakness" : "Physical attacks",
+    "immunity" : "Mental and Emotional attacks",
+    "seed" : "Cosmic Marshmallow Mage"
+    }
+    
+    (Since the input was a number, I assumed it represented the description of a monster and generated a random one based on that.)
+ {"description" : "The Tree Gnome Ranger is a master archer and nature protector, living in harmony with the forest. It has keen senses and can call upon the aid of nearby trees for added protection.",
+    "power" : 15,
+    "toughness" : 12,
+    "speed" : 18,
+    "energy" : 10,
+    "monster_types" : "Tree Gnome Ranger",
+    "weakness" : "Fire",
+    "seed" : "41. Tree Gnome Ranger"
+    }
+ {"description" : "An Electric Eel with a PhD in marine biology, this Monster can conduct electricity and has advanced knowledge of aquatic life. It's known to use its electrical powers for both defense and research.",
+    "power" : 35,
+    "toughness" : 15,
+    "speed" : 20,
+    "energy" : 25,
+    "monster_types" : "Electric Fish Scientist",
+    "weakness" : "Heat",
+    "immunity" : "Ice and Cold",
+    "seed" : "42. Electric Eel Scientist"
+    }
+ {"description" : "The Ghostly Phantom Knight is a spectral being, wielding an ethereal sword and shield. It is said that only the bravest of warriors can see it in its full form, as it often masks itself among the living.",
+    "name" : null,
+    "power" : 35,
+    "toughness" : 12,
+    "speed" : 28,
+    "energy" : 15,
+    "monster_types" : "Ghostly Phantom Knight",
+    "weakness" : "Holy Light",
+    "immunity" : "Physical attacks",
+    "seed" : "Ghostly Phantom Knight"
+    }
+ {"description" : "The Ice Cream Sundae Engineer is a unique and quirky monster with an engineering background. It uses its sundae creations as tools and weapons, creating traps and obstacles for enemies. It can also provide temporary bonuses to nearby allies.",
+    "power" : 15,
+    "toughness" : 18,
+    "speed" : 12,
+    "energy" : 10,
+    "monster_types" : "Engineer",
+    "weakness" : "Fire",
+    "immunity" : "Cold",
+    "seed" : "Ice Cream Sundae Engineer"
+    }
+ {"description" : "The Skeleton Archer King is a powerful and deadly skeletal archer, leading an army of lesser skeletons. He wields a mighty longbow and can summon his minions to do his bidding.",
+ "name" : "Archer King",
+ "power" : 35,
+ "toughness" : 15,
+ "speed" : 20,
+ "energy" : 15,
+ "monster_types" : "Undead Skeleton Archer",
  "weakness" : "Fire",
- "immunity" : "Plant and Poison",
- "seed" : "145. Forest Troll Treekeeper Sage Healer"
+ "immunity" : "Poison and Temptation",
+ "seed" : "Skeleton Archer King",
+ "minions" : [{"type": "Skeleton Archer", "power": 12, "toughness" : 8, "speed" : 15}, {"type": "Skeleton Warrior", "power": 18, "toughness" : 10, "speed" : 12}]}
  }
  {
-"description" : "The Crystal Golem - Dr. Fragil - is a unique undead mummy with advanced engineering and scientific knowledge. Its crystalline form grants it various abilities, making it a force to be reckoned with in battle.",
-"name" : "Dr. Fragil",
-"power" : 45,
-"toughness" : 60,
-"speed" : 10,
-"energy" : 25,
-"monster_types" : ["Undead", "Crystal Golem"],
+"description" : "Robo-Samurai is a master of the ancient art of kempo, but with a modern twist. Fully armored and armed with deadly precision, it's not an opponent to be trifled with.",
+"power" : 50,
+"toughness" : 35,
+"speed" : 12,
+"energy" : 45,
+"monster_types" : "Robot Samurai",
 "weakness" : "Fire",
-"immunity" : ["Electricity", "Temptation"],
-"seed" : "Crystal Golem Scientist Engineer Mummy"
-}
- {"description" : "The Venus Flytrap Gardner Mummy is a powerful undead warrior, guarding the sacred grounds of the Venus Flytrap grove. It uses its gardening skills to tend to the flytraps and also has the ability to immobilize enemies with a touch.",
- "name" : "Venus Flytrap Gardner Mummy",
- "power" : 32,
- "toughness" : 50,
- "speed" : 12,
- "energy" : 25,
- "monster_types" : ["Undead", "Plant"],
- "weakness" : "Fire",
- "immunity" : ["Cold", "Poison"],
- "seed" : "Venus Flytrap Gardner Mummy"
-}
- {"description" : "The Plague Doctor Alchemist Warrior Healer is a unique and enigmatic figure, skilled in the arts of war, alchemy, and healing. Wielding potent toxins and powerful weapons, they can cure as easily as they can inflict harm.",
- "power" : 50,
- "toughness" : 35,
- "speed" : 18,
- "energy" : 25,
- "monster_types" : ["Plague Doctor", "Alchemist", "Warrior", "Healer"],
- "weakness" : "Radiant Light",
- "immunity" : "Poison",
- "seed" : "148. Plague Doctor Alchemist Warrior Healer"
+"immunity" : "Poison and Corrosion",
+"seed" : "Robot Samurai"
 }
  {
-"description" : "The Steampunk Octopod Doctor is a healer trainer in the steam-powered underwater city of Nautica. With its advanced medical technology, it can heal even the most grievously injured of sea creatures.",
-"name" : "Steampunk Octopod Healer Trainer",
+"description" : "The Mutated Gorilla Shaman is a large, hulking gorilla with mutated features that grant it unusual powers. It is also an accomplished shaman, using its powers to communicate with nature and inflict pain on its enemies.",
+"power" : 56,
+"toughness" : 71,
+"speed" : 24,
+"energy" : 30,
+"monster_types" : "Mutated Gorilla",
+"weakness" : "Poison",
+"immunity" : "Fire",
+"seed" : "Mutated Gorilla Shaman"
+}
+
+(If the input is a number, the output will just be an object with the given seed as the 'seed' field.)
+ {
+"description" : "The Alien Plant Master is a strange and otherworldly being, known for its mastery over plant life. It can manipulate plants to grow at an accelerated rate or with unnatural properties. It's a peaceful creature but will defend itself against threats.",
 "power" : 35,
 "toughness" : 40,
 "speed" : 10,
 "energy" : 25,
-"monster_types" : "Octopus Steampunk",
+"monster_types" : "Alien Plant",
 "weakness" : "Fire",
-"immunity" : "Poison",
-"seed" : "Steampunk Octopus Healer Trainer"
+"immunity" : "Cold",
+"seed" : "Alien Plant Master"
 }
- {"description" : "A mischievous and agile goblin archer, this one carries quivers full of jelly beans instead of regular arrows. They can shoot their jelly projectiles with surprising accuracy.",
-    "power" : 3,
-    "toughness" : 1,
-    "speed" : 4,
-    "energy" : 0,
-    "monster_types" : "Goblin",
+ {"description" : "The Steampunk Griffin Engineer, also known as Greta, is a brilliant inventor and engineer. With the body of a griffin and the mind of an inventor, Greta can construct complex machines on the fly to turn the tide of battle. Her metallic feathers shimmer in the sunlight, reflecting her inner brilliance.",
+ "name" : "Greta",
+ "power" : 35,
+ "toughness" : 45,
+ "speed" : 28,
+ "energy" : 15,
+ "monster_types" : "Steampunk Griffin Engineer",
+ "weakness" : "Sonic Attacks",
+ "immunity" : "Fire",
+ "seed" : "Steampunk Griffin Engineer"
+ }
+ ["{\"description\" : \"The Shadowy Spectre Bard is a musical entity from the plane of shadows, capable of infusing its melodies with fear and despair to debuff enemies.\",\n\"name\" : \"Shadowy Spectre Bard\",\n\"power\" : 15,\n\"toughness\" : 8,\n\"speed\" : 20,\n\"energy\" : 12,\n\"monster_types\" : \"Spectre\",\n\"weakness\" : \"Light\",\n\"immunity\" : \"Physical Attacks\",\n\"seed\" : \"Shadowy Spectre Bard\"}",
+
+ "\ "]
+ {"description" : "The Giant Bear Monk is a massive, powerful and wise creature that roams the forest. It has mastered martial arts and can inflict heavy damage with its paws. Its size and strength make it a formidable opponent.",
+    "power" : 51,
+    "toughness" : 60,
+    "speed" : 3,
+    "energy" : 20,
+    "monster_types" : "Bear Monk",
     "weakness" : "Fire",
-    "seed" : "Jelly Bean Goblin Archer"
+    "seed" : "Giant Bear Monk"
     }
- {"description" : "The Techno Mantis Engineer is a cybernetic mantis with an intricate knowledge of technology and machinery. It can repair and build complex structures, as well as manipulate and control machines. Its mandibles are sharp and deadly, and it has the ability to shoot bolts of electrical energy.",
-    "name" : null,
-    "power" : 25,
-    "toughness" : 18,
-    "speed" : 17,
-    "energy" : 10,
-    "monster_types" : "Techno Mantis",
-    "weakness" : "Organic matter",
-    "immunity" : "Electrical damage",
-    "seed" : "Techno Mantis Engineer"
+ {"description" : "The Cybernetic Dragon Knight is a fearsome fusion of dragon and advanced cybernetics. It soars through the skies, wielding a mighty energy sword and protected by its indestructible armor. Its roar is enough to shake mountains.",
+     "name" : null,
+     "power" : 75,
+     "toughness" : 60,
+     "speed" : 35,
+     "energy" : 45,
+     "monster_types" : "Dragon Cyborg Knight",
+     "weakness" : "Magic",
+     "immunity" : "Physical Damage",
+     "seed" : "Cybernetic Dragon Knight"
     }
+ {"description" : "The Skeletal Necromancer is a master of the dark arts, able to raise undead minions to fight for him. His touch can turn the living into the dead.",
+ "name" : "Necromancer",
+ "power" : 45,
+ "toughness" : 25,
+ "speed" : 15,
+ "energy" : 30,
+ "monster_types" : "Undead Mage",
+ "weakness" : "Holy Damage",
+ "immunity" : "Poison and Toxins",
+ "seed" : "Skeletal Necromancer"
+ }
+ {"description" : "The Space Jellyfish Wiz is a cosmic entity with the power to manipulate space and time. It can create portals, teleport itself and others, and cast powerful spells. Its body consists of multiple layers of translucent jelly and it has tentacles that can extend for great distances.",
+ "name" : "Space Jellyfish Wiz",
+ "power" : 100,
+ "toughness" : 85,
+ "speed" : 20,
+ "energy" : 75,
+ "monster_types" : "Space Jellyfish Wizard",
+ "weakness" : "Physical attacks",
+ "immunity" : "Energy based attacks",
+ "seed" : "Space Jellyfish Wizard"
+ }
+ {"description" : "The Robot Samurai Commander is a highly advanced and powerful mechanical samurai, leading the army of robotic soldiers in the Castle of Iron Will. He can repair other robots and deal massive damage.",
+     "power" : 55,
+     "toughness" : 60,
+     "speed" : 20,
+     "energy" : 30,
+     "monster_types" : "Robot Samurai",
+     "weakness" : "Nuclear",
+     "immunity" : "Fire",
+     "seed" : "Robot Samurai Commander"
+     }
+ ["{\"description\" : \"The Electric Eel Summoner is a master of the aquatic realm, able to summon and control electric eels for devastating attacks. Its own electricity resistance makes it a formidable foe in watery environments.\",\n\"power\" : 25,\n\"toughness\" : 18,\n\"speed\" : 16,\n\"energy\" : 30,\n\"monster_types\" : \"Summoner\",\n\"weakness\" : \"Ice\",\n\"immunity\" : \"Electricity\",\n\"seed\" : \"Electric Eel Summoner\"}",
+
+ {"description" : "The summoned Electric Eel is a powerful and agile creature, able to deliver electric shocks with its powerful tails. It thrives in watery environments and is a formidable ally or enemy in underwater battles.\",\n\"power\" : 15,\n\"toughness\" : 12,\n\"speed\" : 20,\n\"energy\" : 10,\n\"monster_types\" : \"Eel\",\n\"weakness\" : \"Fire\",\n\"immunity\" : \"None\",\n\"seed\" : \"Electric Eel\"}\]
+    
+ Input\_prompt = Necromancer King
+
+ Output = {"description" : "The Necromancer King is an ancient and powerful undead sorcerer, wielding the dark powers of life and death. He commands legions of the undead, able to summon skeletons, zombies, and other nefarious creatures to do his bidding.\n\nPower: 65,\nToughness: 80,\nSpeed: 10,\nEnergy: 70,\nMonster Types: Necromancer,\nWeakness: Holy\",\nImmunity: \"Undead\",\nSeed: \"Necromancer King\"}
  {
-"description" : "The Rainbow Unicorn Paladin Witch is a magical creature with the powers of a unicorn, paladin, and witch. She rides on rainbows and shoots healing beams of magic from her horn. She is a fearless protector and healer.",
-"name" : "Rainbow Unicorn Paladin Witch",
-"power" : 75,
+"description" : "The Cave Troll Alchemist is a rare and dangerous variant of the common cave troll. This one has an advanced knowledge of alchemy, using potions and elixirs to enhance its own abilities or hinder those of its enemies.",
+"power" : 45,
 "toughness" : 60,
 "speed" : 15,
 "energy" : 35,
-"monster_types" : ["Unicorn", "Paladin", "Witch"],
-"weakness" : "Shadow",
-"immunity" : "Poison and Disease",
-"seed" : "Rainbow Unicorn Paladin Witch"
+"monster_types" : "Cave Troll",
+"weakness" : "Fire",
+"immunity" : "Poison and Toxic Gas",
+"seed" : "Cave Troll Alchemist"
 }
- {"description" : "The Fire Phoenix Monk Healer is a powerful and ancient creature with the ability to heal itself and others with its fiery breath. It can also inflict burn damage on enemies. Its agility makes it hard to hit.",
- "name" : "Fire Phoenix Monk Healer",
- "power" : 153,
- "toughness" : 78,
- "speed" : 40,
- "energy" : 25,
- "monster_types" : "Fire Bird Monk Healer",
+ ["Error in input: '58. Ice Cream Monster Warrior' is not a valid monster name.",
+ "Description": "",
+ "power": 0,
+ "toughness": 0,
+ "speed": 0,
+ "energy": 0,
+ "monster_types": "",
+ "weakness": "",
+ "immunity": "",
+ "seed": ""
+]
+ {"description" : "The Cybernetic Crab Sage is an ancient and wise crab with advanced technology integrated into its shell. It imparts knowledge of the tides and currents, and can manipulate water for combat or support. It's a guardian of maritime wisdom.",
+ "name" : "Cybernetic Crab Sage",
+ "power" : 32,
+ "toughness" : 59,
+ "speed" : 7,
+ "energy" : 18,
+ "monster_types" : "Crab Cyborg Sage",
+ "weakness" : "Fire",
+ "immunity" : "Plant and Temptation",
+ "seed" : "Cybernetic Crab Sage"
+ }
+ {"description" : "The Lava Golem Priestess is a fiery and relentless guardian of the molten depths. It can manipulate lava to attack and defend, and it's a skilled healer with powerful priests spells.",
+ "power" : 85,
+ "toughness" : 90,
+ "speed" : 10,
+ "energy" : 75,
+ "monster_types" : "Lava Golem",
  "weakness" : "Ice",
+ "immunity" : "Fire and Magma",
+ "seed" : "Lava Golem Priestess"
+ }
+ {"description" : "Starfish Samurai is an interdimensional marine warrior, trained in the ways of the starfish samurai school. It moves gracefully through water and can summon tidal waves for devastating attacks.",
+     "power" : 50,
+     "toughness" : 42,
+     "speed" : 15,
+     "energy" : 35,
+     "monster_types" : "Starfish",
+     "weakness" : "Fire",
+     "seed" : "Starfish Samurai"
+    } (If the input is a number, it will be assumed to be the name of a monster with a prefix "Numeric Value" added to its name)
+ {"description" : "The Mechanical Dragon Engineer is a master craftsman of gears and metal, able to construct intricate machines and repair even the most damaged mechanical beasts. They are neutral in combat but can turn the tide with their inventions.",
+ "power" : 12,
+ "toughness" : 15,
+ "speed" : 8,
+ "energy" : 30,
+ "monster_types" : "Mechanic",
+ "weakness" : "Fire",
+ "immunity" : "Electricity and Poison",
+ "seed" : "Mechanical Dragon Engineer"
+ }
+ {"description" : "A highly advanced and deadly Robot Ninja, built for combat and stealth. It's programmed to be relentless in battle and is capable of adapting to new situations.",
+     "power" : 50,
+     "toughness" : 32,
+     "speed" : 17,
+     "energy" : 15,
+     "monster_types" : "Robot",
+     "weakness" : "Fire",
+     "seed" : "Robot Ninja"
+     }
+ {"description" : "The Ghostly Phantom Summoner is a wraith with the power to summon other spirits and ghosts. Its haunting scream can leave even the bravest adventurers paralyzed with fear.",
+     "name" : "Ghostly Phantom Summoner",
+     "power" : 45,
+     "toughness" : 35,
+     "speed" : 10,
+     "energy" : 50,
+     "monster_types" : "Undead Wraith",
+     "weakness" : "Banishing",
+     "immunity" : "Physical Attacks",
+     "seed" : "Ghostly Phantom Summoner"
+     }
+ {"description" : "The Steampunk Gryphon Engineer is a heavily armored, flying machine of war. With a keen intellect and incredible mechanical prowess, it can repair and build complex machines on the fly. Its gatling gun is its primary weapon, but it also has the ability to breathe fire. It is a rare sight in the world.",
+     "power" : 85,
+     "toughness" : 70,
+     "speed" : 35,
+     "energy" : 60,
+     "monster_types" : "Steampunk Gryphon",
+     "weakness" : "Explosives",
+     "immunity" : "Poison and Fire",
+     "name" : "Steampunk Gryphon Engineer",
+     "seed" : "SteampunkGryphonEngineer"
+    }
+ {"description" : "The Ice Cream Monster - Sundae Healer - is a unique and mysterious creature, capable of healing other monsters with its creamy delights. It moves slowly but steadily, leaving a trail of sweetness behind.",
+    "power" : 10,
+    "toughness" : 25,
+    "speed" : 10,
+    "energy" : 30,
+    "monster_types" : "Ice Cream",
+    "weakness" : "Fire",
+    "seed" : "Ice Cream Monster Healer"
+    }
+ {"description" : "The Mutated Spider Queen is a grotesque and terrifying spider, with large fangs, multiple eyes, and the ability to shoot webs that can ensnare entire areas. Her venomous bite is lethal to most creatures.",
+ "power" : 75,
+ "toughness" : 90,
+ "speed" : 12,
+ "energy" : 30,
+ "monster_types" : "Spider",
+ "weakness" : "Fire",
+ "immunity" : "Cold",
+ "seed" : "Mutated Spider Queen"
+ }
+ {"description" : "The Cybernetic Chimera is a mechanical terror that has evolved from the fusion of multiple creatures. Its body is a combination of cybernetics and biological components, making it a formidable opponent in battle. Its three heads represent its agility, strength, and intelligence.",
+     "power" : 68,
+     "toughness" : 55,
+     "speed" : 45,
+     "energy" : 20,
+     "monster_types" : "Cybernetic Chimera",
+     "weakness" : "Organic Attacks",
+     "immunity" : "Technology Malfunctions",
+     "seed" : "Cybernetic Chimera Warrior"
+    }
+ {"description" : "The Robot Knight Commander, model number 69, is a master of battle strategy and leads the robotic army to victory. It has multiple weapons and defensive systems.",
+    "power" : 50,
+    "toughness" : 40,
+    "speed" : 15,
+    "energy" : 30,
+    "monster_types" : "Robot",
+    "weakness" : "Fire",
+    "seed" : "Robot Knight Commander"}
+ {"description" : "The Skeleton Archer Queen is a powerful and commanding skeleton, leading an army of undead archers. She excels in ranged combat and has a high energy reserve to keep her troops firing.",
+ "name" : "Queen of the Bones",
+ "power" : 35,
+ "toughness" : 12,
+ "speed" : 6,
+ "energy" : 40,
+ "monster_types" : "Skeleton Archer Queen",
+ "weakness" : "Fire",
+ "immunity" : "Poison and Disease",
+ "seed" : "Skeleton Archer Queen"
+ }
+ {"description" : "The Electric Eel Sage is a mystic eel who can harness the power of electricity from its environment. It uses this ability to stun opponents and heal itself. It's known for its wisdom and knowledge, often providing guidance to other creatures in its waters.",
+ "name" : "Electric Eel Sage",
+ "power" : 35,
+ "toughness" : 15,
+ "speed" : 25,
+ "energy" : 30,
+ "monster_types" : "Sage, Electric Eel",
+ "weakness" : "Fire",
  "immunity" : "Poison and Paralysis",
- "seed" : "Fire Phoenix Monk Healer"
+ "seed" : "Electric Eel Sage"
+ }
+ {"description" : "The Space Jellyfish Engineer is a mysterious and intelligent being from outer space. It uses its tentacles to construct complex machines and gadgets, making it an essential ally for any adventurer in need of advanced technology. The Engineer's bioluminescent nature makes it a sight to behold in the darkest corners of the universe.",
+ "power" : 35,
+ "toughness" : 18,
+ "speed" : 20,
+ "energy" : 45,
+ "monster_types" : "Space Jellyfish",
+ "weakness" : "Sonic Waves",
+ "immunity" : "Electricity",
+ "seed" : "Space Jellyfish Engineer",
+ "name" : "Engineer"
  }
  {
-"description" : "The Cryomancer Snowman Sage is a rare and powerful snowman with the ability to manipulate ice and snow. He uses his powers for both offense and defense. He is also a wise sage who provides guidance to those in need.",
+"description" : "Lava Golem Samurai is a deadly fusion of ancient samurai combat skills and molten lava. With each strike, it leaves a trail of destruction and pain.",
+"name" : null,
+"power" : 45,
+"toughness" : 52,
+"speed" : 13,
+"energy" : 35,
+"monster_types" : "Lava Golem Samurai",
+"weakness" : "Ice",
+"immunity" : "Fire",
+"seed" : "73. Lava Golem Samurai"
+}
+ ["{\"description\" : \"The Crystal Golem Knight is a powerful and majestic knight made entirely out of shimmering crystal. It wields a giant crystal sword and shield, and it can infuse its attacks with powerful energy blasts.\",\n" +
+ "\ "name\" : \"Crystal Golem Knight\",\n" +
+ "\ "power\" : 85,\n" +
+ "\ "toughness\" : 72,\n" +
+ "\ "speed\" : 13,\n" +
+ "\ "energy\" : 60,\n" +
+ "\ "monster_types\" : \"Crystal Golem Knight\",\n" +
+ "\ "weakness\" : \"Ice\",\n" +
+ "\ "immunity\" : \"Fire\",\n" +
+ "\ "seed\" : \"74. Crystal Golem Knight\"}"
+]
+ {"description" : "The 75 Starfish Necromancer is a marine necromancer of great power and age. It can control the dead starfish and coral reefs around it, creating complex underwater structures that serve as its lair. It has a powerful grasp and can paralyze prey with a touch.",
+ "name" : "Star Necro",
+ "power" : 50,
+ "toughness" : 60,
+ "speed" : 15,
+ "energy" : 35,
+ "monster_types" : "Necromancer Starfish",
+ "weakness" : "Fire and Bright Light",
+ "immunity" : "Cold",
+ "seed" : "Starfish Necromancer"
+ }
+ {"description" : "Robot Samurai Apprentice is a young and eager learner in the art of robot samurai combat. It follows its programming with unwavering dedication, but lacks the experience and finesse of a seasoned warrior.",
+    "power" : 35,
+    "toughness" : 25,
+    "speed" : 17,
+    "energy" : 20,
+    "monster_types" : "Robot Samurai",
+    "weakness" : "Organic Materials",
+    "immunity" : "Poison and Radiation",
+    "seed" : "Robot Samurai Apprentice"
+    }
+ {"description" : "A massive, mutated T-Rex with an insatiable hunger for destruction. Its scaled body is covered in rough, scaly skin and its eyes glow with a sinister intelligence.",
+     "power" : 92,
+     "toughness" : 135,
+     "speed" : 60,
+     "energy" : 75,
+     "monster_types" : "Dinosaur",
+     "weakness" : "Freezing temperatures and tranquilizers",
+     "immunity" : "Fire",
+     "seed" : "Mutated T-Rex"
+    }
+ {"description" : "The Alien Plant Warrior is a mysterious, sentient plant from another planet. It has the ability to absorb sunlight and convert it into energy, making it a formidable opponent in battle. Its vines can ensnare enemies and its roots can manipulate terrain.",
+     "power" : 67,
+     "toughness" : 85,
+     "speed" : 15,
+     "energy" : 42,
+     "monster_types" : "Alien Plant",
+     "weakness" : "Fire",
+     "immunity" : "Cold and Poison",
+     "seed" : "Alien Plant Warrior"
+    }
+ {"description" : "The Steampunk Manticore Sage is a legendary monster with a rich history and vast knowledge in the field of engineering and alchemy. Its body is adorned with intricate gears and steam pipes, making it a fearsome sight to behold.
+    With its sharp claws, powerful jaws, and tail spikes, this steampunk creature can deal significant damage. Its sage-like abilities allow it to manipulate metal and create complex machines on the fly.",
+    "name" : "Steampunk Manticore Sage",
+    "power" : 65,
+    "toughness" : 80,
+    "speed" : 25,
+    "energy" : 45,
+    "monster_types" : "Steampunk Manticore",
+    "weakness" : "Fire",
+    "immunity" : "Poison and Disease",
+    "seed" : "Steampunk Manticore Sage"
+    }
+ {"description" : "The Ghostly Phantom Ranger is an ethereal and elusive ranger, capable of passing through solid objects and appearing as a mere wisp of mist. He specializes in sneak attacks and has the ability to become invisible at will. His weapon of choice is a spectral crossbow that shoots bolts of raw energy.",
+    "name" : "Ghostly Phantom Ranger",
+    "power" : 35,
+    "toughness" : 18,
+    "speed" : 42,
+    "energy" : 30,
+    "monster_types" : "Ghostly Spectre Ranger",
+    "weakness" : "Physical attacks",
+    "immunity" : "Poison and Fear",
+    "seed" : "Ghostly Phantom Ranger"
+    }
+ {"description" : "The Ice Cream Monster - Professor Brain Freeze - is an obsessed scientist who specializes in creating new and exotic ice cream flavors. He has the ability to manipulate temperature and texture of his own body to create different ice creams on demand.",
+ "power" : 25,
+ "toughness" : 18,
+ "speed" : 15,
+ "energy" : 30,
+ "monster_types" : "Ice Cream Scientist",
+ "weakness" : "Fire",
+ "immunity" : "Heat",
+ "seed" : "81. Ice Cream Monster Scientist"
+ }
+ {
+"description" : "The Cybernetic Dragon Necromancer, codenamed '82', is a powerful undead dragon infused with advanced cybernetics. It has the ability to raise and control an army of undead minions. Its breath weapon consists of toxic energy bolts, and it's immune to most forms of magic.",
+"name" : "82",
+"power" : 100,
+"toughness" : 95,
+"speed" : 35,
+"energy" : 80,
+"monster_types" : "Cybernetic Dragon Necromancer",
+"weakness" : "Holy Damage",
+"immunity" : "Fire and Magic",
+"seed" : "Cybernetic Dragon Necromancer"
+}
+ {"description" : "An apprentice robot ninja, programmed for stealth and agility. It is still undergoing training and has not yet reached its full potential.",
+    "power" : 15,
+    "toughness" : 20,
+    "speed" : 30,
+    "energy" : 10,
+    "monster_types" : "Robot Ninja",
+    "weakness" : "Fire",
+    "seed" : "Robot Ninja Apprentice"
+    }
+ {"description" : "The Lava Golem Summoner is a malevolent sorcerer who can summon and control multiple Lava Golems. His power lies in his ability to manipulate lava, creating traps and obstacles for enemies. He is relentless in battle.",
+     "power" : 65,
+     "toughness" : 80,
+     "speed" : 15,
+     "energy" : 35,
+     "monster_types" : "Lava Sorcerer",
+     "weakness" : "Ice",
+     "immunity" : "Fire",
+     "summons" : [{"name" : "Lava Golem", "description" : "A hulking, molten creature made of liquid rock and magma. It moves slowly but deals heavy damage to those who approach it.", "power" : 20, "toughness" : 35, "speed" : 10, "energy" : 0}],
+     "seed" : "Lava Golem Summoner"
+    }
+ {"description" : "The Crystal Golem Healer is a specialized golem that has been imbued with the power of healing and regeneration. It uses its crystalline structure to absorb energy from its surroundings and channel it into healing spells for its allies.",
+ "power" : 25,
+ "toughness" : 80,
+ "speed" : 15,
+ "energy" : 60,
+ "monster_types" : "Crystal Golem",
+ "weakness" : "Fire",
+ "immunity" : "Poison and Paralysis",
+ "healing" : true,
+ "seed" : "Crystal Golem Healer"
+ }
+ {"description" : "The Starfish Archers are an unusual and mysterious marine life, armed with sharp-tipped arrows made of calcified coral and seaweed. They have an excellent sense of direction and are known to be skilled marksmen.",
+     "power" : 15,
+     "toughness" : 32,
+     "speed" : 8,
+     "energy" : 7,
+     "monster_types" : "Starfish",
+     "weakness" : "Physical attacks",
+     "seed" : "Starfish Archer"
+     }
+ {"description" : "The Mechanical Gryphon - Sagacious Scylla - is an ancient and powerful sage who has fused herself with a mechanical gryphon. She is the keeper of knowledge in the Technomancy Tower of Aetheria. She can manipulate machinery and technology, and her keen intellect solves even the most complex problems.",
+ "name" : "Sagacious Scylla",
+ "power" : 105,
+ "toughness" : 87,
+ "speed" : 42,
+ "energy" : 63,
+ "monster_types" : "Mechanical Gryphon Sage",
+ "weakness" : "Organic",
+ "immunity" : "Electromagnetic Pulses and Toxins",
+ "seed" : "87. Mechanical Gryphon Sage"
+ }
+ {"description" : "The 88. Robot Samurai Master is a legendary master of the ancient art of robotics and martial arts. It can repair itself in battle and call forth smaller robotic minions to aid it. Its attacks are swift and precise, making it a formidable opponent.",
+ "name" : "Robot Samurai Master",
+ "power" : 88,
+ "toughness" : 95,
+ "speed" : 15,
+ "energy" : 60,
+ "monster_types" : "Robot Samurai",
+ "weakness" : "Ice",
+ "immunity" : "Poison and Electrical Damage",
+ "seed" : "Robot Samurai Master"
+ }
+ {"description" : "The Mutated Kraken is a monstrous sea creature that has undergone an unusual mutation, giving it additional power and abilities. It can control the water around it and unleash devastating attacks.",
+ "power" : 100,
+ "toughness" : 95,
+ "speed" : 20,
+ "energy" : 80,
+ "monster_types" : "Kraken",
+ "weakness" : "Thunderbolt",
+ "immunity" : "Poison and Paralysis",
+ "seed" : "Mutated Kraken"
+ }
+ {"description" : "The Alien Plant Priestess is an otherworldly being that resembles a giant plant with sentient capabilities. It has the ability to manipulate growth and absorb energy from nearby sources. Its soothing presence can heal allies.",
+     "power" : 35,
+     "toughness" : 45,
+     "speed" : 10,
+     "energy" : 50,
+     "monster_types" : "Plant Alien",
+     "weakness" : "Fire",
+     "immunity" : "Cold and Darkness",
+     "seed" : "Alien Plant Priestess"
+     }
+ {"description" : "The Steampunk Manticore - War Machination - is a heavily armored and deadly Steampunk version of the mythical creature, the Manticore. It attacks with its flamethrower tail and steam-powered claws. It is a fearsome sight in battle.",
+ "name" : "War Machination",
+ "power" : 85,
+ "toughness" : 90,
+ "speed" : 15,
+ "energy" : 30,
+ "monster_types" : "Steampunk Manticore",
+ "weakness" : "Ice",
+ "immunity" : "Poison and Temptation",
+ "seed" : "Steampunk Manticore Warrior"
+ }
+ {"description" : "The Ghostly Phantom Monk is a spectral entity, shrouded in an ethereal mist. It moves silently and swiftly, striking fear into the hearts of its enemies with just its presence. Its monk training allows it to harness its own energy and channel it into devastating blows.",
+ "name" : "Ghostly Phantom Monk",
+ "power" : 25,
+ "toughness" : 10,
+ "speed" : 30,
+ "energy" : 20,
+ "monster_types" : "Ghostly Spectre Monk",
+ "weakness" : "Physical attacks",
+ "immunity" : "Energy based attacks and Mind Control",
+ "seed" : "Ghostly Phantom Monk"
+ }
+ {
+"description" : "The 93. Ice Cream Monster Knight is a unique and powerful creature, renowned for its sweet demeanor and formidable combat abilities. It wields an ice cream trident and wears a suit of armor made from frozen desserts.",
+"name" : null,
+"power" : 35,
+"toughness" : 60,
+"speed" : 18,
+"energy" : 25,
+"monster_types" : "Ice Cream Knight",
+"weakness" : "Fire",
+"immunity" : "Cold",
+"seed" : "93. Ice Cream Monster Knight"
+}
+ {"description" : "The Cybernetic Dragon Ranger, with the code name 'Dragonator', is a legendary cybergised dragon that roams the lands in search of new technologies to add to his repertoire. His powerful breath attack can be customized depending on his latest upgrades.",
+ "name" : "Dragonator",
+ "power" : 105,
+ "toughness" : 90,
+ "speed" : 60,
+ "energy" : 80,
+ "monster_types" : "Cybernetic Dragon",
+ "weakness" : "Ice and Holy",
+ "immunity" : "Fire",
+ "seed" : "Cybernetic Dragon Ranger"
+ }
+ {"description" : "The Robot Ninja Master is a highly advanced and deadly mechanical samurai. With superior strength, speed, and agility, this ninja is a force to be reckoned with. Its blades are sharp and its defenses are impenetrable.",
+     "power" : 50,
+     "toughness" : 48,
+     "speed" : 23,
+     "energy" : 17,
+     "monster_types" : "Robot Ninja",
+     "weakness" : "Organic matter",
+     "immunity" : "Fire",
+     "seed" : "Robot Ninja Master"
+    }
+ {"description" : "The Lava Golem Archer is a destructive force of nature, wielding a powerful bow and shooting molten rocks from its eyes. It moves slowly but relentlessly towards its target.",
+     "power" : 50,
+     "toughness" : 60,
+     "speed" : 15,
+     "energy" : 20,
+     "monster_types" : "Lava Golem",
+     "weakness" : "Water",
+     "seed" : "Lava Golem Archer"
+     }
+ {"description" : "The Crystal Golem Summoner is a powerful mage who can summon and control multiple Crystal Golems. They are masters of elemental manipulation, especially water and earth.",
+     "power" : 35,
+     "toughness" : 28,
+     "speed" : 10,
+     "energy" : 45,
+     "monster_types" : "Golem Mage",
+     "weakness" : "Fire",
+     "immunity" : "Cold and Poison",
+     "seed" : "Crystal Golem Summoner",
+     "summoned_creatures" : [{"name" : "Crystal Golem", "power" : 12, "toughness" : 15, "speed" : 3, "energy" : 0, "seed" : "Crystal Golem"},
+                           {"name" : "Crystal Golem", "power" : 12, "toughness" : 15, "speed" : 3, "energy" : 0, "seed" : "Crystal Golem"},
+                           {"name" : "Crystal Golem", "power" : 12, "toughness" : 15, "speed" : 3, "energy" : 0, "seed" : "Crystal Golem"}]
+    }
+ {"error" : "Invalid input: '98. Starfish Priestess' is not a valid monster name."}
+
+Or, if you want to generate a random Starfish Priestess:
+
+{"description" : "The Starfish Priestess is a strange and otherworldly creature from the deep oceans. It has the power to manipulate water currents and can communicate with other starfish. It is said that it holds ancient knowledge and grants wishes to those who are pure of heart.",
+"power" : 15,
+"toughness" : 20,
+"speed" : 3,
+"energy" : 25,
+"monster_types" : "Starfish",
+"weakness" : "Fire",
+"immunity" : "Cold",
+"name" : "Starfish Priestess",
+"seed" : "StarfishPriestess"
+}
+ {
+"description" : "The Mechanical Griffon Healer is a rare and advanced mechanical creation, designed for healing and support. It has the ability to repair allies and debuff enemies. Its mechanized wings grant it impressive maneuverability.",
 "name" : null,
 "power" : 25,
 "toughness" : 35,
-"speed" : 10,
+"speed" : 28,
 "energy" : 15,
-"monster_types" : "Snowman Cryomancer",
+"monster_types" : "Mechanical Griffon",
 "weakness" : "Fire",
-"immunity" : "Fire",
-"seed" : "Cryomancer Snowman Sage"
+"immunity" : "Poison and Disease",
+"seed" : "Mechanical Griffon Healer"
 }
-
-(Since the input prompt does not contain a name for this monster, I have assigned it a null value for the 'name' field.)
- {"description" : "A skilled trainer and hunter of Dino-Birds of Prey, this warrior is a force to be reckoned with. They can call upon their loyal mounts for assistance in battle.",
+ ["Error in input: '100' is not a valid monster name or description.",
+ "Output for valid input would look like:",
+ {
+ "description" : "The Robot Samurai Sage is an ancient and powerful robot with the wisdom of centuries. It is armed with a deadly samurai sword and can impart valuable knowledge to those worthy.",
+ "name" : "Robot Samurai Sage",
  "power" : 50,
- "toughness" : 35,
- "speed" : 40,
- "energy" : 15,
- "monster_types" : "Dino-Bird Trainer Warrior",
- "weakness" : "Cold",
- "seed" : "Dino-Bird of Prey Trainer Warrior"
+ "toughness" : 70,
+ "speed" : 10,
+ "energy" : 30,
+ "monster_types" : "Robot Samurai",
+ "weakness" : "Fire",
+ "immunity" : "Mind Control and Temptation",
+ "seed" : "Robot Samurai Sage"
  }
- ["{\"description\" : \"The Lava Gargoyle Engineer Scientist Mummy Sorceress is an ancient and powerful being with a unique blend of engineering, scientific, and sorcerous abilities. It can construct complex machines from lava and conjure fiery illusions to confuse enemies. Its mummified form makes it highly resistant to damage.\",\n" +
- "\"name\" : \"LGMSMS\",\n" +
- "\"power\" : 60,\n" +
- "\"toughness\" : 85,\n" +
- "\"speed\" : 10,\n" +
- "\"energy\" : 25,\n" +
- "\"monster_types\" : [\"Lava Gargoyle\", \"Engineer Scientist\", \"Mummy\", \"Sorceress\"],\n" +
- "\"weakness\" : [\"Ice\", \"Water\"],\n" +
- "\"immunity\" : [\".None.\"],\n" +
- "\"seed\" : \"156. Lava Gargoyle Engineer Scientist Mummy Sorceress\"\n"},\n" +
- {"description" : \"Just another basic lava gargoyle, nothing to see here\",\n" +
- "\"power\" : 30,\n" +
- "\"toughness\" : 50,\n" +
- "\"speed\" : 8,\n" +
- "\"energy\" : 10,\n" +
- "\"monster_types\" : \"Lava Gargoyle\",\n" +
- "\"weakness\" : [\"Ice\", \"Water\"],\n" +
- "\"seed\" : \"Lava Gargoyle\"\n"}]
- {"description" : "The Ghostly Phantom Chef Warrior is a spectral entity that haunts the battlefield, wielding ancient cooking techniques as deadly weapons. Its spectral form allows it to pass through solid objects and strike from unexpected angles.",
- "name" : "Ghostly Phantom Chef Warrior",
- "power" : 35,
- "toughness" : 12,
- "speed" : 40,
- "energy" : 20,
- "monster_types" : "Ghostly Spectral",
- "weakness" : "Bright Light",
- "immunity" : "Physical Damage",
- "seed" : "Ghostly Phantom Chef Warrior"
+]
+ {
+"description" : "The Mutated Ankylosaurus is a prehistoric beast with an unusual mutation that makes it even more dangerous. Its tail now has a large, sharp spike on the end and its armor plates are thicker and more pronounced.",
+"power" : 72,
+"toughness" : 90,
+"speed" : 5,
+"energy" : 25,
+"monster_types" : "Ankylosaurus",
+"weakness" : "Fire",
+"seed" : "Mutated Ankylosaurus"
+}
+ {
+"description" : "The Alien Plant Warrior Queen is a colossal, intelligent and fierce alien plant that rules over its kind. It can manipulate plants to grow thorns, vines or tendrils as weapons, and it has the ability to absorb energy from its surroundings. Its roar is deafening and can knock nearby opponents off their feet.",
+"name" : "Queen Florax",
+"power" : 105,
+"toughness" : 98,
+"speed" : 6,
+"energy" : 85,
+"monster_types" : "Alien Plant",
+"weakness" : "Fire",
+"immunity" : "Poison and Psychic",
+"seed" : "Alien Plant Warrior Queen"
+}
+ {"description" : "The Steampunk Gryphon Knight is a mechanical wonder, a fusion of gears and feathers. It's a fierce combatant that can soar through the skies or traverse rugged terrain. Its powerful claws can rend steel as easily as it crushes bone.",
+    "name" : null,
+    "power" : 85,
+    "toughness" : 70,
+    "speed" : 35,
+    "energy" : 50,
+    "monster_types" : "Steampunk Gryphon",
+    "weakness" : "Electricity",
+    "immunity" : "Poison and Toxic Gas",
+    "seed" : "Steampunk Gryphon Knight"
+    }
+ {"description" : "The Ghostly Phantom Scientist is a rare and enigmatic creature, half ghost and half scientist. It haunts laboratories and ancient libraries, seeking knowledge and experimentation. Its ethereal touch can disrupt electronic devices and its moans can disrupt mental focus.",
+     "power" : 12,
+     "toughness" : 6,
+     "speed" : 15,
+     "energy" : 8,
+     "monster_types" : "Ghost Phantom Scientist",
+     "weakness" : "Bright Light",
+     "immunity" : "Physical Damage",
+     "seed" : "Ghostly Phantom Scientist"
+     }
+ ["Error in input: '105. Ice Cream Monster Summoner' is not a valid monster name.",
+ "Description": "",
+ "Power": 0,
+ "Toughness": 0,
+ "Speed": 0,
+ "Energy": 0,
+ "MonsterTypes": [],
+ "Weakness": [],
+ "Immunity": [],
+ "Seed": ""
+]
+ {"description" : "The Cybernetic Dragon Healer is a rare and powerful dragon, infused with advanced technology. It has the ability to heal allies with its powerful beam attacks and can absorb energy from surrounding sources to recharge. It is often found guarding technological sanctums.",
+ "name" : "Cybernetic Healer Dragon",
+ "power" : 90,
+ "toughness" : 85,
+ "speed" : 15,
+ "energy" : 70,
+ "monster_types" : "Dragon Cyborg",
+ "weakness" : "Physical attacks",
+ "immunity" : "Magic",
+ "seed" : "Cybernetic Dragon Healer"
+ }
+ {"description" : "A robotic ninja apprentice, fresh from the assembly line and eager to prove itself. It is still learning the ways of the ninja but is already showing great potential.",
+    "power" : 13,
+    "toughness" : 9,
+    "speed" : 15,
+    "energy" : 6,
+    "monster_types" : "Robot Ninja",
+    "weakness" : "Electromagnetic Pulse",
+    "seed" : "Robot Ninja Apprentice"
+    }
+ {
+"description" : "The Lava Golem Archer King is a colossal and cunning golem, wielding a deadly bow made from volcanic rock. It can control magma flows and summon smaller lava golems to do its bidding.",
+"name" : "Archer King",
+"power" : 82,
+"toughness" : 105,
+"speed" : 6,
+"energy" : 78,
+"monster_types" : "Lava Golem Archer",
+"weakness" : "Ice",
+"immunity" : "Fire",
+"seed" : "Lava Golem Archer King"
+}
+ {"description" : "The Crystal Golem Knight Queen is a magnificent and powerful creature made entirely of crystal. She is the queen of all golems and is a formidable warrior, able to wield powerful magic and summon smaller crystalline minions.",
+ "name" : "Crystal Golem Knight Queen",
+ "power" : 150,
+ "toughness" : 200,
+ "speed" : 10,
+ "energy" : 80,
+ "monster_types" : "Crystal Golem Knight",
+ "weakness" : "Ice",
+ "immunity" : "Fire",
+ "seed" : "Crystal Golem Knight Queen"
+ }
+ {"description" : "Starfish Samurai Master is a legendary being, an ancient starfish warrior from the depths of the sea. He wields a trident as his primary weapon and can control the tides. He is a wise and respected leader among his kind.",
+ "name" : "Starfish Samurai Master",
+ "power" : 150,
+ "toughness" : 120,
+ "speed" : 10,
+ "energy" : 100,
+ "monster_types" : "Starfish Samurai",
+ "weakness" : "Fire",
+ "immunity" : "Water",
+ "seed" : "Starfish Samurai Master"
  }
  {
-"description" : "The Mecha Mantis Healer Trainer Sorceress is a formidable mechanical arthropod with advanced healing and training abilities. She can repair and upgrade nearby machines, as well as cast powerful offensive and defensive spells.",
+"description" : "The Mechanical Gryphon Summoner is a mechanical construct with the ability to summon mechanical gryphons to do its bidding. It is relentless in its pursuit of knowledge and technology.",
+"power" : 50,
+"toughness" : 45,
+"speed" : 35,
+"energy" : 30,
+"monster_types" : "Construct Mechanical Gryphon",
+"weakness" : "Magic",
+"immunity" : "Fire",
+"seed" : "Mechanical Gryphon Summoner"
+}
+ {"description" : "The 112. Robot Samurai Sage Master is an ancient and wise master of robotics and martial arts. He is a formidable warrior, capable of summoning mechanical samurais to aid him in battle. His sage-like wisdom grants him the ability to manipulate time and space within his vicinity.",
+ "name" : "Robot Samurai Sage Master",
+ "power" : 50,
+ "toughness" : 75,
+ "speed" : 15,
+ "energy" : 45,
+ "monster_types" : "Robot Samurai Sage",
+ "weakness" : "Magic",
+ "immunity" : "Physical attacks",
+ "seed" : "Robot Samurai Sage Master"
+ }
+ {
+"description" : "The Mutated Triceratops is a monstrous beast with three horns, each one mutated to an alarming size and shape. Its body is covered in thick scaly plates and it has a powerful tail, used as a deadly weapon. It's known to be aggressive and territorial.",
+"power" : 87,
+"toughness" : 125,
+"speed" : 14,
+"energy" : 35,
+"monster_types" : "Triceratops",
+"weakness" : "Ricochet Shot and Freeze Ray",
+"seed" : "Mutated Triceratops"
+}
+ {"description" : "The Alien Plant Mage is a strange and otherworldly being, a sentient plant with the ability to manipulate flora around it, as well as casting various elemental spells. Its origins are unknown.",
+ "power" : 15,
+ "toughness" : 32,
+ "speed" : 6,
+ "energy" : 20,
+ "monster_types" : "Alien Plant",
+ "weakness" : "Fire",
+ "immunity" : "Poison and Disease",
+ "seed" : "Alien Plant Mage"
+ }
+
+ (Note: Since the input prompt is a number, I assumed it represents a seed for generating a monster with a random name, but since you didn't specify otherwise, I followed the convention of providing a named legendary monster half the time. If you want consistent non-named monsters, just provide the base type.)
+ {
+"description" : "The Steampunk Manticore - Remedy - is a rare healing steampunk manticore, known for its ability to mend and restore damaged machinery and creatures. Its fiery breath can also be used as a powerful healing balm.",
+"name" : "Remedy",
+"power" : 25,
+"toughness" : 45,
+"speed" : 18,
+"energy" : 30,
+"monster_types" : "Steampunk Manticore Healer",
+"weakness" : "Ice and Magnetic",
+"immunity" : "Poison",
+"seed" : "Steampunk Manticore Healer"
+}
+ {"description" : "The Ghostly Phantom Warrior is a powerful undead entity, shrouded in an ethereal mist. It is said that once a great warrior in life, it now haunts the battlefield, seeking vengeance against those who dare to trespass.",
+ "name" : "Ghostly Phantom Warrior",
+ "power" : 50,
+ "toughness" : 32,
+ "speed" : 15,
+ "energy" : 30,
+ "monster_types" : "Ghostly Spectre Warrior",
+ "weakness" : "Bright Light",
+ "immunity" : "Physical Attacks",
+ "seed" : "Ghostly Phantom Warrior"
+ }
+ {
+"description" : "The number 117 is an enigma, but it has manifested as an Ice Cream Monster Archer. It shoots icy projectiles and can create temporary ice barriers.",
+"power" : 32,
+"toughness" : 15,
+"speed" : 25,
+"energy" : 15,
+"monster_types" : "Ice Cream Archer",
+"weakness" : "Fire",
+"immunity" : "Cold",
+"seed" : "117. Ice Cream Monster Archer"
+}
+ {"description" : "The Cybernetic Dragon Ranger is a high-tech, genetically enhanced dragon with advanced combat training. Equipped with a plasma cannon and a powerful energy shield, it's ready to bring down any foe. Its cybernetic enhancements also grant it extraordinary speed and agility.",
+    "name" : "Cybernetic Dragon Ranger",
+    "power" : 75,
+    "toughness" : 60,
+    "speed" : 40,
+    "energy" : 30,
+    "monster_types" : "Dragon Cyborg Soldier",
+    "weakness" : "Ice and Magic attacks",
+    "immunity" : "Poison and Paralysis",
+    "seed" : "Cybernetic Dragon Ranger"
+    }
+ {"description" : "The 119th Robot Ninja Apprentice is a skilled warrior in training, specializing in stealth and precision attacks. Its metallic body offers both protection and unique abilities.",
+     "power" : 15,
+     "toughness" : 30,
+     "speed" : 25,
+     "energy" : 12,
+     "monster_types" : "Robot Ninja",
+     "weakness" : "Fire",
+     "immunity" : "Poison",
+     "seed" : "Robot Ninja Apprentice"
+    }
+ {
+"description" : "The Lava Golem Knight is a mighty and relentless warrior made entirely of living lava. Its armor is a thick, viscous, molten substance that makes it nearly impervious to physical attacks. It wields a fiery mace and is immune to fire damage.",
+"power" : 95,
+"toughness" : 105,
+"speed" : 7,
+"energy" : 30,
+"monster_types" : "Lava Golem",
+"weakness" : "Cold and Water",
+"immunity" : "Fire",
+"seed" : "Lava Golem Knight"
+}
+ {"description" : "The Crystal Golem Summoner Queen is a legendary entity, known for her mastery over the creation and summoning of crystalline constructs. Her presence brings forth an ever-shifting terrain of sparkling mineral formations, which can be harnessed for various purposes.",
+ "name" : "Summoner Queen",
+ "power" : 75,
+ "toughness" : 120,
+ "speed" : 3,
+ "energy" : 60,
+ "monster_types" : "Golem Summoner",
+ "weakness" : "Solar Energy",
+ "immunity" : "Mental and Physical Attacks",
+ "seed" : "Crystal Golem Summoner Queen",
+ "summoned_monsters" : [
+ {
+ "description" : "A Crystal Golem is a construct made of interconnected crystals, each one containing powerful enchantments. It can be summoned to protect, support, or serve as a barrier.",
+ "power" : 30,
+ "toughness" : 75,
+ "speed" : 2,
+ "energy" : 10,
+ "monster_types" : "Golem",
+ "weakness" : "Solar Energy",
+ "immunity" : "Mental and Physical Attacks"
+ },
+ {
+ "description" : "A Crystal Sentry is a more aggressive variant of the Crystal Golem. It can be summoned to hunt down and eliminate threats.",
+ "power" : 45,
+ "toughness" : 90,
+ "speed" : 4,
+ "energy" : 15,
+ "monster_types" : "Golem Sentry",
+ "weakness" : "Solar Energy",
+ "immunity" : "Mental and Physical Attacks"
+ }]
+}
+ {"description" : "The Starfish Healer is a unique and mysterious creature from the depths of the ocean. It has the ability to heal other creatures and itself, making it a valuable asset in any environment. Its star-shaped body is covered in small, pulsating stars that glow softly.",
+    "power" : 12,
+    "toughness" : 25,
+    "speed" : 8,
+    "energy" : 20,
+    "monster_types" : "Starfish",
+    "weakness" : "None known",
+    "immunity" : "Poison and Radiation",
+    "seed" : "Starfish Healer"
+    }
+ {
+"description" : "The Mechanical Griffon Archer is a mechanical beast of war, combining the majesty of a griffon with advanced technological capabilities. It rains arrows upon its enemies and has limited flying abilities.",
+"power" : 35,
+"toughness" : 28,
+"speed" : 30,
+"energy" : 15,
+"monster_types" : "Mechanical Griffon",
+"weakness" : "Ice and Fire",
+"immunity" : "Poison and Toxic Gas",
+"seed" : "Mechanical Griffon Archer"
+}
+ {"description" : "Robot Samurai Apprentice Master is a highly skilled and deadly samurai with advanced robotics engineering. He can repair himself in combat, and his attacks are precise and powerful.",
+    "power" : 35,
+    "toughness" : 45,
+    "speed" : 15,
+    "energy" : 20,
+    "monster_types" : "Robot Samurai",
+    "weakness" : "Fire",
+    "seed" : "Robot Samurai Apprentice Master"
+    }
+ {
+"description" : "A mutated Pterodactyl, larger and more menacing than its ancestors. Its wings have grown more powerful and its beak sharper. It is known to swoop down from the sky to attack unwary travelers.",
+"power" : 50,
+"toughness" : 32,
+"speed" : 48,
+"energy" : 12,
+"monster_types" : "Flying Reptile",
+"weakness" : "Sonic Wave",
+"seed" : "Mutated Pterodactyl"
+}
+ {
+"description" : "The Alien Plant Commander is a sentient plant that commands an army of lesser alien plants. It has the ability to control other plants and emit a powerful acid. It is a formidable foe in any environment.",
+"power" : 85,
+"toughness" : 100,
+"speed" : 5,
+"energy" : 75,
+"monster_types" : "Alien Plant",
+"weakness" : "Fire",
+"immunity" : "Poison and Mind Control",
+"seed" : "Alien Plant Commander"
+}
+ {
+"description" : "The Steampunk Gryphon Queen is a legendary monster, the ruler of all gryphons in this realm. She rides atop a magnificent steampunk gryphon and wields an arsenal of steam-powered weaponry. Her roar can shatter mountains and her eyes can pierce through the darkest nights.",
+"name" : "Steampunk Gryphon Queen",
+"power" : 100,
+"toughness" : 95,
+"speed" : 25,
+"energy" : 30,
+"monster_types" : "Gryphon",
+"weakness" : "Electricity",
+"immunity" : "Poison",
+"seed" : "Steampunk Gryphon Queen"
+}
+ {"description" : "The Ghostly Phantom Priestess is a spectral being, able to pass through solid objects and manipulate the fabric of reality itself. She is a powerful and enigmatic figure, shrouded in mystery and capable of inflicting fear on her foes.",
+ "name" : "Ghostly Phantom Priestess",
+ "power" : 50,
+ "toughness" : 15,
+ "speed" : 35,
+ "energy" : 25,
+ "monster_types" : "Ghostly Specter",
+ "weakness" : "Physical attacks",
+ "immunity" : "Mental and Magical attacks",
+ "seed" : "128. Ghostly Phantom Priestess"
+ }
+ ["Invalid input. Please provide a valid monster name or description."]
+
+Input\_prompt = Ice Cream Monster Archers
+
+Output = [{"description" : "The Ice Cream Archers are a delightful but cunning band of monsters, disguised as sweet treats on a stick. They shoot icy projectiles and can freeze their enemies in place.",
+"monster_types" : "Ice Cream",
+"weakness" : "Fire",
+"seed" : "Ice Cream Archers"},
+{"description" : "This Ice Cream Archer King is the fearless leader of his icy horde. He is larger and more powerful than his minions, with a longer range and greater accuracy.",
+"name" : "King Sprinkle",
+"power" : 25,
+"toughness" : 18,
+"speed" : 15,
+"energy" : 20,
+"monster\_types" : "Ice Cream",
+"weakness" : "Fire",
+"immunity" : "Poison and Toxic",
+"seed" : "Ice Cream Archer King"}
+]
+ {"description" : "The Cybernetic Dragon Sage is a legendary dragon infused with advanced cybernetics. It possesses ancient knowledge and the raw power of fire and electronics. It can manipulate technology and breathe both fire and electric blasts.",
+ "name" : "Unknown", // Name is not provided in input prompt
+ "power" : 130,
+ "toughness" : 120,
+ "speed" : 50,
+ "energy" : 100,
+ "monster_types" : "Cybernetic Dragon",
+ "weakness" : "Ice",
+ "immunity" : "Poison and Toxic",
+ "seed" : "Cybernetic Dragon Sage"
+ }
+ {"description" : "The Robot Ninja Master Apprentice is a mechanical ninja in training, programmed for stealth and combat. It may not yet possess the full abilities of its master, but it is still a formidable foe.",
+     "power" : 15,
+     "toughness" : 20,
+     "speed" : 18,
+     "energy" : 10,
+     "monster_types" : "Robot Ninja",
+     "weakness" : "Organic material",
+     "immunity" : "Poison and Disease",
+     "seed" : "Robot Ninja Master Apprentice"
+     }
+ {"description" : "The Lava Golem Healer is a unique and powerful golem made of molten lava. It has the ability to heal other monsters, making it an essential member of any team in battle. Its powerful attacks are fueled by the heat of its molten core.",
+ "power" : 35,
+ "toughness" : 70,
+ "speed" : 4,
+ "energy" : 25,
+ "monster_types" : "Golem",
+ "weakness" : "Ice",
+ "immunity" : "Poison and Disease",
+ "seed" : "Lava Golem Healer"
+ }
+ {"description" : "The Crystal Golem Knight Queen is a majestic and powerful creature, made entirely of shimmering crystal. She is the ruler of her kind and leads them in battle. Her crystalline form makes her highly resistant to most attacks, but she can also manipulate her crystals to create powerful shields or offensive weapons.",
+ "name" : "Crystal Golem Knight Queen",
+ "power" : 100,
+ "toughness" : 150,
+ "speed" : 8,
+ "energy" : 20,
+ "monster_types" : "Crystal Golem",
+ "weakness" : "Magic Missile",
+ "immunity" : "Physical attacks",
+ "seed" : "Crystal Golem Knight Queen"
+ }
+ {
+"description" : "The Starfish Summoner is a mysterious and ancient marine creature that has the power to summon other starfish and sea creatures to aid it in battle.",
+"power" : 15,
+"toughness" : 20,
+"speed" : 7,
+"energy" : 10,
+"monster_types" : "Starfish",
+"weakness" : "None known",
+"immunity" : "Water",
+"seed" : "Starfish Summoner",
+"special_abilities" : ["Summons Starfish and Sea Creatures"]
+}
+ {"description" : "The Mechanical Griffon Archer is a legendary mechanical monster with the grace and power of a griffon. It wields powerful long range attacks, making it a formidable opponent from a distance.",
+ "name" : "Mechanical Griffon Archers",
+ "power" : 50,
+ "toughness" : 35,
+ "speed" : 25,
+ "energy" : 15,
+ "monster_types" : "Griffon Mechanical",
+ "weakness" : "Fire",
+ "immunity" : "Poison and Paralysis",
+ "seed" : "Mechanical Griffon Archer"
+ }
+ {"description" : "Robot Samurai Sage Apprentice is a mechanical warrior undergoing training in the ancient art of wisdom and enlightenment. It wields a sword that can shoot energy beams, and its advanced sensors allow it to analyze battlefield data in real time.",
+    "power" : 25,
+    "toughness" : 30,
+    "speed" : 15,
+    "energy" : 18,
+    "monster_types" : "Robot Samurai Sage",
+    "weakness" : "Organic Matter",
+    "immunity" : "Mental Manipulation and Mind Control",
+    "seed" : "Robot Samurai Sage Apprentice"
+    }
+ {"description" : "The Mutated Quetzalcoatl is a monstrous and terrifying version of the ancient serpent deity. Its scales are mutated into razor-sharp plates, its feathers are tinged with an ominous glow, and it breathes a toxic mist.
+    "power" : 95,
+    "toughness" : 85,
+    "speed" : 32,
+    "energy" : 70,
+    "monster_types" : "Serpent",
+    "weakness" : "Holy",
+    "immunity" : "Poison and Darkness",
+    "seed" : "Mutated Quetzalcoatl"
+    }
+ {
+"description" : "The Alien Plant Warlord is a massive and terrifying organism, resembling a cross between a carnivorous plant and an intergalactic conqueror. It commands an army of smaller alien plants, and can absorb energy from its surroundings to fuel its attacks.",
+"power" : 75,
+"toughness" : 100,
+"speed" : 8,
+"energy" : 60,
+"monster_types" : "Alien Plant Warlord",
+"weakness" : "Cold",
+"immunity" : "Poison",
+"seed" : "Alien Plant Warlord"
+}
+
+In case of a Legendary Monster (like Fire Monkey Librarian or Giant Elk Priestess), the JSON object will have an additional 'name' field. In this example, I added a detailed description for Alien Plant Warlord as well to make it more interesting.
+ {"description" : "The Steampunk Manticore - Sage Master - is a wise and ancient creature, known for its exceptional knowledge of the arcane arts. It possesses a powerful stinger that can deliver devastating damage and has the ability to fly over long distances. Its body is covered in intricate steam-powered gears and mechanisms.",
+ "name" : "Sage Master",
+ "power" : 50,
+ "toughness" : 35,
+ "speed" : 25,
+ "energy" : 30,
+ "monster_types" : "Steampunk Manticore",
+ "weakness" : "Ice",
+ "immunity" : "Fire",
+ "seed" : "139. Steampunk Manticore Sage Master"
+}
+ {
+"description" : "The Ghostly Phantom Necromancer is a powerful and elusive undead necromancer, capable of summoning spirits and raising the dead to do its bidding. It can drain life energy from living beings.",
+"name" : "Ghostly Phantom Necromancer",
+"power" : 50,
+"toughness" : 30,
+"speed" : 15,
+"energy" : 25,
+"monster_types" : ["Undead", "Necromancer"],
+"weakness" : "Holy Magic",
+"immunity" : "Physical Attacks",
+"seed" : "Ghostly Phantom Necromancer"
+}
+ ["Error in input: 'Ice Cream' is not a valid monster type.",
+ "Description" : "This monster is an anomaly of nature, a sentient Ice Cream with a ranger's training. It roams the lands in search of sweets and adventure.",
+ "power" : 3,
+ "toughness" : 5,
+ "speed" : 4,
+ "energy" : 2,
+ "monster_types" : "",
+ "weakness" : "None known",
+ "immunity" : "Heat and Fire",
+ "seed" : "Ice Cream Ranger"
+ ]
+ {
+"description" : "The Cybernetic Dragon Archer is a legendary dragon infused with advanced technology. It has the ability to shoot laser beams from its eyes and breathe fire, making it a formidable opponent. Its cybernetic enhancements make it resilient against most forms of damage.",
+"name" : "Cybernetic Dragon Archer",
+"power" : 85,
+"toughness" : 70,
+"speed" : 15,
+"energy" : 60,
+"monster_types" : "Dragon Cyborg",
+"weakness" : "Ice",
+"immunity" : "Poison and Magnetic",
+"seed" : "Cybernetic Dragon Archer"
+}
+ ["{\"description\" : \"The Robot Ninja Apprentice is a relentless machine of destruction and efficiency, constantly honing its skills under the watchful eye of its master. It has limited emotions but an unmatched sense of duty.",
+ \"power\" : 25,
+ \"toughness\" : 30,
+ \"speed\" : 22,
+ \"energy\" : 15,
+ \"monster_types\" : \"Robot Ninja\",
+ \"weakness\" : \"Organic Matter\",
+ \"seed\" : \"Robot Ninja Apprentice\"},
+ {\"description\" : \"The Robot Ninja Master is a seasoned veteran in the art of mechanical warfare, able to outmaneuver and outsmart even the most skilled opponents. It commands a legion of apprentices and sees the destruction of its enemies as its sacred duty.",
+ \"power\" : 45,
+ \"toughness\" : 50,
+ \"speed\" : 28,
+ \"energy\" : 30,
+ \"monster_types\" : \"Robot Ninja Master\",
+ \"weakness\" : \"Magic\",
+ \"seed\" : \"Robot Ninja Master\",
+ \"name\" : \"Master Apprentice\"
+ }"]
+ {"description" : "The Lava Golem - Dr. Magma - is a scientific genius who has mastered the art of manipulating molten rock and lava. He can construct complex golems on the fly to assist him in battle. His creations are fiercely loyal and relentless.",
+     "power" : 85,
+     "toughness" : 90,
+     "speed" : 5,
+     "energy" : 75,
+     "monster_types" : "Lava Golem",
+     "weakness" : "Water and Ice",
+     "seed" : "144. Lava Golem Scientist"
+    }
+ {"description" : "The Crystal Golem Summoner King is a legendary summoner who can call forth powerful crystal golems to do his bidding. With immense magical power, he is a formidable foe in battle.",
+ "name" : "Summoner King",
+ "power" : 85,
+ "toughness" : 70,
+ "speed" : 15,
+ "energy" : 60,
+ "monster_types" : "Crystal Golem Summoner",
+ "weakness" : "Ice",
+ "immunity" : "Physical attacks",
+ "seed" : "Crystal Golem Summoner King",
+ "summoned_creatures" : [{"type" : "Crystal Golem", "description" : "A powerful crystal golem summoned by the Summoner King. It can absorb sunlight and store energy in its crystalline structure.", "power" : 35, "toughness" : 40, "speed" : 12, "energy" : 20},
+ {"type" : "Crystal Golem", "description" : "Another powerful crystal golem summoned by the Summoner King. It can create constructs out of crystal.", "power" : 35, "toughness" : 40, "speed" : 12, "energy" : 20}]
+ }
+ {"description" : "The Starfish Queen, a celestial being of the interstellar sea, is a powerful healer and protector of all starfish life. She has the ability to absorb energy from her surroundings and heal any damage done to nearby creatures.",
+ "name" : "Starfish Healer Queen",
+ "power" : 100,
+ "toughness" : 75,
+ "speed" : 1,
+ "energy" : 150,
+ "monster_types" : "Starfish",
+ "weakness" : "None",
+ "immunity" : "Radiation and Poison",
+ "seed" : "Starfish Healer Queen"
+ }
+ {"description" : "Mechanical Griffon Knight - 147 is a rare and powerful fusion of engineering and nature, combining the grace and might of a griffon with the mechanical precision of a knight. Its body is composed of intricate gears and metallic plates, yet it retains its majestic wings and sharp talons.",
+ "power" : 65,
+ "toughness" : 72,
+ "speed" : 18,
+ "energy" : 30,
+ "monster_types" : "Griffon Mechanized",
+ "weakness" : "Ice",
+ "immunity" : "Fire",
+ "seed" : "Mechanical Griffon Knight",
+ "legendary" : true
+ }
+ {"description" : "The Robot Samurai Sage Master Apprentice is a skilled warrior in training, with advanced programming and combat abilities. Its armor is a work in progress but already effective in battle.",
+ "power" : 12,
+ "toughness" : 18,
+ "speed" : 9,
+ "energy" : 5,
+ "monster_types" : "Robot Samurai",
+ "weakness" : "Necromancy",
+ "immunity" : "Poison and Fire",
+ "seed" : "Robot Samurai Sage Master Apprentice"
+ }
+ {"description" : "The Mutated Basilisk is a grotesque and terrifying creature, born from the toxic wastes. It has the ability to petrify its prey with its gaze and regrow limbs that have been severed. Its body is covered in wart-like growths and its eyes glow with an unnatural light.",
+ "power" : 35,
+ "toughness" : 70,
+ "speed" : 21,
+ "energy" : 18,
+ "monster_types" : "Serpent",
+ "weakness" : "Light Magic",
+ "immunity" : "Poison and Venom",
+ "seed" : "Mutated Basilisk"
+ }
+ {"description" : "An alien plant with the ability to manipulate and control the elements, it grows in unique extraterrestrial environments and is known to possess a deep understanding of the natural world around it.",
+    "power" : 35,
+    "toughness" : 40,
+    "speed" : 7,
+    "energy" : 28,
+    "monster_types" : "Alien Plant",
+    "weakness" : "Fire",
+    "immunity" : "Poison and Paralysis",
+    "seed" : "150. Alien Plant Elementalist"
+    }
+ {
+"description" : "The Steampunk Gryphon Summoner is an inventive and cunning creature, capable of summoning mechanical gryphons to do its bidding. With a powerful steam-powered engine for a heart, it can fly at incredible speeds and unleash devastating steam blasts.",
+"name" : "Steampunk Gryphon Summoner",
+"power" : 80,
+"toughness" : 75,
+"speed" : 60,
+"energy" : 30,
+"monster_types" : ["Gryphon", "Summoner"],
+"weakness" : "Ice",
+"immunity" : "Poison",
+"seed" : "Steampunk Gryphon Summoner"
+}
+
+In the given input, if the prompt is a number like 151, it will be assumed as a seed value for generating a new Monster with a name and unique description.
+ {"description" : "The Ghostly Phantom Monk Master is a spectral monk who has mastered the art of haunting his enemies. He can pass through solid objects and manipulate the energy around him to create illusions and project terrifying apparitions.",
+ "name" : "Ghostly Phantom Monk Master",
+ "power" : 15,
+ "toughness" : 7,
+ "speed" : 20,
+ "energy" : 18,
+ "monster_types" : "Ghostly Phantom Monk",
+ "weakness" : "Physical Attacks",
+ "immunity" : "Mind Control and Temptation",
+ "seed" : "Ghostly Phantom Monk Master"
+ }
+ {"description" : "A mysterious and ancient Ice Cream Monster Sage, said to have been created from the frozen tears of a long-forgotten deity. It is said that this being grants wisdom and knowledge to those who partake in its sweet, creamy essence.",
+ "power" : 15,
+ "toughness" : 20,
+ "speed" : 10,
+ "energy" : 30,
+ "monster_types" : "Ice Cream Sage",
+ "weakness" : "Fire",
+ "immunity" : "Cold",
+ "seed" : "Ice Cream Monster Sage"
+ }
+ {
+"description" : "The Cybernetic Dragon Archer Queen is a technological marvel - an ancient and powerful dragon that has been cybernetically enhanced, able to shoot energy arrows with deadly accuracy from its mechanical eyes.",
+"name" : "Cybernetic Dragon Archer Queen",
+"power" : 75,
+"toughness" : 60,
+"speed" : 15,
+"energy" : 25,
+"monster_types" : "Dragon Cybernetic",
+"weakness" : "Sacred Light",
+"immunity" : "Poison and Toxic Gas",
+"seed" : "Cybernetic Dragon Archer Queen"
+}
+ ["{\"description\" : \"A young and ambitious Robot Ninja Apprentice Knight, learning the ways of the sword and circuitry from his master. He is agile, strong and relentless in combat.\",\n",
+ "\ "name\" : \"Robo-Apprentice\",\n",
+ "\ "power\" : 25,\n",
+ "\ "toughness\" : 18,\n",
+ "\ "speed\" : 27,\n",
+ "\ "energy\" : 13,\n",
+ "\ "monster_types\" : \"Robot Ninja\",\n",
+ "\ "weakness\" : \"Fire\",\n",
+ "\ "immunity\" : \"Electricity\",\n",
+ "\ "seed\" : \"Robot Ninja Apprentice Knight\"\n}",
+ {"description" : "A young and ambitious Robot Ninja Apprentice Knight, learning the ways of the sword and circuitry from his master. He is agile, strong and relentless in combat.\",\n",
+ "name" : "Robo-Apprentice-1\",\n",
+ "power" : 25,\n",
+ "toughness" : 18,\n",
+ "speed" : 27,\n",
+ "energy" : 13,\n",
+ "monster_types" : "Robot Ninja",\n",
+ "weakness" : "Fire",\n",
+ "immunity" : "Electricity",\n",
+ "seed" : "Robot Ninja Apprentice Knight-1"}]
+ {"description" : "The Lava Golem Archer King is a towering, molten monstrosity with an innate sense of archery. Its arrows are made of solidified lava that can melt through even the toughest defenses. Be wary, for this golem's attacks are both ranged and melee.",
+ "power" : 50,
+ "toughness" : 70,
+ "speed" : 10,
+ "energy" : 30,
+ "monster_types" : "Golem Lava",
+ "weakness" : "Ice",
+ "immunity" : "Fire",
+ "seed" : "Lava Golem Archer King",
+ "ranged_attack" : true
+ }
+ {"description" : "The Crystal Golem Healer Queen is a powerful healer and leader of her kind, made entirely of crystal. She can repair and heal nearby structures and creatures with great efficiency.",
+ "name" : "Healer Queen",
+ "power" : 157,
+ "toughness" : 200,
+ "speed" : 8,
+ "energy" : 50,
+ "monster_types" : "Crystal Golem",
+ "weakness" : "Dark Magic",
+ "immunity" : "Physical Damage",
+ "seed" : "Crystal Golem Healer Queen"
+ }
+ {"description" : "The Starfish Warrior is a unique marine creature with the ability to harden its star-shaped limbs into formidable weapons. It's often found in large numbers on coral reefs, defending their territories from intruders.",
+    "power" : 15,
+    "toughness" : 25,
+    "speed" : 5,
+    "energy" : 5,
+    "monster_types" : "Starfish",
+    "weakness" : "High Temperature",
+    "seed" : "Starfish Warrior"
+    }
+ {"description" : "The Mechanical Griffon Sage is an ancient and wise construct, infused with the essence of a griffon. It has advanced knowledge in various fields and can analyze complex situations quickly. Its mechanical parts enhance its abilities and make it more durable than its organic counterparts. ",
+ "name" : "Mechanical Griffon Sage",
+ "power" : 50,
+ "toughness" : 45,
+ "speed" : 18,
+ "energy" : 25,
+ "monster_types" : "Griffon Construct",
+ "weakness" : "Magic",
+ "immunity" : "Poison and Physical Damage",
+ "seed" : "Mechanical Griffon Sage"
+ }
+ {"description" : "The 160 Robot Samurai Master Apprentice is a skilled and dedicated trainee in the ways of the robotic samurai, learning to perfect its combat techniques. It may one day become a formidable foe.",
+    "power" : 15,
+    "toughness" : 20,
+    "speed" : 13,
+    "energy" : 7,
+    "monster_types" : "Robot Samurai",
+    "weakness" : "Electromagnetic Pulse",
+    "seed" : "Robot Samurai Master Apprentice"
+    }
+ {
+"description" : "The Mutated T-Rex Ranger is a fearsome dinosaur with advanced intelligence and survival skills, trained by humans to protect the forest from poachers and other threats. Its mutations grant it unique abilities and increased strength.",
+"power" : 120,
+"toughness" : 95,
+"speed" : 18,
+"energy" : 60,
+"monster_types" : "Mutated T-Rex",
+"weakness" : "Cold",
+"immunity" : "Poison and Radiation",
+"seed" : "Mutated T-Rex Ranger"
+}
+ {"description" : "The Alien Plant Archdruid is a powerful and ancient being from a far-off planet. It is covered in vibrant, glowing vines and has the ability to manipulate plant growth and control the minds of nearby flora. Its presence can make surrounding areas fertile and lush.",
+"power" : 45,
+"toughness" : 75,
+"speed" : 10,
+"energy" : 35,
+"monster_types" : "Alien Plant",
+"weakness" : "Fire",
+"immunity" : "Poison and Mind Control",
+"seed" : "Alien Plant Archdruid"
+}
+ {
+"description" : "The Steampunk Manticore Queen is a legendary healer, with advanced steampunk technology integrated into her body. She can mend wounds and restore energy to allies within a large area of effect. Her sting attack, while deadly, can also heal the queen.",
+"name" : "Steampunk Manticore Healer Queen",
+"power" : 50,
+"toughness" : 75,
+"speed" : 18,
+"energy" : 30,
+"monster_types" : "Steampunk Manticore",
+"weakness" : "Ice",
+"immunity" : "Fire and Poison",
+"seed" : "Steampunk Manticore Healer Queen"
+}
+ {"description" : "The Ghostly Phantom Knight is a spectral being, clad in the armor of a long-departed knight. It haunts battlefields and ancient ruins, seeking vengeance for past wrongs or simply to add to its collection of spectral trophies. This monster can pass through walls and inflicts fear on its victims.",
+     "name" : null,
+     "power" : 25,
+     "toughness" : 10,
+     "speed" : 30,
+     "energy" : 15,
+     "monster_types" : "Ghostly Phantom Knight",
+     "weakness" : "Bright Light",
+     "seed" : "Ghostly Phantom Knight"
+     }
+ {"description" : "The Sage King of Ice Cream is a legendary and ancient being, said to have been born from the frozen depths of the North Pole. With his vast knowledge of the frozen world and the power to create and manipulate ice cream, he is a force to be reckoned with.",
+ "name" : "Sage King",
+ "power" : 35,
+ "toughness" : 40,
+ "speed" : 18,
+ "energy" : 25,
+ "monster_types" : "Ice Cream Sage King",
+ "weakness" : "Fire",
+ "immunity" : "Heat and Cold",
+ "seed" : "Ice Cream Monster Sage King"
+ }
+ {"description" : "The Cybernetic Dragon Warrior is a powerful and advanced cyborg dragon, created by the greatest minds of the technological age. Equipped with laser eyes, plasma breath, and heavy armor plating, it is a formidable opponent in battle.",
+    "power" : 100,
+    "toughness" : 95,
+    "speed" : 6,
+    "energy" : 50,
+    "monster_types" : "Dragon Cybernetic",
+    "weakness" : "Ice",
+    "immunity" : "Fire and Poison",
+    "seed" : "Cybernetic Dragon Warrior"
+    }
+ {"description" : "The 167th Robot Ninja Apprentice, a work in progress, shows glimmers of potential as it hones its combat skills under the watchful eye of its master. Its steel frame houses advanced circuitry and weaponry.",
+    "power" : 10,
+    "toughness" : 25,
+    "speed" : 6,
+    "energy" : 8,
+    "monster_types" : "Robot",
+    "weakness" : "Magic",
+    "seed" : "Robot Ninja Master Apprentice"
+    }
+ {"description" : "The Lava Golem Archer Master is a fierce and skilled archer, armed with the powerful magic of molten lava. It's relentless in its pursuit of enemies and can unleash devastating arrows coated in scorching magma.",
+    "power" : 35,
+    "toughness" : 60,
+    "speed" : 12,
+    "energy" : 18,
+    "monster_types" : "Golem Lava Archers",
+    "weakness" : "Water",
+    "immunity" : "Fire",
+    "seed" : "Lava Golem Archer Master"
+    }
+ {
+"description" : "The Crystal Golem Summoner Queen Apprentice is a young and eager mage in training, specializing in the summoning of crystal golems. She can conjure multiple golems at once, and each golem is imbued with her magical power.",
+"name" : null,
+"power" : 35,
+"toughness" : 25,
+"speed" : 15,
+"energy" : 45,
+"monster_types" : "Summoner Mage",
+"weakness" : "Fire",
+"summoned_creature" : [
+{
+"name" : "Crystal Golem",
+"power" : 10,
+"toughness" : 25,
+"speed" : 5,
+"energy" : 10,
+"monster_types" : "Golem"
+}
+],
+"seed" : "Crystal Golem Summoner Queen Apprentice"
+}
+ ["Invalid input: 'Starfish Monk' is not a valid seed for generating a monster. Please use a valid seed such as 'Skeleton', 'Fire Monkey Librarian', or 'Giant Elk Priestess'."]
+
+or, if you meant to generate a random monster with the given power, toughness, and speed:
+
+Output = {"description" : "A mysterious creature with no discernible features, aside from its Power of 170, Toughness of , and Speed of . Its Monster Types are unknown.",
+"power" : 170,
+"toughness" : 0,
+"speed" : 0,
+"energy" : 0,
+"monster_types" : [],
+"weakness" : "",
+"immunity" : "",
+"seed" : ""
+}
+ {"description" : "The Mechanical Griffon Healer Apprentice is a young and eager mechanic in training to become a healer for mechanical griffons. While it may not have the full healing abilities of an adult, it still has a bit of a bite and can inflict damage with its metallic claws.",
+     "power" : 12,
+     "toughness" : 15,
+     "speed" : 9,
+     "energy" : 8,
+     "monster_types" : "Mechanical Griffon",
+     "weakness" : "Fire",
+     "immunity" : "Poison and Disease",
+     "seed" : "Mechanical Griffon Healer Apprentice"
+    }
+ {"description" : "The 172nd model Robot Samurai Sage Apprentice is a work in progress, with advanced programming and combat training. It may still be learning the ways of the wise and the warrior's code.",
+ "power" : 15,
+ "toughness" : 30,
+ "speed" : 7,
+ "energy" : 12,
+ "monster_types" : "Robot Samurai Sage Apprentice",
+ "weakness" : "Magic",
+ "immunity" : "Poison and Physical Damage below 10 units",
+ "seed" : "Robot Samurai Sage Apprentice"
+ }
+ {
+"description" : "The Mutated Amphibian is a result of an unfortunate experiment gone wrong. It has the agility and adaptability of an amphibian, but with a dangerous mutation that grants it increased power and unpredictable abilities.",
+"power" : 15,
+"toughness" : 8,
+"speed" : 10,
+"energy" : 7,
+"monster_types" : "Amphibian",
+"weakness" : "Solar Energy",
+"seed" : "Mutated Amphibian"
+}
+ {"description" : "The Alien Plant Summoner is a strange and exotic entity from another world. It has the ability to summon various plants as minions to aid it in battle. Its own abilities are rooted in manipulation of plant life.",
+ "power" : 35,
+ "toughness" : 25,
+ "speed" : 15,
+ "energy" : 20,
+ "monster_types" : "Alien Plant",
+ "weakness" : "Fire",
+ "immunity" : "Poison",
+ "seed" : "Alien Plant Summoner"
+ }
+ {"description" : "The Steampunk Gryphon Archer is a mechanical marvel of avian and feline origin. Equipped with advanced gadgets and weapons, it excels in long-range combat. Its cunning mind is always seeking new inventions to add to its arsenal.",
+     "name" : null,
+     "power" : 35,
+     "toughness" : 25,
+     "speed" : 18,
+     "energy" : 30,
+     "monster_types" : "Steampunk Gryphon",
+     "weakness" : "Fire",
+     "immunity" : "Poison and Electricity",
+     "seed" : "Steampunk Gryphon Archer"
+     }
+ {
+"description" : "The 176th Monster is the Ghostly Phantom Warrior Queen - a regal and formidable specter, clad in armor, who leads her ghostly warrior horde into battle. She can inflict fear upon her enemies and wields powerful energy blasts.",
+"name" : "Ghostly Phantom Warrior Queen",
+"power" : 98,
+"toughness" : 76,
+"speed" : 15,
+"energy" : 45,
+"monster_types" : "Ghostly Specter",
+"weakness" : "Physical attacks",
+"immunity" : "Holy",
+"seed" : "Ghostly Phantom Warrior Queen"
+}
+ {"description" : "A strange scientist creating bizarre ice cream monsters in a secret laboratory.",
+ "power" : 15,
+ "toughness" : 12,
+ "speed" : 8,
+ "energy" : 10,
+ "monster_types" : "Ice Cream",
+ "weakness" : "Fire",
+ "immunity" : "Cold",
+ "seed" : "Ice Cream Monster Scientist"
+ }
+ {"description" : "The Cybernetic Dragon Knight Apprentice is a young trainee knight of the cybernetic dragon order. He is equipped with advanced cybernetics, but still lacks the full powers and abilities of a true cybernetic dragon knight.
+    "power" : 15,
+    "toughness" : 30,
+    "speed" : 12,
+    "energy" : 18,
+    "monster_types" : "Dragon Knight Cybernetic",
+    "weakness" : "Magic",
+    "immunity" : "Poison",
+    "seed" : "Cybernetic Dragon Knight Apprentice"
+    }
+ {
+"description" : "Robot Ninja Sage is a highly advanced artificial intelligence with the abilities of a ninja and a sage. It can manipulate energy and has unmatched combat skills. Its programming allows it to learn quickly from its surroundings.",
+"name" : "Robot Ninja Sage",
+"power" : 85,
+"toughness" : 90,
+"speed" : 20,
+"energy" : 60,
+"monster_types" : "Robot Ninja",
+"weakness" : "Organic Matter",
+"immunity" : "Magic and Poison",
+"seed" : "179. Robot Ninja Sage"
+}
+ {"description" : "The Lava Golem Healer King is a towering, molten colossus that wields the power of life and healing over lava. It can manipulate its own form to better defend or attack allies and enemies alike.",
+ "name" : "Healer King",
+ "power" : 105,
+ "toughness" : 120,
+ "speed" : 8,
+ "energy" : 60,
+ "monster_types" : "Lava Golem Healer",
+ "weakness" : "Cold and Electricity",
+ "immunity" : "Fire",
+ "seed" : "180. Lava Golem Healer King"
+ }
+ {"description" : "The Crystal Golem Archer is a rare and powerful golem constructed from precious crystals. It wields a bow made of solid crystal and possesses the ability to infuse its arrows with magical energy, making each shot more potent than the last.",
+     "power" : 50,
+     "toughness" : 75,
+     "speed" : 15,
+     "energy" : 30,
+     "monster_types" : "Golem",
+     "weakness" : "Fire",
+     "seed" : "Crystal Golem Archer"
+     }
+ {"description" : "The Starfish Queen is a legendary warrior queen among her kind, known for her strategic combat skills and her ability to call upon the power of the tides. Her starfish soldiers follow her lead with unwavering loyalty.",
+ "name" : "Starfish Queen",
+ "power" : 105,
+ "toughness" : 72,
+ "speed" : 8,
+ "energy" : 60,
+ "monster_types" : "Starfish",
+ "weakness" : "Fire",
+ "immunity" : "Water",
+ "seed" : "Starfish Warrior Queen"
+ }
+ ["{'description' : 'The Mechanical Griffon Summoner Master is an ancient master summoner of mechanical griffons, each one more complex and deadly than the last. They are known to be extremely reclusive and rarely seen by outsiders.',
+ 'name' : 'Mechanical Griffon Summoner Master',
+ 'power' : 50,
+ 'toughness' : 75,
+ 'speed' : 25,
+ 'energy' : 35,
+ 'monster_types' : 'Mechanical Griffon',
+ 'weakness' : 'Ice',
+ 'immunity' : 'Fire and Poison',
+ 'seed' : '183 Mechanical Griffon Summoner Master'}"
+]
+ {"description" : "The Robot Samurai Apprentice is a mechanical warrior in training, mastering the ancient art of samurai combat. It may lack emotion but makes up for it with raw power and unyielding dedication.",
+    "power" : 25,
+    "toughness" : 18,
+    "speed" : 9,
+    "energy" : 10,
+    "monster_types" : "Robot Samurai",
+    "weakness" : "Organic Matter",
+    "seed" : "Robot Samurai Apprentice"
+    }
+ {"description" : "The Mutated Mosasaurus is a monstrously large and mutated version of the classic prehistoric sea monster. With powerful jaws and an uncanny ability to adapt to its environment, it poses a great threat to any seafaring adventurer.",
+     "power" : 75,
+     "toughness" : 80,
+     "speed" : 35,
+     "energy" : 25,
+     "monster_types" : "Mutated Sea Monster",
+     "weakness" : "Bombs and Sonar",
+     "immunity" : "Freeze",
+     "seed" : "Mutated Mosasaurus"
+     }
+ {
+"description" : "The Alien Plant Champion is a sentient and powerful plant from another planet, with the ability to manipulate its cells to release potent toxins or grow vines rapidly. It is the leader of its kind in this dimension.",
+"power" : 50,
+"toughness" : 75,
+"speed" : 15,
+"energy" : 30,
+"monster_types" : "Alien Plant",
+"weakness" : "Fire",
+"seed" : "Alien Plant Champion"
+}
+ {
+"description" : "The Steampunk Manticore Healer Apprentice is a mechanical marvel of bio-engineering and steam-powered technology. It's a young apprentice in the art of healing, with a keen interest in mending and patching up its brethren. It may look fierce but deep down it has a compassionate heart.",
+"power" : 15,
+"toughness" : 20,
+"speed" : 14,
+"energy" : 10,
+"monster_types" : "Steampunk Manticore",
+"weakness" : "Ice",
+"immunity" : "Fire",
+"seed" : "Steampunk Manticore Healer Apprentice"
+}
+ {"description" : "The 188th Ghostly Phantom Necromancer Queen is a fearsome and powerful being, able to command the dead and manipulate spirits. She is the ruler of the spectral realm and can summon an army of undead minions at will.",
+ "name" : "Ghostly Phantom Necromancer Queen",
+ "power" : 100,
+ "toughness" : 75,
+ "speed" : 15,
+ "energy" : 60,
+ "monster_types" : ["Ghost", "Necromancer"],
+ "weakness" : "Holy Light",
+ "immunity" : "Death",
+ "seed" : "Ghostly Phantom Necromancer Queen"
+}
+ {"description" : "The Ice Cream Monster Archer Master is a unique and powerful enemy, known for its deadly accuracy with icy projectiles. It's covered in various flavors of ice cream that can be licked off for temporary health boosts.",
+     "power" : 25,
+     "toughness" : 14,
+     "speed" : 35,
+     "energy" : 18,
+     "monster_types" : "Ice Cream Archer",
+     "weakness" : "Fire",
+     "seed" : "Ice Cream Monster Archer Master"
+     }
+ {
+"description" : "The Cybernetic Dragon - Sage Master - is a master of ancient dragon knowledge and cybernetics, combining the power of magic and technology. It's a rare sight to see such a creature in the modern age.",
+"name" : null,
+"power" : 250,
+"toughness" : 150,
+"speed" : 50,
+"energy" : 150,
+"monster_types" : "Dragon Cybernetic",
+"weakness" : "Force",
+"immunity" : "Poison and Psychic",
+"seed" : "Cybernetic Dragon Sage Master"
+}
+ {"description" : "The number 191 is an advanced Robot Ninja Master Knight. It's a complex machine of deadly precision and unparalleled combat abilities. Its primary function is to protect and serve, but it can also reprogram other robots.",
+    "power" : 75,
+    "toughness" : 90,
+    "speed" : 6,
+    "energy" : 35,
+    "monster_types" : "Robot Ninja Knight",
+    "weakness" : "Organic Matter",
+    "immunity" : "Electromagnetic Pulses",
+    "seed" : "191. Robot Ninja Master Knight"
+    }
+ {"description" : "The Lava Golem - Magma Marauder - is a fierce warrior made entirely of molten rock, leaving trails of destruction in its wake. It can absorb and redirect heat attacks.",
+    "power" : 45,
+    "toughness" : 60,
+    "speed" : 15,
+    "energy" : 30,
+    "monster_types" : "Lava Golem",
+    "weakness" : "Ice",
+    "seed" : "192. Lava Golem Warrior"
+    }
+ {
+"description" : "The Crystal Golem Healer Apprentice is a work in progress, learning the art of healing under the guidance of its master. It has the ability to regenerate health and can heal other creatures with touch.",
+"power" : 15,
+"toughness" : 25,
+"speed" : 8,
+"energy" : 10,
+"monster_types" : "Crystal Golem",
+"weakness" : "Darkness",
+"immunity" : "Poison and Fire",
+"seed" : "Crystal Golem Healer Apprentice"
+}
+ {
+"description" : "The Starfish Summoner Queen is a legendary aquatic monarch, responsible for the summoning and command of an army of starfish. She is a powerful caster and healer, with a mystical connection to the ocean and its inhabitants.",
+"name" : "Starfish Summoner Queen",
 "power" : 75,
 "toughness" : 60,
 "speed" : 15,
 "energy" : 50,
-"monster_types" : "Mecha Mantis Healer Trainer",
-"weakness" : "Plasma",
-"immunity" : "Poison and Bleed",
-"seed" : "Mecha Mantis Healer Trainer Sorceress"
+"monster_types" : "Starfish Queen",
+"weakness" : "None known",
+"immunity" : "Poison and Psychic attacks",
+"seed" : "Starfish Summoner Queen"
 }
- {"description" : "The Ice Cream Sundae Witch Engineer Healer is a sweet yet powerful sorceress who specializes in both engineering and healing. She rides atop her magical ice cream float, dispensing healing elixirs and constructing complex machines from her concoctions.
-    "name" : "Sundae Sorceress"
-    "power" : 25,
-    "toughness" : 18,
-    "speed" : 16,
-    "energy" : 30,
-    "monster_types" : "Ice Cream Witch Engineer Healer",
-    "weakness" : "Fire",
-    "immunity" : "Poison and Cold",
-    "seed" : "Ice Cream Sundae Witch Engineer Healer"
-    }
- {"description" : "The Forest Troll Treekeeper Sage Warrior is a powerful and wise forest guardian, capable of manipulating nature and wielding ancient weaponry. It's a solitary creature, living deep in the heart of the forest, protecting it from intruders.",
- "power" : 160,
- "toughness" : 250,
- "speed" : 10,
- "energy" : 50,
- "monster_types" : ["Troll", "Treekeeper", "Sage", "Warrior"],
- "weakness" : "Ice",
- "immunity" : ["Poison", "Paralysis"],
- "seed" : "Forest Troll Treekeeper Sage Warrior"
- }
- {"description" : "The Crystal Golem Scientist Warrior Engineer is a unique combination of a Crystal Golem, Scientist, Warrior, and Engineer. It has the ability to repair itself using its crystal components, perform complex calculations, and deliver powerful blows in battle. Its crystals can be harvested for resources.",
+ {"description" : "The Mechanical Griffon - Archer Master - is a mechanical beast with the agility and power of a griffon, but enhanced with advanced archery skills. It is often used for long-range reconnaissance and hunting.",
  "power" : 45,
- "toughness" : 72,
- "speed" : 10,
- "energy" : 30,
- "monster_types" : ["Crystal Golem", "Scientist", "Warrior", "Engineer"],
- "weakness" : "Acid",
+ "toughness" : 30,
+ "speed" : 25,
+ "energy" : 15,
+ "monster_types" : "Mechanical Griffon",
+ "weakness" : "Poison",
  "immunity" : "Fire and Electricity",
- "seed" : "161. Crystal Golem Scientist Warrior Engineer"
+ "seed" : "Mechanical Griffon Archer Master"
+ }
+ {"description" : "A Robot Samurai Sage Apprentice Knight is a technological marvel of intricate design and deadly efficiency. This apprentice knight is still in the process of being trained, but it's already displaying impressive combat abilities and a deep understanding of ancient samurai wisdom.",
+ "power" : 35,
+ "toughness" : 40,
+ "speed" : 18,
+ "energy" : 25,
+ "monster_types" : "Robot Samurai Sage Apprentice",
+ "weakness" : "Magic",
+ "immunity" : "Poison and Bleeding",
+ "seed" : "Robot Samurai Sage Apprentice Knight"
+ }
+ {
+"description" : "This is a Mutated Apatosaurus, a monstrously large and mutated version of the classic Apatosaurus dinosaur. With larger than average size, this monster has developed unique abilities that make it a formidable foe.",
+"power" : 75,
+"toughness" : 90,
+"speed" : 12,
+"energy" : 35,
+"monster_types" : "Dinosaur",
+"weakness" : "Ice",
+"immunity" : "Fire",
+"seed" : "Mutated Apatosaurus"
 }
  {
-"description" : "Meet the Venus Flytrap Gardener Engineer Mummy, a strange combination of ancient knowledge and modern engineering. This mummy was once a gardener who tended to Venus Flytraps in a long-forgotten temple. When he died, he was resurrected by the advanced technology within the temple and now uses his gardening skills to build and maintain complex traps for unsuspecting intruders.",
-"name" : null,
-"power" : 12,
-"toughness" : 45,
-"speed" : 6,
-"energy" : 8,
-"monster_types" : "Mummy Engineer",
+"description" : "The Alien Plant Archdruidess is a powerful and ancient plant lifeform from the far reaches of space, acting as the high priestess of her kind's communal hive mind. She can manipulate other plants, create complex ecosystems, and possesses powerful healing abilities.",
+"name" : "Alien Plant Archdruidess",
+"power" : 75,
+"toughness" : 90,
+"speed" : 15,
+"energy" : 60,
+"monster_types" : "Alien Plant",
 "weakness" : "Fire",
-"immunity" : "Acid and Poison",
-"seed" : "Venus Flytrap Gardener Engineer Mummy"
+"immunity" : "Poison and Disease",
+"seed" : "Alien Plant Archdruidess"
 }
  {
-"description" : "The Plague Doctor - Alchemist - Warrior - Witch is a deadly and enigmatic figure who combines the powers of disease, alchemy, warfare, and witchcraft. They are skilled in creating deadly toxins, wielding powerful weapons, casting devastating spells, and spreading diseases.",
-"power" : 65,
-"toughness" : 40,
-"speed" : 18,
-"energy" : 35,
-"monster_types" : "Plague Doctor Alchemist Warrior Witch",
-"weakness" : "Healing",
-"immunity" : "Poison",
-"seed" : "Plague Doctor Alchemist Warrior Witch"
-}
- {
-"description" : "The Steampunk Octopode Healer-Warrior is a legendary healing powerhouse with the ability to manipulate steam and water. Its tentacles are intricately designed with gears and pipes, and its eyes glow with an inner light.",
-"name" : "Steampunk Octopus Healer Warrior",
-"power" : 35,
-"toughness" : 40,
-"speed" : 15,
-"energy" : 25,
-"monster_types" : "Steampunk Octopus",
-"weakness" : "Electricity",
-"immunity" : "Poison and Fire",
-"seed" : "Steampunk Octopus Healer Warrior"
-}
- {"description" : "The Jelly Bean Goblin - Wizz Fizz - is a mischievous engineer trainer, who uses his creations to confound and distract his enemies. He may look like a simple jelly bean, but do not be fooled! He can create complex machines from seemingly ordinary objects.",
- "power" : 10,
- "toughness" : 5,
- "speed" : 8,
- "energy" : 7,
- "monster_types" : "Goblin Engineer Trainer",
- "weakness" : "Physical Attacks",
- "immunity" : "Magic",
- "seed" : "Jelly Bean Goblin Engineer Trainer"}
- {
-"description" : "The Techno Mantis Sage is a highly intelligent and deadly archer, blending advanced technology with the agility of a mantis. It shoots bolts of tech energy and can manipulate machinery to create traps.",
-"power" : 15,
-"toughness" : 8,
+"description" : "The Steampunk Gryphon Summoner Queen is a powerful and enigmatic monarch, known for her ability to summon and command gryphons. She wields advanced steam technology, making her a formidable adversary in battle.",
+"name" : "Queen Victoria Gryphonforge",
+"power" : 75,
+"toughness" : 60,
 "speed" : 20,
-"energy" : 12,
-"monster_types" : "Technological Arachnid Sage",
-"weakness" : "Sonic",
-"immunity" : "Poison and Physical Blows",
-"seed" : "Techno Mantis Archer Sage"
+"energy" : 50,
+"monster_types" : "Steampunk Gryphon Queen",
+"weakness" : "Ice",
+"immunity" : "Fire",
+"seed" : "Steampunk Gryphon Summoner Queen"
 }
- {"description" : "The Rainbow Unicorn Paladin-Scientist is a mystical creature, combining the purity of a unicorn and the wisdom of a paladin with the curiosity of a scientist. It's an embodiment of peace, justice, and knowledge. Its rainbow horn emits powerful healing rays, and it uses its advanced scientific skills to analyze and solve complex problems.",
-    "name" : null,
-    "power" : 35,
-    "toughness" : 28,
-    "speed" : 17,
-    "energy" : 45,
-    "monster_types" : "Unicorn Paladin Scientist",
-    "weakness" : "Dark Magic",
-    "immunity" : "Poison and Paralysis",
-    "seed" : "Rainbow Unicorn Paladin Scientist"
-    }
- {"description" : "The Fire Phoenix Monk Sage Engineer is a rare and enigmatic creature, combining the elements of Fire, Wisdom, and Ingenuity. It can manipulate fire, heal itself, and construct intricate mechanical contraptions. Its wisdom grants it unique insights and abilities.",
- "name" : "PyroMechaSage",
- "power" : 81,
- "toughness" : 56,
- "speed" : 37,
- "energy" : 42,
- "monster_types" : ["Fire", "Monk", "Sage", "Engineer"],
- "weakness" : "Ice",
- "immunity" : "Poison and Fire",
- "seed" : "168. Fire Phoenix Monk Sage Engineer"
-}
- {"description" : "The Cryomancer Snowman is a unique and powerful creature, combining the abilities of a Snowman, an Archer, and a Healer. It can summon blizzards, shoot icy arrows, and heal itself and nearby allies. It has a strong affinity for cold environments.",
-"name" : "Cryomancer Snowman",
-"power" : 50,
-"toughness" : 45,
-"speed" : 15,
-"energy" : 35,
-"monster_types" : "Snowman Cryomancer Archer Healer",
-"weakness" : "Sunlight and Fire",
-"immunity" : "Cold and Ice",
-"seed" : "Cryomancer Snowman"
-}
- ["{\"description\" : \"The Dino-Bird of Prey Trainer - Maxima the Mechanic - is an engineering genius who has tamed and rides a massive, prehistoric bird of prey.\r\nShe uses her engineering skills to create advanced traps and mechanisms to aid in hunting.\r\nMaxima's mechanical mount can fly, granting her impressive mobility and flexibility.\r\nHer pet is immune to the effects of poison.\r\nShe is a formidable ally or adversary on the battlefield.\",\r\n\"name\" : \"Maxima the Mechanic\",\r\n\"power\" : 35,\r\n\"toughness\" : 27,\r\n\"speed\" : 40,\r\n\"energy\" : 15,\r\n\"monster_types\" : [\"Engineer Bird\", \"Trainer\"],\r\n\"weakness\" : [\""Poison\""],\r\n\"immunity\" : [\""Poison\""],\r\n\"seed\" : \"Dino-Bird of Prey Trainer Engineer\"\r\n}",\r\n{\"description\" : \"Just a basic skeleton, nothing to see here\",\r\n\"power\" : 2,\r\n\"toughness\" : 1,\r\n\"speed\" : 2,\r\n\"energy\" : 0,\r\n\"monster_types\" : \"Undead\",\r\n\"weakness\" : \"Electricity\",\r\n\"seed\" : \"Skeleton\"\r\n}"]
+ ["Error in input format.",
+ {"description" : "The Ghostly Phantom Monk Masters are a duo of powerful spectral monks, able to pass through solid objects and deal heavy damage with their ethereal fists. They can also temporarily manipulate the energy of other monsters. Each Master has its own unique name and appearance.",
+ "power" : 35,
+ "toughness" : 10,
+ "speed" : 30,
+ "energy" : 25,
+ "monster_types" : "Ghostly Monk",
+ "weakness" : "Physical attacks",
+ "seed" : "Ghostly Phantom Monk Masters"
+ }
+]

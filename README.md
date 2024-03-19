@@ -8,7 +8,7 @@ The `build.sh` builds the entire token economy and private game assets.
 
 `contracts/` directory contains Solidity smart contracts.
 
-The game is organized around a game server API. 
+The game is organized around a game server. 
 The game server runs game worker processes, and exposes an API for game clients. 
 
 # Eggs (MEGG)

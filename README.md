@@ -45,5 +45,7 @@ Up to 4 monsters can occupy a player's Breeding Pen.
 When 2 or more monsters are in a breeding pen, a new Egg may be laid. 
 
 # MonsterBucks (MBUCK$$$)
+<p align="center">
 <img src="https://github.com/mickeyshaughnessy/BattleMonsters3001/assets/1209295/c266733a-90bb-4b43-aca6-dabce6ca34d9" width="400"/>
+</p>
 

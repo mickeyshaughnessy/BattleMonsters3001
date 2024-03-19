@@ -13,7 +13,10 @@ The game is organized around a game server.
 The game server runs game worker processes, and exposes an API for game clients. 
 
 # Eggs (MEGG)
-![image](https://github.com/mickeyshaughnessy/BattleMonsters3001/assets/1209295/9fb9dac7-53fb-4732-a31d-b1a57465f600)
+
+
+![image](https://github.com/mickeyshaughnessy/BattleMonsters3001/assets/1209295/9fb9dac7-53fb-4732-a31d-b1a57465f600  =100x20)
+
 Eggs hatch into Monsters - this is represented by an Egg token generating a new Monster token and then being burned.
 
 New players begin the game with 4 Eggs and one Monster.

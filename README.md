@@ -33,7 +33,7 @@ Monsters can not be traded, they can be upgraded.
 
 ## Battles
 //![image](https://github.com/mickeyshaughnessy/BattleMonsters3001/assets/1209295/86b16072-3ce8-4df0-a2ec-bacb9b4e3d7a)
-<img src="https://github.com/mickeyshaughnessy/BattleMonsters3001/assets/1209295/86b16072-3ce8-4df0-a2ec-bacb9b4e3d7a" width="400"/>
+<img src="https://github.com/mickeyshaughnessy/BattleMonsters3001/assets/1209295/86b16072-3ce8-4df0-a2ec-bacb9b4e3d7a" width="200"/>
 
 Monsters can be deployed to and removed from Battles. 
 In battle, monsters can both lose hit points and extract resources (MonsterBucks).

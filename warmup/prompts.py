@@ -90,9 +90,8 @@ Input = %s
 
 Output = 
 """
-#generate_egg = """
 
-p_hatch_egg = """ Given the egg parents as input, generate a new monster.
+p_ghenerate_eggs = """ Given the egg parents as input, generate a new egg.
 
 You always return valid JSON and never anything else.
 
@@ -122,7 +121,28 @@ Example:
 "seed" : "Dark Naga Warrior"
 }
 
-  Child = 
+Egg = {
+  "description": "The Galactic Naga Kraken is a mysterious and powerful hybrid creature, born from the union of the Galactic Kraken Colossus and the Dark Naga Warrior. It possesses immense strength and the ability to manipulate water and energy. Its colossal tentacles are infused with dark energy, making it a formidable foe.",
+  "parent_1": "Galactic_Kraken_Colossus",
+  "parent_2": "Dark Naga Warrior",
+  "power": "35",
+  "toughness": "23",
+  "speed": "18",
+  "energy": 18,
+  "monster_types": ["Kraken", "Naga", "Hybrid"],
+  "weakness": ["Plasma", "Light"],
+  "immunity": ["Poison", "Paralysis"],
+  "egg_type": "Galactic Naga Kraken",
+  "incubation_time": 10
+}
+  
+###############
+
+Parent X = %s
+
+Parent Y = %s
+
+  Egg = 
 """
 
 p_generate_monster = """

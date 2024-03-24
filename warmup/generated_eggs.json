@@ -1,0 +1,1438 @@
+ {
+"description": "The Ethereal Steampunk Specter is a spectral steampunk monster, born from the enigmatic union of the Steampunk Manticore Healer Queen and the Ghostly Phantom Priestess. It possesses the ability to heal allies with its sting attack while also inflicting fear on enemies. Its phantom form allows it to pass through solid objects and manipulate reality.",
+"parent_1": "Steampunk Manticore Healer Queen",
+"parent_2": "Ghostly Phantom Priestess",
+"power": "40",
+"toughness": "30",
+"speed": "30",
+"energy": 25,
+"monster_types": ["Steampunk Manticore", "Specter", "Ghostly"],
+"weakness": ["Physical attacks"],
+"immunity": ["Mental and Magical attacks", "Poison", "Fire"],
+"egg_type": "Ethereal Steampunk Specter",
+"incubation_time": 12
+}
+ {
+ "description": "The Seaweed Crab is a unique and enigmatic creature, born from the unification of the Giant Crab Sage and the Alien Plant Master. It possesses the ability to manipulate both water currents and plant growth. Its hard crab shell is covered in vibrant seaweed, making it a formidable and visually striking monster.",
+ "parent_1": "Giant Crab Sage",
+ "parent_2": "Alien Plant Master",
+ "power": 40,
+ "toughness": 50,
+ "speed": 10,
+ "energy": 23,
+ "monster_types": ["Crab", "Plant", "Hybrid"],
+ "weakness": ["Fire"],
+ "immunity": ["Cold"],
+ "egg_type": "Seaweed Crab",
+ "incubation_time": 15
+}
+ {
+ "description": "The Steam-infused Lava Manticore is a mysterious and powerful monster, born from the unexpected fusion of the Lava Golem Archer King and the Steampunk Manticore - Grease Monkey. It possesses the ability to control both magma flows and complex machinery, making it a formidable and unpredictable adversary.",
+ "parent_1": "Lava Golem Archer King",
+ "parent_2": "Steampunk Manticore Engineer",
+ "power": 55,
+ "toughness": 60,
+ "speed": 12,
+ "energy": 35,
+ "monster_types": ["Lava Golem", "Manticore", "Hybrid", "Engineer"],
+ "weakness": ["Ice", "Electromagnetic Pulse"],
+ "immunity": ["Fire"],
+ "egg_type": "Steam-infused Lava Manticore",
+ "incubation_time": 15
+}
+ {
+"description": "The Mechanical Phantom Monk is a unique monster, born from the unlikely union of the Mechanical Dragon Engineer and the Ghostly Phantom Monk Masters. It possesses the ability to construct mechanical parts while being able to pass through solid objects, making it a formidable adversary in both physical and spectral realms.",
+"parent_1": "Mechanical Dragon Engineer",
+"parent_2": "Ghostly Phantom Monk Masters",
+"power": "25",
+"toughness": "13",
+"speed": "20",
+"energy": 22,
+"monster_types": ["Mechanic", "Ghostly", "Hybrid"],
+"weakness": ["Fire", "Physical"],
+"immunity": ["Electricity", "Poison"],
+"egg_type": "Mechanical Phantom Monk",
+"incubation_time": 15
+}
+ {
+"description": "The Molten Robot Healer is a unique and powerful monster, born from the fusion of a Robot Samurai Sage and a Lava Golem Healer. It has the ability to heal both itself and other monsters, making it an invaluable ally in battle. Its attacks are fueled by the heat of its molten core and the wisdom of its ancient robot mind.",
+"parent_1": "Robot Samurai Sage",
+"parent_2": "Lava Golem Healer",
+"power": "45",
+"toughness": "63",
+"speed": "8",
+"energy": 22,
+"monster_types": ["Robot", "Golem", "Healer"],
+"weakness": ["Ice", "Fire"],
+"immunity": ["Poison", "Disease"],
+"egg_type": "Molten Robot Healer",
+"incubation_time": 15
+}
+ {
+ "description": "The Magma Ninja is a mysterious and powerful monster, born from the unexpected fusion of the Lava Golem Summoner and the Robot Ninja Apprentice. It possesses the ability to summon and control molten golems, as well as the agility and stealth skills of a ninja. Its metallic body is infused with magma, making it a formidable opponent.",
+ "parent_1": "Lava Golem Summoner",
+ "parent_2": "Robot Ninja Apprentice",
+ "power": "45",
+ "toughness": "60",
+ "speed": "20",
+ "energy": 20,
+ "monster_types": ["Lava Golem", "Ninja", "Hybrid"],
+ "weakness": ["Ice", "Fire"],
+ "immunity": ["Poison"],
+ "summons": [{"name" : "Magma Golem", "description" : "A hulking, molten creature made of liquid rock and magma. It moves slowly but deals heavy damage to those who approach it.", "power" : 25, "toughness" : 40, "speed" : 10, "energy" : 0}],
+ "egg_type": "Magma Ninja",
+ "incubation_time": 8
+}
+ {
+ "description": "The Technomancer Samurai is a mysterious mechanical samurai, born from the fusion of the Robot Samurai Commander and a Robo-Samurai. It possesses advanced technological abilities, enhanced kempo skills, and great power. Its armor can adapt to various situations and its eyes can analyze and manipulate energy.",
+ "parent_1": "Robot Samurai Commander",
+ "parent_2": "Robo-Samurai",
+ "power": 52.5,
+ "toughness": 47.5,
+ "speed": 18,
+ "energy": 37.5,
+ "monster_types": ["Robot Samurai", "Technomancer"],
+ "weakness": ["Nuclear", "Poison"],
+ "immunity": ["Fire"],
+ "egg_type": "Technomancer Samurai",
+ "incubation_time": 12
+}
+ {
+ "description": "The Lava Alien Plant is a unique and powerful monster, born from the unlikely union of the Lava Golem Healer and the Alien Plant Archdruidess. It possesses the healing abilities of its parent monsters, as well as the ability to manipulate both lava and plants. Its roots absorb nutrients from the ground, fueling its powerful attacks. This monster is a valuable addition to any team in battle due to its versatile abilities.",
+ "parent_1": "Lava Golem Healer",
+ "parent_2": "Alien Plant Archdruidess",
+ "power": 50,
+ "toughness": 65,
+ "speed": 10,
+ "energy": 40,
+ "monster_types": ["Golem", "Plant", "Hybrid"],
+ "weakness": ["Ice", "Fire"],
+ "immunity": ["Poison", "Disease"],
+ "egg_type": "Lava Alien Plant",
+ "incubation_time": 15
+}
+ {
+"description": "The Crystal Lava Golem Summoner is a young and ambitious mage in training, specializing in the summoning of a unique golem - a Crystal Lava Golem. This golem is imbued with both the magical power of its summoner and the raw energy of molten lava. It can heal other monsters as well as inflict damage with powerful attacks.",
+"parent_1": "Crystal Golem Summoner Queen Apprentice",
+"parent_2": "Lava Golem Healer",
+"power": "45",
+"toughness": "55",
+"speed": "10",
+"energy": 60,
+"monster_types": ["Golem", "Summoner Mage"],
+"weakness": ["Fire", "Ice"],
+"summoned_creature": [
+{"name": "Crystal Lava Golem", "power": 25, "toughness": 40, "speed": 7, "energy": 15, "monster_types": ["Golem"]}
+],
+"immunity": ["Poison", "Disease"],
+"egg_type": "Crystal Lava Golem Summoner",
+"incubation_time": 20
+}
+ {
+ "description": "The Crystalline Phantom Healer is a spectral golem imbued with the powers of healing and the ethereal abilities of a phantom. Its crystalline structure absorbs energy from its surroundings, allowing it to both heal its allies and channel that energy into devastating attacks. With the stealth and swiftness of a ghostly entity, it can strike fear into enemies before unleashing a barrage of healing spells or powerful energy blasts.",
+ "parent_1": "Ghostly Phantom Monk",
+ "parent_2": "Crystal Golem Healer",
+ "power": 35,
+ "toughness": 40,
+ "speed": 25,
+ "energy": 45,
+ "monster_types": ["Ghostly Spectre", "Healer", "Golem"],
+ "weakness": ["Physical attacks", "Fire"],
+ "immunity": ["Energy based attacks", "Mind Control"],
+ "healing": true,
+ "egg_type": "Crystalline Phantom Healer",
+ "incubation_time": 15
+}
+ {
+"description": "The Elemental Crystal Plant is a unique monster, born from the fusion of the Crystal Golem Summoner and the Alien Plant. It possesses the ability to manipulate and control all elements - water, earth, fire, and air. With each element at its disposal, it can adapt to various situations and pose a great threat.",
+"parent_1": "Crystal Golem Summoner",
+"parent_2": "Alien Plant Elementalist",
+"power": "40",
+"toughness": "35",
+"speed": "10",
+"energy": 50,
+"monster_types": ["Golem Mage", "Alien Plant", "Elementalist"],
+"weakness": ["Fire"],
+"immunity": ["Poison", "Paralysis"],
+"summoned_creatures": [{"name": "Crystal Golem", "power": 12, "toughness": 15, "speed": 3, "energy": 0},
+{"name": "Crystal Golem", "power": 12, "toughness": 15, "speed": 3, "energy": 0},
+{"name": "Crystal Golem", "power": 12, "toughness": 15, "speed": 3, "energy": 0}],
+"egg_type": "Elemental Crystal Plant",
+"incubation_time": 15
+}
+ {
+ "description": "The Spectral Dragon Phantom is a mysterious fusion of the Cybernetic Dragon Knight and the Ghostly Phantom Monk Master. It soars through the skies, wielding an energy sword infused with spectral energy and able to pass through solid objects. Its roar is a haunting cry that can manipulate the energy around it to create illusions and project terrifying apparitions.",
+ "parent_1": "Cybernetic Dragon Knight",
+ "parent_2": "Ghostly Phantom Monk Master",
+ "power": 45,
+ "toughness": 18,
+ "speed": 30,
+ "energy": 30,
+ "monster_types": ["Dragon", "Cyborg", "Ghostly Phantom"],
+ "weakness": ["Magic", "Physical Attacks"],
+ "immunity": ["Mind Control", "Temptation"],
+ "egg_type": "Spectral Dragon Phantom",
+ "incubation_time": 15
+}
+ {
+ "description": "The Technological Basilisk Dragoon is a cyborgan reptile, born from the fusion of the Mutated Basilisk and the Cybernetic Dragon Warrior. It possesses the ability to petrify its enemies with its gaze and regenerate lost limbs, infused with advanced technology. Its body is covered in wart-like growths that double as armor plating and its eyes glow with an unnatural light, capable of emitting laser beams. A formidable opponent on the battlefield.",
+ "parent_1": "Mutated Basilisk",
+ "parent_2": "Cybernetic Dragon Warrior",
+ "power": 75,
+ "toughness": 85,
+ "speed": 12,
+ "energy": 30,
+ "monster_types": ["Serpent", "Dragon Cybernetic", "Hybrid"],
+ "weakness": ["Light Magic", "Ice"],
+ "immunity": ["Poison", "Venom"],
+ "egg_type": "Technological Basilisk Dragoon",
+ "incubation_time": 20
+}
+ {
+ "description": "The Ethereal Cybernetic Dragonkin is a rare and enigmatic creature, born from the union of the Ghostly Phantom Monk and the Cybernetic Dragon - Sage Master. It possesses the ethereal nature of the former, the strength and power of the latter, and the ability to harness both energy and technology. Its presence is shrouded in an aura of mystery, striking fear into those who dare approach.",
+ "parent_1": "Ghostly Phantom Monk",
+ "parent_2": "Cybernetic Dragon Sage Master",
+ "name": null,
+ "power": 75,
+ "toughness": 75,
+ "speed": 40,
+ "energy": 35,
+ "monster_types": ["Ghostly Spectre", "Dragon Cybernetic", "Hybrid"],
+ "weakness": ["Force", "Physical"],
+ "immunity": ["Poison", "Psychic", "Energy based attacks"],
+ "egg_type": "Ethereal Cybernetic Dragonkin",
+ "incubation_time": 20
+}
+ {
+"description": "The Lava Vampire Bat is a mysterious creature born from the unusual combination of Dr. Magma's Lava Golem and the Vampire Bat Bartender. This monster possesses the ability to manipulate molten rock and lava as well as drain health with its fangs. Its resistance to poison makes it an intriguing and formidable foe.",
+"parent_1": "144. Lava Golem Scientist",
+"parent_2": "Vampire Bat Bartender",
+"power": 50,
+"toughness": 65,
+"speed": 7,
+"energy": 30,
+"monster_types": ["Lava Golem", "Vampire Bat", "Hybrid"],
+"weakness": ["Water", "Garlic", "Ice"],
+"immunity": ["Poison"],
+"egg_type": "Lava Vampire Bat",
+"incubation_time": 15
+}
+ {
+ "description": "The Techno-Samurai Chimera is a formidable hybrid monster, born from the fusion of the Robo-Samurai and the Cybernetic Chimera. Its body is a blend of advanced robotics, ancient samurai armor, and biological components, granting it exceptional power, durability, and intelligence.",
+ "parent_1": "Robot Samurai",
+ "parent_2": "Cybernetic Chimera Warrior",
+ "power": "59",
+ "toughness": "47",
+ "speed": "25",
+ "energy": 30,
+ "monster_types": ["Robot", "Samurai", "Chimera", "Hybrid"],
+ "weakness": ["Organic Attacks", "Fire"],
+ "immunity": ["Poison", "Corrosion", "Technology Malfunctions"],
+ "egg_type": "Techno-Samurai Chimera",
+ "incubation_time": 15
+}
+ {
+  "description": "The Steam-Lava Goblin Gryphon is a unique and unpredictable monster, born from the unlikely union of the Steampunk Gryphon Summoner Queen and the Lava Goblin Shaman. This creature possesses the ability to summon both gryphons and lava goblins, as well as manipulate both steam and fire. Its fiery breath can melt steel, and its steam-powered wings allow for swift movement.",
+  "parent_1": "Steampunk Gryphon Summoner Queen",
+  "parent_2": "Lava Goblin Shaman",
+  "power": "50",
+  "toughness": "38",
+  "speed": "35",
+  "energy": 30,
+  "monster_types": ["Gryphon", "Goblin", "Hybrid"],
+  "weakness": ["Ice", "Water"],
+  "immunity": ["Fire"],
+  "egg_type": "Steam-Lava Goblin Gryphon",
+  "incubation_time": 12
+}
+ {
+"description": "The Steampunk Crabanticore is a unique fusion of a Steampunk Manticore and a Cybernetic Crab Sage, born from an unlikely alliance between the two. This creature possesses advanced technology and healing abilities, as well as the wisdom of the tides and currents. Its steam-powered appendages can inflict damage, while its cybernetic shell provides protection.",
+"parent_1": "Steampunk Manticore Healer Apprentice",
+"parent_2": "Cybernetic Crab Sage",
+"power": 30,
+"toughness": 45,
+"speed": 12,
+"energy": 16,
+"monster_types": ["Steampunk Manticore", "Crab Cyborg", "Hybrid"],
+"weakness": ["Ice", "Fire"],
+"immunity": ["Plant", "Temptation"],
+"egg_type": "Steampunk Crabanticore",
+"incubation_time": 15
+}
+ {
+ "description": "The Mutated Alien Plantosaurus is a unique and powerful monster, born from the unnatural union of the Mutated Apatosaurus and the Alien Plant Commander. It possesses the size and strength of a dinosaur, combined with the ability to control plants and emit acid. This monstrous hybrid is a force to be reckoned with in any environment.",
+ "parent_1": "Mutated Apatosaurus",
+ "parent_2": "Alien Plant Commander",
+ "power": "90",
+ "toughness": "105",
+ "speed": 8,
+ "energy": 60,
+ "monster_types": ["Dinosaur", "Plant", "Hybrid"],
+ "weakness": ["Ice", "Fire"],
+ "immunity": ["Poison", "Mind Control"],
+ "egg_type": "Mutated Alien Plantosaurus",
+ "incubation_time": 15
+}
+ {
+ "description": "The Crystalline Plague Bringer is a unique and dangerous monster, born from the mysterious union of the Plague Doctor and the Crystal Golem Knight Queen. It possesses the ability to spread plagues with its breath and contaminate with its touch, all while being protected by a crystalline exoskeleton and immune to most debuffs.",
+ "parent_1": "Plague Doctor",
+ "parent_2": "Crystal Golem Knight Queen",
+ "power": 75,
+ "toughness": 130,
+ "speed": 12,
+ "energy": 40,
+ "monster_types": ["Plague Bringer", "Golem"],
+ "weakness": ["Ice"],
+ "immunity": ["Poison", "Debuffs"],
+ "egg_type": "Crystalline Plague Bringer",
+ "incubation_time": 20
+}
+ {
+ "description": "The Forest Samurai is a unique mechanical creature, born from the fusion of the Robot Samurai Commander and the Tree Gnome Ranger. It wields ancient archery skills and has the ability to repair itself using the energy of nearby trees. Its tough exterior provides protection against most attacks.",
+ "parent_1": "Robot Samurai Commander",
+ "parent_2": "Tree Gnome Ranger",
+ "power": "35",
+ "toughness": "40",
+ "speed": "16",
+ "energy": 25,
+ "monster_types": ["Robot", "Gnome", "Hybrid"],
+ "weakness": ["Nuclear"],
+ "immunity": ["Fire"],
+ "egg_type": "Forest Samurai",
+ "incubation_time": 8
+}
+ {
+"description": "The Frozen Phantom is a unique and enigmatic monster, born from the chilling union of the Ghostly Phantom Warrior and the Ice Cream Monster Scientist. This creature has the ethereal qualities of a ghost and the icy powers of an ice cream monster. It seeks both vengeance and sweet satisfaction.",
+"parent_1": "Ghostly Phantom Warrior",
+"parent_2": "Ice Cream Monster Scientist",
+"power": "25",
+"toughness": "18",
+"speed": "13",
+"energy": 22,
+"monster_types": ["Ghostly Spectre", "Ice Cream"],
+"weakness": ["Bright Light", "Fire"],
+"immunity": ["Physical Attacks", "Cold"],
+"egg_type": "Frozen Phantom",
+"incubation_time": 12
+}
+ {
+ "description": "The Frozen Spider Queen is a rare and enigmatic monster, born from the unlikely union of Professor Brain Freeze and the Spider Queen Weaver. It has the ability to manipulate both temperature and weaving intricate webs like its parents. Its icy touch can freeze its enemies solid.",
+ "parent_1": "81. Ice Cream Monster Scientist",
+ "parent_2": "Spider Queen Weaver",
+ "power": "50",
+ "toughness": "65",
+ "speed": "13",
+ "energy": 40,
+ "monster_types": ["Ice Cream Scientist", "Spider Queen", "Hybrid"],
+ "weakness": ["Fire"],
+ "immunity": ["Poison", "Paralysis", "Heat"],
+ "egg_type": "Frozen Spider Queen",
+ "incubation_time": 15
+}
+ {
+"description": "The Lava Spectre Golem is a unique and mysterious entity, born from the fusion of a Ghostly Phantom Warrior and a Lava Golem Healer. It is a powerful undead golem made of molten lama and shrouded in ethereal mist. It can heal other monsters with its lava core and manifest ghostly attacks. Its presence on the battlefield is both a blessing and a curse.",
+"parent_1": "Ghostly Phantom Warrior",
+"parent_2": "Lava Golem Healer",
+"power": "45",
+"toughness": "55",
+"speed": "8",
+"energy": 30,
+"monster_types": ["Ghostly Spectre", "Golem", "Undead"],
+"weakness": ["Bright Light", "Ice"],
+"immunity": ["Poison", "Disease"],
+"egg_type": "Lava Spectre Golem",
+"incubation_time": 15
+}
+ {
+  "description": "The Mechanical T-Rex Hyrbid is a fearsome creation, born from the fusion of the Mechanical Gryphon Summoner and the Mutated T-Rex. With the build and power of a T-Rex and the mechanical enhancements of a Construct, this monster is relentless in its pursuit of destruction and knowledge. Its body is covered in rough, scaled skin and its eyes glow with a sinister intelligence. It can summon mechanical gryphons to aid it in battle and its roar can activate nearby machines, making it a formidable opponent.",
+  "parent_1": "Mechanical Gryphon Summoner",
+  "parent_2": "Mutated T-Rex",
+  "power": "75",
+  "toughness": "110",
+  "speed": "55",
+  "energy": 60,
+  "monster_types": ["Construct", "Dinosaur", "Hybrid"],
+  "weakness": ["Magic"],
+  "immunity": ["Fire"],
+  "egg_type": "Mechanical T-Rex Hyrbid",
+  "incubation_time": 15
+}
+ {
+"description": "The Frostbite Ninja is a unique and powerful monster, born from the unlikely union of the Sage King of Ice Cream and the Number 191 Robot Ninja Master Knight. It possesses the vast knowledge of the frozen world, the power to create and manipulate ice cream and advanced combat abilities as a robot. Its body is infused with both ice and machinery.",
+"parent_1": "Ice Cream Monster Sage King",
+"parent_2": "191. Robot Ninja Master Knight",
+"power": "50",
+"toughness": "60",
+"speed": "12",
+"energy": 30,
+"monster_types": ["Ice Cream Sage", "Robot Ninja"],
+"weakness": ["Fire"],
+"immunity": ["Heat", "Cold", "Electromagnetic Pulses"],
+"egg_type": "Frostbite Ninja",
+"incubation_time": 15
+}
+ {
+"description": "The Spectral Robot Ninja is a mysterious and elusive monster, born from the unlikely union of a Ghostly Phantom Warrior and a Robot Ninja apprentice. It possesses the ethereal abilities of the former and the agility of the latter, making it a stealthy and formidable foe on the battlefield.",
+"parent_1": "Ghostly Phantom Warrior",
+"parent_2": "Robot Ninja Apprentice",
+"power": "25",
+"toughness": "23",
+"speed": "30",
+"energy": 18,
+"monster_types": ["Ghostly Spectre", "Robot Ninja"],
+"weakness": ["Bright Light", "Fire"],
+"immunity": ["Physical Attacks"],
+"egg_type": "Spectral Robot Ninja",
+"incubation_time": 7
+}
+ {
+ "description": "The Robotic Alien Flora Ninja is a mysterious hybrid monster, born from the unlikely union of the 167th Robot Ninja Apprentice and the Alien Plant Warrior Queen. This monstrous creation boasts advanced circuitry and weaponry within a colossal, plant-infused frame. It can manipulate plants to grow thorns, vines or tendrils as weapons and absorb energy from its surroundings. Its roar, a fusion of mechanical and vegetal sounds, is deafening and can knock nearby opponents off their feet.",
+ "parent_1": "Robot Ninja Master Apprentice",
+ "parent_2": "Alien Plant Warrior Queen",
+ "power": "75",
+ "toughness": "60",
+ "speed": "8",
+ "energy": 45,
+ "monster_types": ["Robot", "Alien Plant", "Hybrid"],
+ "weakness": ["Magic", "Fire"],
+ "immunity": ["Poison", "Psychic"],
+ "egg_type": "Robotic Alien Flora Ninja",
+ "incubation_time": 25
+}
+ {
+ "description": "The Kraken Spider, a monstrous offspring born from the mutated kraken and the spider queen weaver, is a formidable creature that combines the destructive power of the sea and the weaving abilities of arachnids. It can control water and weave intricate webs to trap its victims.",
+ "parent_1": "Mutated Kraken",
+ "parent_2": "Spider Queen Weaver",
+ "power": 87.5,
+ "toughness": 87.5,
+ "speed": 14,
+ "energy": 72.5,
+ "monster_types": ["Kraken", "Spider", "Hybrid"],
+ "weakness": ["Thunderbolt", "Fire"],
+ "immunity": ["Poison", "Paralysis"],
+ "egg_type": "Kraken Spider",
+ "incubation_time": 15
+}
+ {
+ "description": "The Steam-Infused Vampire Bat is a unique creature, born from the enigmatic union of the Steampunk Manticore Engineer and the Vampire Bat Bartender. This monster possesses the ability to repair machinery with its fangs and create potions using steam power. Its wings allow it to fly and its fangs can both heal and drain energy.",
+ "parent_1": "Steampunk Manticore Engineer",
+ "parent_2": "Vampire Bat Bartender",
+ "power": 25,
+ "toughness": 28,
+ "speed": 12,
+ "energy": 18,
+ "monster_types": ["Steampunk Manticore", "Vampire Bat", "Alchemist"],
+ "weakness": ["Electromagnetic Pulse", "Garlic"],
+ "immunity": ["Fire", "Poison"],
+ "egg_type": "Steam-Infused Vampire Bat",
+ "incubation_time": 12
+}
+ {
+ "description": "The Ice Robot Creamsamurai is a unique monster, born from the unlikely alliance between the Ice Cream Monster Chef and the Robot Samurai Commander. This fusion creature wields frozen ice cream scoops as weapons and can repair itself using advanced robotics. Be warned, its sundae surprise may leave you frozen in place.",
+ "parent_1": "Ice Cream Monster Chef",
+ "parent_2": "Robot Samurai Commander",
+ "power": 35,
+ "toughness": 40,
+ "speed": 12,
+ "energy": 35,
+ "monster_types": ["Ice Cream Maker", "Robot", "Hybrid"],
+ "weakness": ["Nuclear", "Heat"],
+ "immunity": ["Cold"],
+ "egg_type": "Ice Robot Creamsamurai",
+ "incubation_time": 15
+}
+ {
+"description": "The Cybernetic Samurai Dragon is a legendary monster, born from the fusion of the Cybernetic Dragon Ranger and the Robot Samurai Master. It possesses the advanced technology of the Cybernetic Dragon Ranger and the martial arts expertise of the Robot Samurai Master. Its breath attack can be customized and it can repair itself in battle, calling forth smaller robotic minions to aid it.",
+"parent_1": "Cybernetic Dragon Ranger",
+"parent_2": "Robot Samurai Master",
+"power": "100",
+"toughness": "95",
+"speed": "45",
+"energy": 85,
+"monster_types": ["Cybernetic Dragon", "Robot Samurai", "Hybrid"],
+"weakness": ["Ice"],
+"immunity": ["Poison", "Electrical Damage"],
+"egg_type": "Cybernetic Samurai Dragon",
+"incubation_time": 15
+}
+ {
+ "description": "The Starfish Tyrannosaur is a mysterious and powerful monster, born from the unlikely union of the Starfish Summoner Queen and the Mutated T-Rex. This creature possesses the abilities of both parents, with a massive size and a deep connection to the ocean. It can summon starfish armies and breathe fire. Its scales are rough and scaly, providing immense toughness.",
+ "parent_1": "Starfish Summoner Queen",
+ "parent_2": "Mutated T-Rex",
+ "power": 85,
+ "toughness": 115,
+ "speed": 50,
+ "energy": 70,
+ "monster_types": ["Starfish", "Dinosaur", "Hybrid"],
+ "weakness": ["Freezing temperatures"],
+ "immunity": ["Poison", "Psychic attacks"],
+ "egg_type": "Starfish Tyrannosaur",
+ "incubation_time": 15
+}
+ {
+  "description": "The Plantoid Samurai is a unique fusion of plant and robot life, born from the unlikely merging of an Alien Plant Archdruid and a Robot Samurai Sage Apprentice. This creature boasts the power of plant manipulation and the wisdom of ancient robotic knowledge, making it a formidable force. Its advanced sensors enable it to analyze both biological and technological data in real time.",
+  "parent_1": "Alien Plant Archdruid",
+  "parent_2": "Robot Samurai Sage Apprentice",
+  "power": "38",
+  "toughness": "55",
+  "speed": "12",
+  "energy": 26,
+  "monster_types": ["Alien Plant", "Robot", "Hybrid"],
+  "weakness": ["Fire", "Organic Matter"],
+  "immunity": ["Poison", "Mental Manipulation"],
+  "egg_type": "Plantoid Samurai",
+  "incubation_time": 12
+}
+ {
+ "description": "The Steampunk Alien Plant Gryphon is a mechanical-organic hybrid, born from the unlikely union of the Steampunk Gryphon Knight and the Alien Plant Warrior. This creature has the ability to absorb sunlight and convert it into steam power, as well as the gears and claws of its parent. Its vines can ensnare enemies and its roots manipulate terrain, while its powerful claws rend steel with ease.",
+ "parent_1": "Steampunk Gryphon Knight",
+ "parent_2": "Alien Plant Warrior",
+ "power": 75,
+ "toughness": 80,
+ "speed": 30,
+ "energy": 47,
+ "monster_types": ["Steampunk", "Gryphon", "Alien Plant", "Hybrid"],
+ "weakness": ["Electricity", "Fire"],
+ "immunity": ["Poison", "Toxic Gas", "Cold"],
+ "egg_type": "Steampunk Alien Plant Gryphon",
+ "incubation_time": 15
+}
+ {
+ "description": "The Molten Griffon Warrior is a unique and dangerous creature, born from the fusion of the Mechanical Griffon Sage and the Lava Golem Samurai. It possesses advanced knowledge, ancient combat skills, and the destructive power of molten lava. Its metallic body is resilient to most attacks and it leaves a trail of lava in its wake.",
+ "parent_1": "Mechanical Griffon Sage",
+ "parent_2": "Lava Golem Samurai",
+ "name": null,
+ "power": 48,
+ "toughness": 50,
+ "speed": 15,
+ "energy": 30,
+ "monster_types": ["Griffon", "Golem", "Hybrid"],
+ "weakness": ["Ice"],
+ "immunity": ["Poison", "Physical Damage"],
+ "egg_type": "Molten Griffon Warrior",
+ "incubation_time": 12
+}
+ {
+"description": "The Crystallized Mechanical Griffon is a unique creature, born from the fusion of the Crystal Golem Summoner Queen Apprentice and the Mechanical Griffon Sage. It possesses the ability to summon crystallized golems and the wisdom of a sage, as well as the durability and mechanical enhancements of a griffon construct. Its crystalline form shines brightly in the sun.",
+"parent_1": "Crystal Golem Summoner Queen Apprentice",
+"parent_2": "Mechanical Griffon Sage",
+"power": "40",
+"toughness": "35",
+"speed": "16",
+"energy": 30,
+"monster_types": ["Summoner Mage", "Griffon Construct", "Hybrid"],
+"weakness": ["Fire", "Magic"],
+"immunity": ["Poison", "Physical Damage"],
+"egg_type": "Crystallized Mechanical Griffon",
+"summoned_creature": [{"name" : "Crystallized Golem","power" : 12,"toughness" : 28,"speed" : 6,"energy" : 12,"monster_types" : "Golem"}],
+"incubation_time": 12
+}
+ {
+"description": "The Steam Ninja Griffin is a mechanical creature, born from the unlikely union of the Robot Ninja Master and the Steampunk Gryphon Engineer. With the agility and strength of a ninja, the wings and fire-breathing ability of a gryphon, and the advanced mechanics of its parents, this creature is a true marvel of engineering and biology. Its tough exterior and sharp blades make it a formidable opponent.",
+"parent_1": "Robot Ninja Master",
+"parent_2": "Steampunk Gryphon Engineer",
+"power": "65",
+"toughness": "58",
+"speed": "30",
+"energy": 45,
+"monster_types": ["Robot", "Ninja", "Gryphon", "Steampunk"],
+"weakness": ["Explosives", "Organic matter"],
+"immunity": ["Poison", "Fire"],
+"egg_type": "Steam Ninja Griffin",
+"incubation_time": 15
+}
+ {
+"description": "The Crystal Sea Monster is a rare and mysterious creature, born from the enchanting union of the Mutated Mosasaurus and the Crystal Golem Summoner King. It possesses the immense power and adaptability of its parent, the Mutated Mosasaurus, as well as the magical ability to summon crystal golems to aid it in battle. Its crystalline scales shimmer with an otherworldly glow.",
+"parent_1": "Mutated Mosasaurus",
+"parent_2": "Crystal Golem Summoner King",
+"power": "65",
+"toughness": "75",
+"speed": "30",
+"energy": 40,
+"monster_types": ["Mutated Sea Monster", "Summoner"],
+"weakness": ["Bombs", "Sonar", "Ice"],
+"immunity": ["Freeze"],
+"summoned_creatures": [{"type": "Crystal Golem", "description": "A powerful crystal golem summoned by the Crystal Sea Monster. It can absorb sunlight and store energy in its crystalline structure.", "power": 35, "toughness": 40, "speed": 12, "energy": 20}, {"type": "Crystal Golem", "description": "Another powerful crystal golem summoned by the Crystal Sea Monster. It can create constructs out of crystal.", "power": 35, "toughness": 40, "speed": 12, "energy": 20}],
+"incubation_time": 20
+}
+ {
+"description": "The Starpunk Fish Griffin is a unique and ingenious creature, born from the union of a Starfish Archer and a Steampunk Griffin Engineer. It possesses the precision aim of its starfish parent along with the engineering skills and metallic body of its griffin parent. Its sharp-tipped arrows are made of calcified coral and seaweed, and it can construct complex machines on the fly using its metallic feathers.",
+"parent_1": "Starfish Archer",
+"parent_2": "Steampunk Griffin Engineer",
+"power": 25,
+"toughness": 38,
+"speed": 12,
+"energy": 10,
+"monster_types": ["Starfish", "Griffin", "Hybrid"],
+"weakness": ["Physical attacks", "Sonic Attacks"],
+"immunity": ["Fire"],
+"egg_type": "Starpunk Fish Griffin",
+"incubation_time": 15
+}
+ {
+ "description": "The Cyber Starfish Dragon is a unique and enigmatic monster, born from the unlikely union of the Cybernetic Dragon - Sage Master and a Starfish Archers. It possesses the ancient knowledge of its dragon parent and the unusual abilities of the starfish archer, including the use of calcified coral and seaweed arrows and an excellent sense of direction.",
+ "parent_1": "Cybernetic Dragon Sage Master",
+ "parent_2": "Starfish Archer",
+ "power": 75,
+ "toughness": 64,
+ "speed": 13,
+ "energy": 45,
+ "monster_types": ["Dragon", "Starfish", "Hybrid"],
+ "weakness": ["Force", "Physical"],
+ "immunity": ["Poison", "Psychic"],
+ "egg_type": "Cyber Starfish Dragon",
+ "incubation_time": 15
+}
+ {
+"description": "The Starfish Summoner is a unique entity, born from the enchanting union of a Starfish Archer and a Crystal Golem Summoner Queen. It has an innate ability to summon both starfish archers and crystal golems, creating a versatile force with ranged and melee capabilities.",
+"parent_1": "Starfish Archer",
+"parent_2": "Crystal Golem Summoner Queen",
+"power": 30,
+"toughness": 50,
+"speed": 10,
+"energy": 15,
+"monster_types": ["Starfish", "Summoner", "Hybrid"],
+"weakness": ["Physical attacks"],
+"immunity": ["Mental and Physical Attacks"],
+"egg_type": "Starfish Summoner",
+"incubation_time": 15,
+"summoned_monsters": [
+{
+"description": "A summoned Starfish Archer is a starfish armed with sharp-tipped arrows made of calcified coral and seaweed. It can be summoned to attack from a distance.",
+"power": 10,
+"toughness": 25,
+"speed": 8,
+"energy": 7,
+"monster_types": ["Starfish"],
+"weakness": ["Physical attacks"]
+},
+{
+"description": "A summoned Crystal Golem is a construct made of interconnected crystals, each one containing powerful enchantments. It can be summoned to protect or serve as a barrier.",
+"power": 25,
+"toughness": 50,
+"speed": 3,
+"energy": 10,
+"monster_types": ["Golem"],
+"weakness": ["Solar Energy"],
+"immunity": ["Mental and Physical Attacks"]
+}
+]
+}
+ {
+ "description": "The Magma Blooming Summoner is a unique monster, born from the fusion of the Alien Plant Summoner and the Lava Golem Samurai. It has the ability to summon both plants and lava minions to aid it in battle. Its own abilities are rooted in manipulation of both plant life and molten lava.",
+ "parent_1": "Alien Plant Summoner",
+ "parent_2": "Lava Golem Samurai",
+ "power": 40,
+ "toughness": 35,
+ "speed": 16,
+ "energy": 25,
+ "monster_types": ["Alien Plant", "Summoner", "Hybrid", "Lava Golem"],
+ "weakness": ["Fire", "Ice"],
+ "immunity": ["Poison"],
+ "egg_type": "Magma Blooming Summoner",
+ "incubation_time": 12
+}
+ {
+ "description": "The Fire-Roared Apatosaurus is a unique and powerful monster, born from the unexpected fusion of a Lava Goblin Shaman and a Mutated Apatosaurus. It possesses the size and strength of an Apatosaurus, combined with the fiery abilities of a Lava Goblin Shaman. This fearsome creature can breathe fire, summon smaller Fire-Roared Apatosauruses, and is immune to fire attacks.",
+ "parent_1": "Lava_Goblin_Shaman",
+ "parent_2": "Mutated_Apatosaurus",
+ "power": 55,
+ "toughness": 60,
+ "speed": 35,
+ "energy": 30,
+ "monster_types": ["Dinosaur", "Goblin", "Hybrid"],
+ "weakness": ["Ice"],
+ "immunity": ["Fire"],
+ "egg_type": "Fire-Roared Apatosaurus",
+ "incubation_time": 15
+}
+ {
+"description": "The Fire-blooded Healing Frog is a rare and unique monster, born from the fusion of the Mutated Amphibian and the Lava Golem Healer King. It possesses the agility of an amphibian, the increased power and unpredictable abilities of the mutation, and the healing powers of the Lava Golem Healer. Its body is infused with lava, allowing it to adapt to its surroundings and heal itself or others.",
+"parent_1": "Mutated Amphibian",
+"parent_2": "Lava Golem Healer King",
+"power": "45",
+"toughness": "53",
+"speed": "12",
+"energy": 30,
+"monster_types": ["Amphibian", "Healer", "Hybrid"],
+"weakness": ["Solar Energy", "Cold"],
+"immunity": ["Fire"],
+"egg_type": "Fire-blooded Healing Frog",
+"incubation_time": 20
+}
+ {
+ "description": "The Inferno Spider Golem is a fearsome creature, born from the unlikely union of the Lava Golem Archer King and the Mutated Spider Queen. It possesses the cunning mind of the Archer King, combined with the deadly venom and web-spinning abilities of the Spider Queen. Its body is made of magma, making it immune to fire and capable of controlling lava flows.",
+ "parent_1": "Lava Golem Archer King",
+ "parent_2": "Mutated Spider Queen",
+ "power": 95,
+ "toughness": 110,
+ "speed": 8,
+ "energy": 65,
+ "monster_types": ["Golem", "Spider", "Hybrid"],
+ "weakness": ["Ice"],
+ "immunity": ["Fire", "Cold"],
+ "egg_type": "Inferno Spider Golem",
+ "incubation_time": 15
+}
+ {
+ "description": "The Steampunk Plague Gryphon is a fearsome flying creature, born from the unlikely union of the Steampunk Gryphon Engineer and the Plague Doctor. This monstrosity can breathe fire while also spreading diseases with its touch. Its mechanical body is heavily armored, making it resilient to most attacks.",
+ "parent_1": "SteampunkGryphonEngineer",
+ "parent_2": "PlagueDoctor",
+ "power": "50",
+ "toughness": "60",
+ "speed": "30",
+ "energy": 45,
+ "monster_types": ["Steampunk Gryphon", "Plague Bringer", "Hybrid"],
+ "weakness": ["Fire"],
+ "immunity": ["Poison", "Debuffs"],
+ "egg_type": "Steampunk Plague Gryphon",
+ "incubation_time": 15
+}
+ {
+ "description": "The Pyro-Botanical Entity is a unique and powerful monster, born from the fusion of the Lava Goblin Shaman and the Alien Plant Elementalist. It possesses the ability to manipulate both fire and plants, making it a formidable adversary in various environments.",
+ "parent_1": "Lava_Goblin_Shaman",
+ "parent_2": "Alien_Plant_Elementalist",
+ "power": "40",
+ "toughness": "30",
+ "speed": "15",
+ "energy": 30,
+ "monster_types": ["Goblin", "Plant", "Pyro-Botanical"],
+ "weakness": ["Water", "Fire"],
+ "immunity": ["Poison", "Paralysis"],
+ "egg_type": "Pyro-Botanical Entity",
+ "incubation_time": 12
+}
+ {
+"description": "The Starflower Queen is a unique and enigmatic creature, born from the union of the Alien Plant Warrior Queen and the Starfish Summoner Queen. It possesses the abilities of both parents: the ability to manipulate plants and summon starfish armies. Its roar, a combination of the queens', is deafening and can knock nearby opponents off their feet. Its connection to the ocean and its inhabitants is strong, allowing it to absorb energy from its surroundings.",
+"parent_1": "Alien Plant Warrior Queen",
+"parent_2": "Starfish Summoner Queen",
+"power": "95",
+"toughness": "83",
+"speed": 12,
+"energy": 65,
+"monster_types": ["Alien Plant", "Starfish", "Hybrid"],
+"weakness": ["Fire"],
+"immunity": ["Poison", "Psychic"],
+"egg_type": "Starflower Queen",
+"incubation_time": 15
+}
+ {
+  "description": "The Mutated Kraken-Amphibian is a monstrous creature born from the unusual mutation of a Kraken and an Amphibian. It possesses the power and control over water from its Kraken parent, and the agility and adaptability of an Amphibian. Its unpredictable abilities make it a dangerous foe to encounter.",
+  "parent_1": "Mutated Kraken",
+  "parent_2": "Mutated Amphibian",
+  "power": "70",
+  "toughness": "85",
+  "speed": "25",
+  "energy": 90,
+  "monster_types": ["Kraken", "Amphibian", "Mutated"],
+  "weakness": ["Thunderbolt", "Solar Energy"],
+  "immunity": ["Poison", "Paralysis"],
+  "egg_type": "Mutated Kraken-Amphibian",
+  "incubation_time": 12
+}
+ {
+"description": "The Mechanical Starfish Necromancer is a hybrid monster, born from the unlikely union of the Mechanical Gryphon Summoner and the Starfish Necromancer. It possesses the ability to summon mechanical starfish, as well as control the dead and manipulate water. Its body is a complex fusion of technology and organic matter, making it a formidable and unpredictable foe.",
+"parent_1": "Mechanical Gryphon Summoner",
+"parent_2": "Starfish Necromancer",
+"power": "45",
+"toughness": "53",
+"speed": "20",
+"energy": 32,
+"monster_types": ["Construct", "Necromancer", "Hybrid"],
+"weakness": ["Magic", "Bright Light"],
+"immunity": ["Fire", "Cold"],
+"egg_type": "Mechanical Starfish Necromancer",
+"incubation_time": 15
+}
+ {
+ "description": "The Magma Spider is a unique and dangerous monster, born from the fiery union of the Mutated Spider Queen and the Lava Golem Knight. It possesses the venomous bite of its spider parent, combined with the lava manipulation abilities and toughness of its golem parent. Its body is covered in hardened lava, making it resilient to both physical and fire attacks.",
+ "parent_1": "Mutated Spider Queen",
+ "parent_2": "Lava Golem Knight",
+ "power": 85,
+ "toughness": 100,
+ "speed": 9,
+ "energy": 35,
+ "monster_types": ["Spider", "Golem", "Hybrid"],
+ "weakness": ["Cold"],
+ "immunity": ["Fire"],
+ "egg_type": "Magma Spider",
+ "incubation_time": 12
+}
+ {
+"description": "The Robo-Specter is a mysterious and formidable creature, born from the unlikely union of the 160 Robot Samurai Master Apprentice and the Ghostly Phantom Warrior Queen. It wields the combat skills of a robotic samurai with the spectral abilities to inflict fear and project energy blasts.",
+"parent_1": "Robot Samurai Master Apprentice",
+"parent_2": "Ghostly Phantom Warrior Queen",
+"power": "45",
+"toughness": "38",
+"speed": "15",
+"energy": 30,
+"monster_types": ["Robot", "Specter", "Hybrid"],
+"weakness": ["Electromagnetic Pulse", "Holy"],
+"immunity": ["Fear"],
+"egg_type": "Robo-Specter",
+"incubation_time": 15
+}
+ {
+ "description": "The Molten Basilisk is a fearsome and unique monster, born from the union of the Lava Golem Archer and the Mutated Basilisk. It possesses the destructive power of a Lava Golem, the petrifying gaze of a Basilisk, and the ability to regrow limbs. Its body is covered in molten rock and its eyes emit a fiery light.",
+ "parent_1": "Lava Golem Archer",
+ "parent_2": "Mutated Basilisk",
+ "power": "45",
+ "toughness": "65",
+ "speed": "20",
+ "energy": 23,
+ "monster_types": ["Golem", "Basilisk", "Mutant"],
+ "weakness": ["Water", "Light Magic"],
+ "immunity": ["Poison", "Venom"],
+ "egg_type": "Molten Basilisk",
+ "incubation_time": 12
+}
+ {
+"description": "The Celestial Robo-Unicorn is a unique fusion of technology and magic, born from the unlikely union of the Robot Ninja and the Angelic Unicorn Healer. With the agility of a unicorn, the strength of a robot, and the healing abilities of an angel, this creature is a force to be reckoned with.",
+"parent_1": "Robot Ninja",
+"parent_2": "Angelic Unicorn Healer",
+"power": "45",
+"toughness": "30",
+"speed": "38",
+"energy": 35,
+"monster_types": ["Robot", "Unicorn", "Hybrid"],
+"weakness": ["Shadow", "Fire"],
+"immunity": ["Poison", "Disease"],
+"egg_type": "Celestial Robo-Unicorn",
+"incubation_time": 15
+}
+ {
+"description": "The Lava Naga Golem is a unique and powerful monster, born from the fusion of the Lava Golem Samurai and the Lava Golem Healer. It possesses the combat skills of the Lava Golem Samurai and the healing abilities of the Lava Golem Healer, making it a versatile and formidable force in battle. Its body is made of molten lava, leaving a trail of destruction with each movement.",
+"parent_1": "Lava Golem Samurai",
+"parent_2": "Lava Golem Healer",
+"power": 48,
+"toughness": 65,
+"speed": 7,
+"energy": 30,
+"monster_types": ["Golem", "Lava", "Hybrid"],
+"weakness": ["Ice"],
+"immunity": ["Poison", "Disease"],
+"egg_type": "Lava Naga Golem",
+"incubation_time": 12
+}
+ {
+ "description": "The Infected Plant Colossus is a monstrous plant creature, born from the strange fusion of the Plague Doctor and the Alien Plant Commander. It possesses immense power, toughness, and control over both plagues and plants. Its touch can spread diseases and contaminate entire areas, making it a dangerous adversary.",
+ "parent_1": "Plague Doctor",
+ "parent_2": "Alien Plant Commander",
+ "power": "65",
+ "toughness": "80",
+ "speed": "10",
+ "energy": 50,
+ "monster_types": ["Plague Bringer", "Alien Plant", "Hybrid"],
+ "weakness": ["Fire"],
+ "immunity": ["Poison", "Debuffs"],
+ "egg_type": "Infected Plant Colossus",
+ "incubation_time": 20
+}
+ {
+ "description": "The Forest Alien Plant is a unique and powerful monster, born from the unlikely union of the Tree Gnome Ranger and the Alien Plant Champion. It possesses the ability to manipulate both nature and its cells, releasing potent toxins or growing vines rapidly. Its keen senses and archery skills make it a versatile and formidable foe in any environment.",
+ "parent_1": "Tree Gnome Ranger",
+ "parent_2": "Alien Plant Champion",
+ "power": "30",
+ "toughness": "25",
+ "speed": "18",
+ "energy": 20,
+ "monster_types": ["Tree Gnome", "Alien", "Hybrid"],
+ "weakness": ["Fire"],
+ "immunity": [],
+ "egg_type": "Forest Alien Plant",
+ "incubation_time": 15
+}
+ {
+ "description": "The Steampunk Kraken-Manticore is a mysterious and intriguing creation, born from the union of the Robo-Samurai and the Steampunk Manticore Healer Apprentice. It possesses the strength and precision of a samurai, coupled with the healing abilities of a manticore. Its body is adorned with both robotic and steam-powered technology, making it a formidable and unique monster.",
+ "parent_1": "Robot Samurai",
+ "parent_2": "Steampunk Manticore Healer Apprentice",
+ "power": "30",
+ "toughness": "25",
+ "speed": "14",
+ "energy": 25,
+ "monster_types": ["Robot", "Manticore", "Hybrid"],
+ "weakness": ["Ice"],
+ "immunity": ["Poison", "Corrosion"],
+ "egg_type": "Steampunk Kraken-Manticore",
+ "incubation_time": 12
+}
+ {
+"description": "The Starfish Phantom is a strange and enigmatic creature, born from the unlikely union of the Ghostly Phantom Summoner and a Starfish Archers. It possesses the ability to summon starfish and phantoms, as well as shoot calcified coral arrows infused with ghostly energy. Its ethereal form makes it difficult to detect and target.",
+"parent_1": "Ghostly Phantom Summoner",
+"parent_2": "Starfish Archer",
+"power": "30",
+"toughness": "28",
+"speed": "12",
+"energy": 35,
+"monster_types": ["Undead Wraith", "Starfish", "Hybrid"],
+"weakness": ["Banishing", "Physical attacks"],
+"immunity": ["Ghostly energy", "Water"],
+"egg_type": "Starfish Phantom",
+"incubation_time": 7
+}
+ {
+ "description": "The Mechanical Griffon Hatchling is a young mechanical griffon, born from the union of a Mechanical Griffon - Archer Master and a Mechanical Griffon Healer Apprentice. It inherits the agility and enhanced archery skills of its parent-1, as well as the healing abilities of its parent-2, making it a versatile and valuable asset.",
+ "parent_1": "Mechanical Griffon Archer Master",
+ "parent_2": "Mechanical Griffon Healer Apprentice",
+ "power": 30,
+ "toughness": 20,
+ "speed": 20,
+ "energy": 12,
+ "monster_types": ["Mechanical Griffon", "Hybrid"],
+ "weakness": ["Poison", "Fire"],
+ "immunity": ["Poison", "Disease"],
+ "egg_type": "Mechanical Griffon Hatchling",
+ "incubation_time": 7
+}
+ {
+ "description": "The Steampunk Skeletal Necromancer Gryphon is a formidable monster, born from the union of the Steampunk Gryphon Queen and the Skeletal Necromancer. It wields steam-powered weaponry and has the ability to raise undead gryphons and skeletal minions. Its touch can shatter mountains and turn the living into the dead.",
+ "parent_1": "Steampunk Gryphon Queen",
+ "parent_2": "Skeletal Necromancer",
+ "power": 70,
+ "toughness": 65,
+ "speed": 20,
+ "energy": 35,
+ "monster_types": ["Gryphon", "Undead", "Hybrid"],
+ "weakness": ["Holy Damage", "Electricity"],
+ "immunity": ["Poison", "Toxins"],
+ "egg_type": "Steampunk Skeletal Necromancer Gryphon",
+ "incubation_time": 20
+}
+ {
+ "description": "The Techno-Dragon Hydra is a unique fusion of technology and biology, born from the merging of a Cybernetic Dragon Necromancer and a Cybernetic Dragon Warrior. It boasts an immense power output, the ability to command both undead minions and advanced cybernetics, and a breath weapon that alternates between toxic energy bolts and plasma streams.",
+ "parent_1": "Cybernetic Dragon Necromancer",
+ "parent_2": "Cybernetic Dragon Warrior",
+ "power": 110,
+ "toughness": 98,
+ "speed": 30,
+ "energy": 75,
+ "monster_types": ["Dragon", "Technological", "Necromancer", "Warrior"],
+ "weakness": ["Holy Damage", "Ice"],
+ "immunity": ["Fire", "Poison"],
+ "egg_type": "Techno-Dragon Hydra",
+ "incubation_time": 15
+}
+ {
+  "description": "The Shocking Samurai Bot is a mechanical warrior infused with the electricity of an Electric Eel Samurai, and the wisdom of a Robot Samurai Sage. With its sword charged with electric energy, it delivers powerful shocks to immobilize enemies and analyze battlefield data in real time. Its armor is both a protection and a conductor for the electric current.",
+  "parent_1": "Robot Samurai Sage",
+  "parent_2": "Electric Eel Samurai",
+  "power": "30",
+  "toughness": "22",
+  "speed": "18",
+  "energy": 20,
+  "monster_types": ["Robot", "Samurai", "Electric"],
+  "weakness": ["Fire", "Organic Matter"],
+  "immunity": ["Mental Manipulation", "Mind Control"],
+  "egg_type": "Shocking Samurai Bot",
+  "incubation_time": 12
+}
+ {
+"description": "The Frozen Spectre Monster is a chilling figure, born from the mysterious union of Professor Brain Freeze and the Ghostly Phantom Monk. It can manipulate both temperature and energy, creating icy terrains and spectral blasts. Its presence instills fear and its monk training makes it a formidable opponent.",
+"parent_1": "81. Ice Cream Monster Scientist",
+"parent_2": "Ghostly Phantom Monk",
+"power": 28,
+"toughness": 14,
+"speed": 25,
+"energy": 23,
+"monster_types": ["Ice Cream Scientist", "Spectre", "Hybrid"],
+"weakness": ["Fire", "Physical attacks"],
+"immunity": ["Heat", "Energy based attacks"],
+"egg_type": "Frozen Spectre Monster",
+"incubation_time": 12
+}
+ {
+"description": "The Crystal Robo-Healer is a hybrid monster, born from the fusion of the Robo-Samurai and the Crystal Golem Healer Apprentice. It possesses the armor and combat skills of a Robo-Samurai, along with the healing abilities of a Crystal Golem Healer Apprentice. A formidable ally or an unyielding enemy.",
+"parent_1": "Robot Samurai",
+"parent_2": "Crystal Golem Healer Apprentice",
+"power": "30",
+"toughness": "30",
+"speed": "10",
+"energy": 25,
+"monster_types": ["Robot", "Golem", "Healer"],
+"weakness": ["Darkness"],
+"immunity": ["Poison", "Fire", "Corrosion"],
+"egg_type": "Crystal Robo-Healer",
+"incubation_time": 12
+}
+ {
+"description": "The Techno-Samurai Gryphon Summoner is a mechanical construct that combines the abilities of the Mechanical Gryphon Summoner and the Robot Samurai Sage Master. It can summon mechanical gryphons and mechanical samurais to aid it in battle, as well as manipulate time and space within its vicinity. Its ancient wisdom grants it a formidable presence on the battlefield.",
+"parent_1": "Mechanical Gryphon Summoner",
+"parent_2": "Robot Samurai Sage Master",
+"power": "60",
+"toughness": "58",
+"speed": "30",
+"energy": 40,
+"monster_types": ["Construct", "Gryphon", "Summoner", "Robot Samurai"],
+"weakness": ["Magic"],
+"immunity": ["Physical attacks"],
+"egg_type": "Techno-Samurai Gryphon Summoner",
+"incubation_time": 15
+}
+ {
+ "description": "The Ghostly Steampunk Manticore is a spectral manticore that combines the healing abilities of the Steampunk Manticore - Remedy, and the haunting capabilities of the Ghostly Phantom Monk Master. It can pass through solid objects, manipulate energy to create illusions and project terrifying apparitions, and heal damaged machinery and creatures with its fiery breath.",
+ "parent_1": "Ghostly Phantom Monk Master",
+ "parent_2": "Steampunk Manticore Healer",
+ "power": 20,
+ "toughness": 35,
+ "speed": 22,
+ "energy": 28,
+ "monster_types": ["Ghostly Phantom Monk", "Steampunk Manticore Healer", "Hybrid"],
+ "weakness": ["Physical Attacks", "Ice", "Magnetic"],
+ "immunity": ["Mind Control", "Temptation", "Poison"],
+ "egg_type": "Ghostly Steampunk Manticore",
+ "incubation_time": 15
+}
+ {
+ "description": "The Starfrost Ice Wizard is a magical being, born from the unique fusion of the Ice Cream Monster Scientist and the Starfish Wizard. It possesses the power to manipulate both ice and water, creating various elements and phenomena. Its starfish scales shimmer with a cold glow.",
+ "parent_1": "Ice\_Cream\_Monster\_Scientist",
+ "parent_2": "Starfish\_Wizard",
+ "power": "35",
+ "toughness": "20",
+ "speed": "10",
+ "energy": 22,
+ "monster_types": ["Ice", "Water", "Magical"],
+ "weakness": ["Fire"],
+ "immunity": ["Cold", "Mind\_Control", "Temptation"],
+ "egg_type": "Starfrost\_Ice\_Wizard",
+ "incubation_time": 12
+}
+ {
+ "description": "The Stargriff Mechanized Starfish is a unique mechanical monster, born from the unlikely union of a Starfish Warrior and a Mechanical Griffon Archer. This creature combines the star-shaped limbs of the Starfish Warrior with the grace and power of the Mechanical Griffon Archer, creating a formidable opponent both up close and at a distance.",
+ "parent_1": "Starfish Warrior",
+ "parent_2": "Mechanical Griffon Archer",
+ "power": 30,
+ "toughness": 28,
+ "speed": 15,
+ "energy": 10,
+ "monster_types": ["Starfish", "Griffon", "Mechanized"],
+ "weakness": ["High Temperature", "Fire"],
+ "immunity": ["Poison", "Paralysis"],
+ "egg_type": "Stargriff Mechanized Starfish",
+ "incubation_time": 15
+}
+ {
+ "description": "The Robo-Phantom Necromancer is a mysterious and powerful being, born from the forbidden fusion of the 119th Robot Ninja Apprentice and the Ghostly Phantom Necromancer. It possesses both the stealth and precision of a robot, as well as the ability to summon spirits and raise the dead. Its metallic body is infused with dark energy, making it a formidable foe.",
+ "parent_1": "Robot Ninja Apprentice",
+ "parent_2": "Ghostly Phantom Necromancer",
+ "power": "30",
+ "toughness": "36",
+ "speed": "20",
+ "energy": 20,
+ "monster_types": ["Robot", "Necromancer", "Undead"],
+ "weakness": ["Fire", "Holy Magic"],
+ "immunity": ["Poison"],
+ "egg_type": "Robo-Phantom Necromancer",
+ "incubation_time": 15
+}
+ {
+ "description": "The Electric Phantom Spectre is a spectral monster, born from the enchanted union of the Electric Eel Samurai and the Ghostly Phantom Knight. It wields the power of both water and ghostly energy, able to deliver electric shocks and pass through walls. Its armor is a mix of samurai and spectral designs, making it an elusive and dangerous foe.",
+ "parent_1": "24. Electric Eel Samurai",
+ "parent_2": "Ghostly Phantom Knight",
+ "power": "30",
+ "toughness": "15",
+ "speed": "28",
+ "energy": 20,
+ "monster_types": ["Electric", "Ghost", "Spectre"],
+ "weakness": ["Fire", "Bright Light"],
+ "immunity": [],
+ "egg_type": "Electric Phantom Spectre",
+ "incubation_time": 12
+}
+ {
+ "description": "The Techno-Samurai Warrior is a hybrid monster, the result of the fusion between the Robot Samurai Sage Master Apprentice and the Robo-Samurai. It combines the ancient martial arts skills of its parents with advanced technological enhancements, making it a formidable opponent in battle.",
+ "parent_1": "Robot Samurai Sage Master Apprentice",
+ "parent_2": "Robo-Samurai",
+ "power": "32",
+ "toughness": "25",
+ "speed": "11",
+ "energy": 10,
+ "monster_types": ["Robot Samurai", "Hybrid"],
+ "weakness": ["Necromancy", "Fire"],
+ "immunity": ["Poison", "Corrosion"],
+ "egg_type": "Techno-Samurai Warrior",
+ "incubation_time": 8
+}
+ {
+"description": "The Crystallized Mechanical Healing Gryphon is a magical construct born from the fusion of the Sagacious Scylla and the Crystal Golem Healer Apprentice. It possesses the ability to heal with its touch, regenerate health, and manipulate machinery and technology. Its crystalline structure makes it resilient to poison and fire, but vulnerable to darkness.",
+"parent_1": "87. Mechanical Gryphon Sage",
+"parent_2": "Crystal Golem Healer Apprentice",
+"power": 50,
+"toughness": 40,
+"speed": 12,
+"energy": 35,
+"monster_types": ["Mechanical Gryphon", "Healer", "Crystal"],
+"weakness": ["Darkness"],
+"immunity": ["Poison", "Fire"],
+"egg_type": "Crystallized Mechanical Healing Gryphon",
+"incubation_time": 15
+}
+ {
+ "description": "The Cybernetic Serpentine Dragon is a unique and fearsome monster, born from the union of a Mutated Basilisk and a Cybernetic Dragon Warrior. It possesses the ability to petrify its prey with its gaze, regrow limbs, and breathe plasma and laser beams. Its body is covered in wart-like growths and advanced cybernetics, making it a formidable opponent.",
+ "parent_1": "Mutated Basilisk",
+ "parent_2": "Cybernetic Dragon Warrior",
+ "power": "70",
+ "toughness": "80",
+ "speed": "15",
+ "energy": 40,
+ "monster_types": ["Serpent", "Dragon", "Cybernetic", "Hybrid"],
+ "weakness": ["Light Magic", "Ice"],
+ "immunity": ["Poison", "Venom"],
+ "egg_type": "Cybernetic Serpentine Dragon",
+ "incubation_time": 15
+}
+ {
+  "description": "The Crystal Robot Samurai Sage is a mechanical warrior in training, possessing the ancient wisdom of the Robot Samurai Sage and the healing abilities of the Crystal Golem Healer Apprentice. Its sword shoots energy beams that can heal instead of harm, and its advanced sensors allow it to analyze battlefield data and maintain the health of its allies.",
+  "parent_1": "Robot Samurai Sage",
+  "parent_2": "Crystal Golem Healer Apprentice",
+  "power": "20",
+  "toughness": "28",
+  "speed": "15",
+  "energy": 20,
+  "monster_types": ["Robot Samurai Sage", "Crystal Golem", "Healer"],
+  "weakness": ["Darkness"],
+  "immunity": ["Poison", "Fire"],
+  "egg_type": "Crystal Robot Samurai Sage",
+  "incubation_time": 15
+}
+ {
+ "description": "The Spectral Ankylo-Phantom is a mysterious and formidable monster, born from the unlikely union of the Ghostly Phantom Knight and the Mutated Ankylosaurus. This creature can pass through walls like its parent, but also wields the powerful tail spike of the Ankylosaurus. Its armor plates are infused with spectral energy, making it a dangerous opponent.",
+ "parent_1": "Ghostly Phantom Knight",
+ "parent_2": "Mutated Ankylosaurus",
+ "power": "45",
+ "toughness": "70",
+ "speed": "5",
+ "energy": 20,
+ "monster_types": ["Ghost", "Ankylosaurus", "Hybrid"],
+ "weakness": ["Bright Light", "Fire"],
+ "immunity": [],
+ "egg_type": "Spectral Ankylo-Phantom",
+ "incubation_time": 15
+}
+ {
+  "description": "The Cosmic Mechanical Jellyfish is a unique and intriguing monster, born from the union of a Mechanical Dragon Engineer and a Space Jellyfish Engineer. It possesses the ability to construct complex machines and gadgets using both metal and bioluminescent materials. Its tentacles can emit powerful Sonic Waves or repair damaged structures with ease.",
+  "parent_1": "Mechanical Dragon Engineer",
+  "parent_2": "Space Jellyfish Engineer",
+  "power": "25",
+  "toughness": "19",
+  "speed": "13",
+  "energy": 32,
+  "monster_types": ["Mechanic", "Jellyfish", "Hybrid"],
+  "weakness": ["Fire"],
+  "immunity": ["Electricity"],
+  "egg_type": "Cosmic Mechanical Jellyfish",
+  "incubation_time": 15
+}
+ {
+  "description": "The Starfish Skeleton Queen is a unique and powerful monster, born from the unexpected fusion of the Skeleton Archer Queen and the Starfish Healer. It possesses the healing abilities of the Starfish Healer and the commanding presence of the Skeleton Archer Queen. Its skeletal structure is covered in small, pulsating stars that glow softly, making it an enigmatic and formidable foe.",
+  "parent_1": "Skeleton Archer Queen",
+  "parent_2": "Starfish Healer",
+  "power": "25",
+  "toughness": "20",
+  "speed": "7",
+  "energy": 30,
+  "monster_types": ["Skeleton", "Starfish", "Hybrid"],
+  "weakness": ["Fire"],
+  "immunity": ["Poison", "Radiation"],
+  "egg_type": "Starfish Skeleton Queen",
+  "incubation_time": 15
+}
+ {
+ "description": "The Techno-Saurian Hatchling is a mysterious creature born from the fusion of the Robot Ninja Apprentice and the Mutated T-Rex Ranger. It possesses the agility and stealth of the former, along with the strength and mutations of the latter. Its body is covered in advanced armor plating and wires, granting it additional protection.",
+ "parent_1": "Robot Ninja Apprentice",
+ "parent_2": "Mutated T-Rex Ranger",
+ "power": 75,
+ "toughness": 60,
+ "speed": 30,
+ "energy": 40,
+ "monster_types": ["Robot", "Dinosaur", "Hybrid"],
+ "weakness": ["Fire", "Cold"],
+ "immunity": ["Poison", "Radiation"],
+ "egg_type": "Techno-Saurian Hatchling",
+ "incubation_time": 15
+}
+ {
+  "description": "The Technoplant Samurai is a unique hybrid monster, born from the fusion of an Alien Plant Summoner and a Robot Samurai Apprentice Master. It can summon plants as minions and repair itself in combat with advanced robotics. Its attacks are precise, powerful, and infused with the essence of plant life.",
+  "parent_1": "Alien Plant Summoner",
+  "parent_2": "Robot Samurai Apprentice Master",
+  "power": "40",
+  "toughness": "35",
+  "speed": "15",
+  "energy": 22,
+  "monster_types": ["Alien", "Plant", "Robot", "Hybrid"],
+  "weakness": ["Fire"],
+  "immunity": ["Poison"],
+  "egg_type": "Technoplant Samurai",
+  "incubation_time": 12
+}
+ {
+"description": "The Electrified Robot Samurai is a fearsome mechanical creature, born from the fusion of the Robot Samurai Commander and the Electric Eel Samurai. It wields immense power in both electricity and samurai combat skills. Its armor conducts electric currents, making it dangerous to touch.",
+"parent_1": "Robot Samurai Commander",
+"parent_2": "Electric Eel Samurai",
+"power": "45",
+"toughness": "35",
+"speed": "20",
+"energy": 22,
+"monster_types": ["Robot", "Samurai", "Electric"],
+"weakness": ["Fire"],
+"immunity": ["None"],
+"egg_type": "Electrified Robot Samurai",
+"incubation_time": 15
+}
+ {
+"description": "The Electro-Slime Alchemist is a unique and mysterious being, born from the fusion of the Robot Ninja Master Knight and the Glowing Slime Alchemist. It possesses the precision and combat abilities of its robotic parent, as well as the alchemical prowess of the slime. Its body can generate electromagnetic pulses and produce a variety of chemicals, making it an invaluable asset or a dangerous foe.",
+"parent_1": "191. Robot Ninja Master Knight",
+"parent_2": "Glowing Slime Alchemist",
+"power": 30,
+"toughness": 25,
+"speed": 7,
+"energy": 12,
+"monster_types": ["Robot", "Slime", "Alchemist", "Hybrid"],
+"weakness": ["Organic Matter", "Fire"],
+"immunity": ["Electromagnetic Pulses", "Cold"],
+"egg_type": "Electro-Slime Alchemist",
+"incubation_time": 15
+}
+ {
+"description": "The Mechanical Crystal Griffon is a rare hybrid creature, born from the union of the Mechanical Griffon Healer Apprentice and the Crystal Golem Summoner Queen. It possesses the healing abilities of its Mechanical Griffon parent as well as the crystalline construct summoning ability of its Crystal Golem parent. Its metallic claws can inflict damage, while its crystalline formations provide protection and support.",
+"parent_1": "Mechanical Griffon Healer Apprentice",
+"parent_2": "Crystal Golem Summoner Queen",
+"power": 37,
+"toughness": 85,
+"speed": 9,
+"energy": 14,
+"monster_types": ["Mechanical Griffon", "Golem", "Hybrid"],
+"weakness": ["Fire"],
+"immunity": ["Poison", "Disease"],
+"summoned_monsters": [ { "description": "A Crystal Healing Griffon is a variant of the Mechanical Crystal Griffon that can summon healing crystals to restore health and vitality.", "power": 20, "toughness": 50, "speed": 8, "energy": 12, "monster_types": ["Mechanical Griffon", "Golem", "Hybrid"], "weakness": ["Fire"], "immunity": ["Poison", "Disease"] }, { "description": "A Crystal Sentry Griffon is a more aggressive variant of the Mechanical Crystal Griffon, able to summon crystal sentries to aid in combat.", "power": 48, "toughness": 100, "speed": 5, "energy": 20, "monster_types": ["Mechanical Griffon", "Golem Sentry", "Hybrid"], "weakness": ["Fire"], "immunity": ["Poison", "Disease"] }],
+"egg_type": "Mechanical Crystal Griffon",
+"incubation_time": 20
+}
+ {
+ "description": "The Mechanical Ice Cream Sundae Griffon is a unique and mysterious monster, born from the unexpected union of the Mechanical Griffon Archer and the Ice Cream Sundae Engineer. It possesses both the flying abilities and technological prowess of its parents, as well as the ability to create and manipulate ice cream. Its quirky nature makes it an unpredictable opponent.",
+ "parent_1": "Mechanical Griffon Archer",
+ "parent_2": "Ice Cream Sundae Engineer",
+ "power": 25,
+ "toughness": 21,
+ "speed": 24,
+ "energy": 12,
+ "monster_types": ["Mechanical Griffon", "Engineer", "Hybrid"],
+ "weakness": ["Fire"],
+ "immunity": ["Poison", "Toxic Gas", "Cold"],
+ "egg_type": "Mechanical Ice Cream Sundae Griffon",
+ "incubation_time": 12
+}
+ {
+"description": "The Crystal Lava Golem is a unique and powerful monster, born from the unlikely union of the Crystal Golem Knight Queen and the Lava Golem Archer King. It possesses the crystalline form of its mother and the magma control abilities of its father, making it a formidable opponent.",
+"parent_1": "Crystal Golem Knight Queen",
+"parent_2": "Lava Golem Archer King",
+"power": "95",
+"toughness": "130",
+"speed": "7",
+"energy": 45,
+"monster_types": ["Crystal Golem", "Lava Golem", "Hybrid"],
+"weakness": ["Magic Missile", "Ice"],
+"immunity": ["Physical attacks", "Fire"],
+"egg_type": "Crystal Lava Golem",
+"incubation_time": 15
+}
+ {
+"description": "The Crystalline Cybernetic Dragon is a unique and powerful monster, born from the union of the Crystal Golem Summoner and the Cybernetic Dragon Healer. It possesses the ability to summon crystal golems and heal allies with its powerful beam attacks, while also being infused with advanced technology that allows it to absorb energy from its surroundings and recharge. Its scales are made of shimmering crystals, making it a formidable and beautiful creature.",
+"parent_1": "Crystal Golem Summoner",
+"parent_2": "Cybernetic Dragon Healer",
+"power": "65",
+"toughness": "70",
+"speed": "13",
+"energy": 60,
+"monster_types": ["Golem Mage", "Dragon Cyborg", "Hybrid"],
+"weakness": ["Physical attacks"],
+"immunity": ["Magic"],
+"egg_type": "Crystalline Cybernetic Dragon",
+"incubation_time": 15,
+"summoned_creatures": [{"name": "Crystal Golem", "power": 12, "toughness": 15, "speed": 3, "energy": 0},
+{"name": "Crystal Golem", "power": 12, "toughness": 15, "speed": 3, "energy": 0},
+{"name": "Crystal Golem", "power": 12, "toughness": 15, "speed": 3, "energy": 0}]
+}
+ {
+"description": "The Crystal Samurai Golem is a rare and powerful creature, born from the unusual fusion of the Crystal Golem Archer and the Robot Samurai Master. This golem wields a bow made of crystal and steel, and has the ability to infuse its arrows with both magical energy and robotic precision. It can also repair itself in battle and call forth smaller golems or robots to aid it.",
+"parent_1": "Crystal Golem Archer",
+"parent_2": "Robot Samurai Master",
+"power": "65",
+"toughness": "80",
+"speed": "20",
+"energy": 45,
+"monster_types": ["Golem", "Robot", "Hybrid"],
+"weakness": ["Fire", "Ice"],
+"immunity": ["Poison", "Electrical Damage"],
+"egg_type": "Crystal Samurai Golem",
+"incubation_time": 15
+}
+ {
+ "description": "The Fire Spectral Lava Golem is a unique and powerful monster, born from the mysterious union of the Ghostly Phantom Necromancer Queen and the Lava Golem Archer King. It can manipulate both spirits and magma, summoning undead minions and controlling lava flows with ease.",
+ "parent_1": "Ghostly Phantom Necromancer Queen",
+ "parent_2": "Lava Golem Archer King",
+ "name": "Fire Spectral Lava Golem",
+ "power": 95,
+ "toughness": 85,
+ "speed": 10,
+ "energy": 73,
+ "monster_types": ["Ghost", "Spectral", "Lava Golem"],
+ "weakness": ["Ice", "Holy Light"],
+ "immunity": ["Fire", "Death"],
+ "egg_type": "Fire Spectral Lava Golem",
+ "incubation_time": 15
+}
+ {
+ "description": "The Techno-Crabon Ninja is a formidable warrior, born from the fusion of a Robot Ninja and a Cybernetic Crab Sage. It possesses advanced technology integrated into its body, granting it immense power and adaptability in battle. Its claws are imbued with electrical energy, making it a dangerous adversary.",
+ "parent_1": "Robot Ninja",
+ "parent_2": "Cybernetic Crab Sage",
+ "power": 46,
+ "toughness": 45,
+ "speed": 13,
+ "energy": 17,
+ "monster_types": ["Robot", "Crab", "Hybrid"],
+ "weakness": ["Fire"],
+ "immunity": ["Plant", "Temptation"],
+ "egg_type": "Techno-Crabon Ninja",
+ "incubation_time": 15
+}
+ {
+ "description": "The Frozen Phantom Summoner is a mysterious being, born from the union of the Sage King of Ice Cream and the Ghostly Phantom Summoner. It possesses the power to create and manipulate both ice cream and spirits, making it a formidable foe. Its haunting scream can leave even the bravest adventurers paralyzed with fear, but its icy touch can freeze its enemies solid.",
+ "parent_1": "Ice Cream Monster Sage King",
+ "parent_2": "Ghostly Phantom Summoner",
+ "power": "40",
+ "toughness": "38",
+ "speed": "15",
+ "energy": 30,
+ "monster_types": ["Ice Cream", "Undead Wraith", "Hybrid"],
+ "weakness": ["Fire", "Banishing"],
+ "immunity": ["Heat", "Physical Attacks"],
+ "egg_type": "Frozen Phantom Summoner",
+ "incubation_time": 12
+}
+ {
+"description": "The Mechanospider Griffon is a unique and dangerous hybrid monster, born from the unlikely union of a Mechanical Griffon Healer Apprentice and a Mutated Spider Queen. This creature possesses both the mechanical enhancements of its griffon parent and the deadly venom and web-shooting abilities of its spider parent.",
+"parent_1": "Mechanical Griffon",
+"parent_2": "Mutated Spider Queen",
+"power": 35,
+"toughness": 45,
+"speed": 10,
+"energy": 15,
+"monster_types": ["Mechanical Beast", "Spider"],
+"weakness": ["Fire"],
+"immunity": ["Poison", "Disease"],
+"egg_type": "Mechanospider Griffon",
+"incubation_time": 15
+}
+ {
+ "description": "The Spider Alchemist Troll is a rare and dangerous creature, born from the union of a Cave Troll Alchemist and a Spider Queen Weaver. This monstrosity possesses advanced alchemy skills, weaving intricate webs infused with toxins and potions. It can also manipulate poison and paralysis, making it a deadly foe.",
+ "parent_1": "Cave Troll Alchemist",
+ "parent_2": "Spider Queen Weaver",
+ "power": 55,
+ "toughness": 75,
+ "speed": 14,
+ "energy": 40,
+ "monster_types": ["Cave Troll", "Spider", "Hybrid", "Alchemist"],
+ "weakness": ["Fire"],
+ "immunity": ["Poison", "Paralysis"],
+ "egg_type": "Spider Alchemist Troll",
+ "incubation_time": 20
+}
+ {
+  "description": "The Molten Robo-Ninja is a formidable monster, born from the unlikely union of a Lava Golem Archer King and a Robot Ninja. It wields lava arrows that can melt through defenses, as well as the stealth and adaptability of a robot. Its fiery temper makes it a relentless opponent.",
+  "parent_1": "Lava_Golem_Archers_King",
+  "parent_2": "Robot_Ninja",
+  "power": "45",
+  "toughness": "50",
+  "speed": "13",
+  "energy": 17,
+  "monster_types": ["Golem", "Lava", "Robot"],
+  "weakness": ["Ice"],
+  "immunity": ["Fire"],
+  "egg_type": "Molten Robo-Ninja",
+  "incubation_time": 12,
+  "ranged_attack": true
+}
+ {
+ "description": "The Star spectral Horse is a unique and otherworldly creature, born from the enchanted union of the Starfish Warrior and the Spectral Horseman. It's equipped with both the star-shaped limbs of its father and the spectral abilities of its mother, making it a versatile and formidable monster.",
+ "parent_1": "Starfish Warrior",
+ "parent_2": "Spectral Horseman",
+ "power": "25",
+ "toughness": "20",
+ "speed": "18",
+ "energy": 12,
+ "monster_types": ["Starfish", "Undead Cavalry", "Hybrid"],
+ "weakness": ["High Temperature", "Holy Light"],
+ "immunity": ["Physical Attacks"],
+ "egg_type": "Star spectral Horse",
+ "incubation_time": 7
+}
+ {
+ "description": "The Jungle Plant Rex is a mysterious hybrid monster, born from the unlikely union of the Alien Plant Priestess and the Mutated T-Rex Ranger. It possesses the abilities to manipulate both growth and strength, making it a formidable force in its environment.",
+ "parent_1": "Alien Plant Priestess",
+ "parent_2": "Mutated T-Rex Ranger",
+ "power": "85",
+ "toughness": "60",
+ "speed": "14",
+ "energy": 70,
+ "monster_types": ["Alien", "Plant", "Dinosaur", "Hybrid"],
+ "weakness": ["Fire", "Cold"],
+ "immunity": ["Poison", "Radiation", "Darkness"],
+ "egg_type": "Jungle Plant Rex",
+ "incubation_time": 15
+}
+ {
+  "description": "The Steampunk Ninja Manticore is a rare and enigmatic creature, born from the unlikely union of the Steampunk Manticore Sage Master and the advanced Robot Ninja Master Knight. It possesses both the wisdom of its sage parent and the combat prowess of its robotic parent. Its body is a fusion of intricate steam-powered gears, ancient knowledge, and high-tech machinery. It can fly over long distances, deliver devastating stinger attacks, and reprogram other creatures.",
+  "parent_1": "139. Steampunk Manticore Sage Master",
+  "parent_2": "191. Robot Ninja Master Knight",
+  "power": "60",
+  "toughness": "53",
+  "speed": "35",
+  "energy": 45,
+  "monster_types": ["Steampunk Manticore", "Robot", "Hybrid"],
+  "weakness": ["Ice", "Organic Matter"],
+  "immunity": ["Fire", "Electromagnetic Pulses"],
+  "egg_type": "Steampunk Ninja Manticore",
+  "incubation_time": 12
+}
+ {
+ "description": "The Frozen Spider Ice Monster is a unique and deadly creature, born from the unholy alliance between the Ice Cream Monster Scientist and the Mutated Spider Queen. It possesses the ability to create and control ice and webs, making it a formidable adversary in both cold environments and open spaces.",
+ "parent_1": "Ice\_Cream\_Monster\_Scientist",
+ "parent_2": "Mutated\_Spider\_Queen",
+ "power": "45",
+ "toughness": "50",
+ "speed": "10",
+ "energy": 25,
+ "monster_types": ["Ice Cream", "Spider", "Hybrid"],
+ "weakness": ["Fire"],
+ "immunity": ["Cold"],
+ "egg_type": "Frozen Spider Ice Monster",
+ "incubation_time": 15
+}
+ {
+ "description": "The Steampunk Electric Eel Sage is a wise and powerful creature, born from the unique union of the Steampunk Manticore - Sage Master and the Electric Eel Sage. It possesses an electric stinger that can both stun opponents and heal itself, as well as the ability to fly over long distances due to its steampunk mechanisms. Its body is covered in intricate gears and machinery that harness the power of electricity from its environment.",
+ "parent_1": "Steampunk Manticore Sage Master",
+ "parent_2": "Electric Eel Sage",
+ "power": "45",
+ "toughness": "20",
+ "speed": "28",
+ "energy": 32,
+ "monster_types": ["Steampunk Manticore", "Sage", "Electric Eel"],
+ "weakness": ["Ice", "Fire"],
+ "immunity": ["Poison", "Paralysis"],
+ "egg_type": "Steampunk Electric Eel Sage",
+ "incubation_time": 15
+}
+ {
+ "description": "The Inferno Bloomer is a unique monster, born from the extraordinary fusion of the Alien Plant Summoner and the Lava Golem Samurai. It possesses the ability to summon lava-infused plants as minions and wields powerful combat skills. Its roots run deep in both plant manipulation and molten destruction.",
+ "parent_1": "Alien Plant Summoner",
+ "parent_2": "Lava Golem Samurai",
+ "power": 40,
+ "toughness": 30,
+ "speed": 15,
+ "energy": 25,
+ "monster_types": ["Alien Plant", "Golem", "Hybrid"],
+ "weakness": ["Ice"],
+ "immunity": ["Poison"],
+ "egg_type": "Inferno Bloomer",
+ "incubation_time": 15
+}

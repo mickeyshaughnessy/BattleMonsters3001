@@ -5,7 +5,7 @@ import json, random
 
 def generate_eggs(N=100):
     eggs = []
-    with open("generated_monsters.json", "r") as fin:
+    with open("progenitor_monsters.json", "r") as fin:
         monsters = [line.rstrip() for line in fin]
         
     for i in range(N):

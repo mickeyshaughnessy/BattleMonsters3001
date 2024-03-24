@@ -91,7 +91,7 @@ Input = %s
 Output = 
 """
 
-p_ghenerate_eggs = """ Given the egg parents as input, generate a new egg.
+p_generate_eggs = """ Given the egg parents as input, generate a new egg.
 
 You always return valid JSON and never anything else.
 
@@ -122,7 +122,7 @@ Example:
 }
 
 Egg = {
-  "description": "The Galactic Naga Kraken is a mysterious and powerful hybrid creature, born from the union of the Galactic Kraken Colossus and the Dark Naga Warrior. It possesses immense strength and the ability to manipulate water and energy. Its colossal tentacles are infused with dark energy, making it a formidable foe.",
+  "description": "The Galactic Naga Kraken is a mysterious and powerful monster, born from the forbidden union of the Galactic Kraken Colossus and a Dark Naga Warrior. It possesses immense strength and the ability to manipulate water and energy. Its colossal tentacles are infused with dark energy, making it a formidable foe.",
   "parent_1": "Galactic_Kraken_Colossus",
   "parent_2": "Dark Naga Warrior",
   "power": "35",

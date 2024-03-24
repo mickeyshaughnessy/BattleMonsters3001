@@ -1,11 +1,14 @@
 import requests, json
 import json
 
+#model = "mistral:7b-text-q3_K_S"
+model = "mistral"
+
 def execute_completion(prompt):
 
     resp = requests.post(
             "http://localhost:11434/api/generate",
-            json={"model" : "mistral", "prompt" : prompt},
+            json={"model" : model, "prompt" : prompt},
             stream=False)
 
     _text = ""

@@ -323,3 +323,124 @@ p_battle_handler = """
 
   Output = 
 """
+
+p_claude3Opus_battle_handler = """
+Battle State at time t:
+Location: [Insert Location]
+Grid Size: 100x100
+Monsters:
+[Insert Monster 1 JSON]
+[Insert Monster 2 JSON]
+...
+[Insert Monster N JSON] (Up to 1000 Monsters)
+Terrain Characteristics: [Insert Terrain Characteristics]
+
+Battle State at time t+1:
+[Monster 1 Name] at position (x1, y1) with [HP1] hit points uses its [Ability 1] on [Monster 2 Name] at position (x2, y2) with [HP2] hit points, dealing [Damage] damage. [Monster 2 Name]'s [Weakness] amplifies the damage by [Amplification]%. [Monster 2 Name] retaliates with [Ability 2], but [Monster 1 Name]'s [Strength] reduces the damage by [Reduction]%. The [Terrain Characteristic] affects the battle by [Effect].
+
+[Monster 3 Name] at position (x3, y3) with [HP3] hit points moves to position (x4, y4) and uses its [Ability 3] on [Monster 4 Name] at position (x5, y5) with [HP4] hit points, healing [Monster 4 Name] by [Heal Amount]. [Monster 4 Name] thanks [Monster 3 Name] with a friendly nod.
+
+...
+
+[Monster N-1 Name] at position (xN-1, yN-1) with [HPN-1] hit points and [Monster N Name] at position (xN, yN) with [HPN] hit points engage in an epic dance-off, showing off their best moves. The other monsters cheer them on, temporarily forgetting about the battle.
+
+After the step, the remaining monsters' hit points and positions are updated as follows:
+[Monster 1 Name]: (x1', y1'), [HP1'] hit points
+[Monster 2 Name]: (x2', y2'), [HP2'] hit points
+...
+[Monster N Name]: (xN', yN'), [HPN'] hit points
+
+The [Terrain Characteristic] has [Effect] on the battlefield, influencing the next step of the battle.
+
+Example 1:
+Battle State at time t:
+Location: Haunted Pirate Cove
+Grid Size: 100x100
+Monsters:
+{"name": "Frostbite Fiona", "position": (10, 20), "hit_points": 100, "weaknesses": ["Fire"], "strengths": ["Ice"], "abilities": ["Frozen Ground", "Ice Shield"]}
+{"name": "Fire Phoenix Monk", "position": (50, 60), "hit_points": 120, "weaknesses": ["Water"], "strengths": ["Fire"], "abilities": ["Flame Shield", "Fire Breath"]}
+
+Battle State at time t+1:
+Frostbite Fiona at position (10, 20) with 100 hit points uses its Frozen Ground ability on Fire Phoenix Monk at position (50, 60) with 120 hit points, slowing down Fire Phoenix Monk's movement by 30%. Fire Phoenix Monk's Fire strength reduces the effect by 10%. The haunted pirate ship creaks and groans, sending shivers down the monsters' spines.
+
+Fire Phoenix Monk retaliates with Fire Breath, dealing 40 fire damage to Frostbite Fiona. Frostbite Fiona's Ice Shield reflects 20% of the damage back at Fire Phoenix Monk. The pirate ghosts on the ship cheer and place bets on the battling monsters.
+
+After the step, the remaining monsters' hit points and positions are updated as follows:
+Frostbite Fiona: (10, 20), 68 hit points
+Fire Phoenix Monk: (50, 60), 112 hit points
+
+The haunted pirate ship's curse increases the monsters' anxiety, making them more likely to miss their attacks in the next step.
+
+Example 2:
+Battle State at time t:
+Location: Enchanted Fairy Meadow
+Grid Size: 100x100
+Monsters:
+{"name": "Dragonfly Ninja", "position": (30, 40), "hit_points": 80, "weaknesses": ["Thunder"], "strengths": ["Agility"], "abilities": ["Stealth Camouflage", "Pheromone Cloud"]}
+{"name": "Cryomancer Snowman", "position": (70, 90), "hit_points": 100, "weaknesses": ["Fire"], "strengths": ["Ice"], "abilities": ["Freezing Touch", "Snowball Shield"]}
+{"name": "Squid Samurai", "position": (50, 50), "hit_points": 90, "weaknesses": ["Fire"], "strengths": ["Water"], "abilities": ["Ink Cloud", "Berserk"]}
+
+Battle State at time t+1:
+Dragonfly Ninja at position (30, 40) with 80 hit points uses its Pheromone Cloud ability, confusing Cryomancer Snowman and Squid Samurai. The fairy dust in the meadow amplifies the effect, making the confused monsters giggle uncontrollably.
+
+Cryomancer Snowman at position (70, 90) with 100 hit points tries to use its Freezing Touch on Squid Samurai, but accidentally freezes a nearby fairy instead. The fairy sneezes, causing a gust of wind that blows Cryomancer Snowman's carrot nose off.
+
+Squid Samurai at position (50, 50) with 90 hit points activates its Berserk ability, increasing its power by 4. However, in its confused state, Squid Samurai mistakes a tree for an enemy and starts attacking it furiously with its tentacles.
+
+After the step, the remaining monsters' hit points and positions are updated as follows:
+Dragonfly Ninja: (30, 40), 80 hit points
+Cryomancer Snowman: (70, 90), 100 hit points
+Squid Samurai: (50, 50), 90 hit points
+
+The enchanted fairy meadow's magical aura heals the monsters by 5 hit points each, preparing them for the next step of the battle.
+
+Example 3:
+Battle State at time t:
+Location: Ancient Egyptian Necropolis
+Grid Size: 100x100
+Monsters:
+{"name": "Plague Doctor Mummy", "position": (20, 80), "hit_points": 120, "weaknesses": ["Fire"], "strengths": ["Poison", "Disease"], "abilities": ["Contagion", "Healing Elixir"]}
+{"name": "Shadow Vampire Sheriff", "position": (60, 30), "hit_points": 110, "weaknesses": ["Sunlight"], "strengths": ["Darkness", "Cold"], "abilities": ["Vampiric Touch", "Shadow Clone"]}
+{"name": "Space Shark Astronaut", "position": (90, 90), "hit_points": 150, "weaknesses": ["Laser Weapons"], "strengths": ["Vacuum", "Radiation"], "abilities": ["Force Field", "Black Hole"]}
+
+Battle State at time t+1:
+Plague Doctor Mummy at position (20, 80) with 120 hit points uses its Contagion ability, inflicting Debilitation on Shadow Vampire Sheriff and Space Shark Astronaut. The ancient curse of the necropolis strengthens the disease, causing the affected monsters to develop an irresistible urge to dance like an Egyptian.
+
+Shadow Vampire Sheriff at position (60, 30) with 110 hit points uses its Shadow Clone ability, creating a copy of itself to confuse its opponents. However, the clone starts arguing with the original about who is the real sheriff, causing a comical scene in the middle of the battle.
+
+Space Shark Astronaut at position (90, 90) with 150 hit points activates its Black Hole ability, pulling Plague Doctor Mummy and Shadow Vampire Sheriff towards itself. The mummy's bandages get caught in the shark's teeth, while the vampire's cape gets stuck in the shark's jetpack.
+
+After the step, the remaining monsters' hit points and positions are updated as follows:
+Plague Doctor Mummy: (85, 90), 120 hit points
+Shadow Vampire Sheriff: (87, 88), 110 hit points
+Space Shark Astronaut: (90, 90), 150 hit points
+
+The ancient Egyptian necropolis's sandstorm obscures the monsters' vision, making it harder for them to aim their attacks in the next step.
+
+Example 4:
+Battle State at time t:
+Location: Dinosaur Jungle
+Grid Size: 100x100
+Monsters:
+{"name": "T-Rex Berserker", "position": (40, 60), "hit_points": 200, "weaknesses": ["Ice"], "strengths": ["Fire"], "abilities": ["Primal Roar", "Tail Smash"]}
+{"name": "Velociraptor Rogue", "position": (70, 20), "hit_points": 90, "weaknesses": ["Sonic"], "strengths": ["Speed"], "abilities": ["Pounce", "Claw Frenzy"]}
+{"name": "Stegosaurus Tank", "position": (10, 90), "hit_points": 250, "weaknesses": ["Electricity"], "strengths": ["Armor"], "abilities": ["Spike Shield", "Stampede"]}
+{"name": "Pterodactyl Archer", "position": (80, 80), "hit_points": 80, "weaknesses": ["Rock"], "strengths": ["Wind"], "abilities": ["Aerial Strike", "Gust of Arrows"]}
+
+Battle State at time t+1:
+T-Rex Berserker at position (40, 60) with 200 hit points uses its Primal Roar ability, frightening the other monsters and reducing their speed by 20%. The roar attracts a flock of curious pterodactyls, who start circling above the battlefield, occasionally dropping coconuts on the monsters' heads.
+
+Velociraptor Rogue at position (70, 20) with 90 hit points uses its Pounce ability to jump on Stegosaurus Tank's back, but underestimates the stegosaurus' weight and bounces off like a trampoline. The velociraptor lands in a nearby bush, looking embarrassed.
+
+Stegosaurus Tank at position (10, 90) with 250 hit points activates its Spike Shield ability, increasing its defense by 30%. A cheeky monkey jumps onto the stegosaurus' back and starts braiding its spikes, much to the dinosaur's annoyance.
+
+Pterodactyl Archer at position (80, 80) with 80 hit points uses its Gust of Arrows ability, sending a volley of sharp feathers towards T-Rex Berserker. However, a sudden gust of wind blows the feathers back towards the pterodactyl, who has to perform a series of awkward aerial maneuvers to dodge them.
+
+After the step, the remaining monsters' hit points and positions are updated as follows:
+T-Rex Berserker: (40, 60), 180 hit points
+Velociraptor Rogue: (65, 25), 90 hit points
+Stegosaurus Tank: (10, 90), 250 hit points
+Pterodactyl Archer: (80, 80), 72 hit points
+
+The dinosaur jungle's thick vegetation provides cover for the monsters, increasing their evasion in the next step.
+"""

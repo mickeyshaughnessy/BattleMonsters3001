@@ -1,5 +1,5 @@
-from prompts import p_update_battle
-
+#from prompts import p_update_battle
+import boto3
 s3 = boto3.resource('s3')
 my_bucket = s3.Bucket('battlemonsters3001')
 

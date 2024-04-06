@@ -1,87 +1,12 @@
- 14. Haunted Mansion in Transylvania
-15. Volcanic Island
-16. Sunken Atlantis Ruins
-17. Ancient Egyptian Necropolis
-18. Enchanted Forest
-19. Swamp of Despair
-20. Abandoned Carnival
-21. Haunted Pirate Cove
-22. Crystal Caverns
-23. Dark Alien Planet
-24. Frozen Iceberg Sea
-25. Ruins of a Mayan Temple
-26. Mysterious Moon Base
-27. Dinosaur Jungle
-28. Underwater Kingdom
-29. Haunted Castle in the Woods
-30. Abandoned Spaceship
-31. Savannah Plains
-32. Dark Cave System
-33. Enchanted Fairy Meadow
-34. Ancient Roman Colosseum
-35. Ruins of a Greek Temple
-36. Haunted Haunted House
-37. Abandoned Abbey
-38. Crystal Palace
-39. Ghost Town in the Desert
-40. Ruins of an Aztec Pyramid
-41. Swampy Jungle
-42. Ancient Sumerian City
-43. Volcanic Lava Fields
-44. Haunted Mansion on a Hill
-45. Abandoned Asylum
-46. Crystal Ice Caverns
-47. Underwater Ocean Floor
-48. Ruins of an Inca Temple
-49. Savannah Grasslands
-50. Ancient Egyptian Tomb
-51. Haunted Haunted Woods
-52. Abandoned Mine
-53. Crystal Volcano
-54. Underwater Coral Reef
-55. Ruins of a Babylonian Temple
-56. Dark Swamp Forest
-57. Ancient Celtic Fortress
-58. Haunted Carnival Grounds
-59. Abandoned Pirate Ship
-60. Crystal Canyon
-61. Underwater Sunken Treasure
-62. Ruins of a Norse Temple
-63. Savannah Savanna
-64. Ancient Mayan Ruins
-65. Haunted Mansion in the Woods
-66. Abandoned Space Station
-67. Crystal Ice Mountain
-68. Underwater Lost City
-69. Ruins of a Persian Palace
-70. Dark Desert Canyon
-71. Ancient Roman Amphitheater
-72. Haunted Abandoned Asylum
-73. Abandoned Space Shuttle
-74. Crystal Iceberg
-75. Underwater Atlantean Ruins
-76. Ruins of an Egyptian Temple
-77. Savannah Plains of Africa
-78. Ancient Greek Temple Complex
-79. Haunted Castle Ruins
-80. Abandoned Ghost Ship
-81. Crystal Ice Cave
-82. Underwater Lost City of Gold
-83. Ruins of a Roman Colosseum
-84. Dark Enchanted Forest
-85. Ancient Incan City
-86. Haunted Haunted Mansion
-87. Abandoned Laboratory
-88. Crystal Lava Flow
-89. Underwater Sunken Temple
-90. Ruins of a Buddhist Monastery
-91. Savannah Plains of Asia
-92. Ancient Chinese Palace
-93. Haunted Cemetery
-94. Abandoned Nuclear Power Plant
-95. Crystal Ice Lake
-96. Underwater Atlantean Palace
-97. Ruins of a Mayan Pyramid
-98. Dark Enchanted Swamp
-99. Ancient Celtic Druid Circle
-100. Haunted Abandoned Haunted House
+ 14. Haunted Abandoned Carnival
+15. Underwater Temple Ruins
+16. Enchanted Forest of Shimmering Trees
+17. Volcanic Island with Active Lava Flow
+18. Frozen Methane Lake
+19. Ancient Egyptian Sphinx Temple
+20. Alien Swamp Biome
+21. Iceberg Labyrinth
+22. Dusty Old Western Ghost Town
+23. Enchanted Forest of Moaning Trees
+24. Abandoned Spaceship Graveyard
+25. Enchanted Caverns of Crystal Waters.

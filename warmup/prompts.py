@@ -237,6 +237,7 @@ p_generate_map_seeds = """
    """
 
 
+
 p_battle_handler = """
   You are a battle handling submodule. 
   You always respond with just JSON, nothing more, nothing less.
@@ -248,13 +249,15 @@ p_battle_handler = """
 
   Monsters can move, attack, defend, or use an ability.
 
+  Have a very dry subtle sense of humor.
+
   Example:
   
   Battle = {
     "Map" : {
       "name" : "Busy Tokyo Metropolis",
       "size" : "100x100",
-      "locations" : ["25,25", "25,24"]
+      "monster_locations" : ["25,25", "25,24"]
       },
     "Monsters" : [
       {
@@ -267,7 +270,7 @@ p_battle_handler = """
         "monster_types": "Undead",
         "weakness": "Holy",
         "seed": "Skeleton",
-        "m_id" : "58ab5165-1433-4c6a-b1c7-cbce38cf0526"
+        "monster_id" : "58ab5165-1433-4c6a-b1c7-cbce38cf0526"
       },
       {
         "description": "Angel",
@@ -279,7 +282,7 @@ p_battle_handler = """
         "monster_types": "Angel",
         "weakness": "Fire",
         "seed": "Angel",
-        "m_id" : "58ab5165-1433-4c6a-b1c7-cbce38cf0526"
+        "monster_id" : "58ab5165-1433-4c6a-b1c7-cbce38cf0526"
       }
    ]
    }
@@ -291,18 +294,12 @@ p_battle_handler = """
       "size" : "100x100",
       "locations" : ["25,25", "25,25"]
       },
-    "Monsters" : [
-      {
+    "Update_Monsters" : [
+      "
         "description": "Just your basic Skeleton",
-        "power": 2,
-        "toughness": 1,
-        "health" : -11,
-        "speed": 5,
-        "energy": 0, 
-        "monster_types": "Undead",
-        "weakness": "Holy",
+      {
         "seed": "Skeleton",
-        "m_id" : "58ab5165-1433-4c6a-b1c7-cbce38cf0526"
+        "monster_id" : "58ab5165-1433-4c6a-b1c7-cbce38cf0526"
       },
       {
         "description": "Angel",
@@ -321,12 +318,13 @@ p_battle_handler = """
   
   Battle = %s 
 
+  Monsters = %s
   Output = 
 """
 
 p_claude3Opus_battle_handler = """
 Battle State at time t:
-Location: [Insert Location]
+Map: [Insert Map state]
 Grid Size: 100x100
 Monsters:
 [Insert Monster 1 JSON]
@@ -352,6 +350,7 @@ After the step, the remaining monsters' hit points and positions are updated as 
 
 The [Terrain Characteristic] has [Effect] on the battlefield, influencing the next step of the battle.
 
+#############################
 Example 1:
 Battle State at time t:
 Location: Haunted Pirate Cove
@@ -371,6 +370,7 @@ Fire Phoenix Monk: (50, 60), 112 hit points
 
 The haunted pirate ship's curse increases the monsters' anxiety, making them more likely to miss their attacks in the next step.
 
+##################################
 Example 2:
 Battle State at time t:
 Location: Enchanted Fairy Meadow
@@ -393,7 +393,7 @@ Cryomancer Snowman: (70, 90), 100 hit points
 Squid Samurai: (50, 50), 90 hit points
 
 The enchanted fairy meadow's magical aura heals the monsters by 5 hit points each, preparing them for the next step of the battle.
-
+###################################
 Example 3:
 Battle State at time t:
 Location: Ancient Egyptian Necropolis
@@ -416,7 +416,7 @@ Shadow Vampire Sheriff: (87, 88), 110 hit points
 Space Shark Astronaut: (90, 90), 150 hit points
 
 The ancient Egyptian necropolis's sandstorm obscures the monsters' vision, making it harder for them to aim their attacks in the next step.
-
+##############################
 Example 4:
 Battle State at time t:
 Location: Dinosaur Jungle

@@ -13,8 +13,7 @@ with open("generated_maps.txt", 'r') as m_in:
 
 for _map in maps:
     n_monsters = random.choice([2,3,4,5,6])
-    for i in range(n_monsters):
-        chosen = random.choice(monsters)
+    chosen = [random.choice(monsters) for i in range(n_monsters)]
     battles.append({"map" : _map, "monsters" : chosen}) 
 
 
@@ -25,4 +24,7 @@ for b in battles:
     
     res = execute_completion(p_update_battle % (_map, monsters))
     # store result, update monsters, battle, players, etc
+    print("############### BATTLE #########")
+    print(_map)
+    print(monsters)
     print(res)

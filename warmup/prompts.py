@@ -238,7 +238,7 @@ p_generate_map_seeds = """
 
 
 
-p_battle_handler = """
+p_update_battle = """
   You are a battle handling submodule. 
   You always respond with just JSON, nothing more, nothing less.
   You always respond with just JSON.
@@ -251,13 +251,11 @@ p_battle_handler = """
 
   Have a very dry subtle sense of humor.
 
-  Example:
+  Examples:
   
   Battle = {
     "Map" : {
       "name" : "Busy Tokyo Metropolis",
-      "size" : "100x100",
-      "monster_locations" : ["25,25", "25,24"]
       },
     "Monsters" : [
       {
@@ -282,43 +280,474 @@ p_battle_handler = """
         "monster_types": "Angel",
         "weakness": "Fire",
         "seed": "Angel",
-        "monster_id" : "58ab5165-1433-4c6a-b1c7-cbce38cf0526"
+        "monster_id" : "58ab5165-1433-4c6a-a1c7-cbce38cf0526"
       }
    ]
    }
         
   Output = {
-    "Actions" : "Angel moves to 25,25 and attacks Skeleton. Angel deals 10+2 damage to Skeleton. Skeleton attacks Angel. Skeleton deals 1 damage to Angel."
-    "Map" : { 
-      "name" : "Busy Tokyo Metropolis",
-      "size" : "100x100",
-      "locations" : ["25,25", "25,25"]
-      },
-    "Update_Monsters" : [
-      "
-        "description": "Just your basic Skeleton",
-      {
-        "seed": "Skeleton",
-        "monster_id" : "58ab5165-1433-4c6a-b1c7-cbce38cf0526"
-      },
-      {
-        "description": "Angel",
-        "power": 10,
-        "toughness": 11,
-        "health": 10,
-        "speed": 6,
-        "energy": 1, 
-        "monster_types": "Angel",
-        "weakness": "Fire",
-        "seed": "Angel",
-        "m_id" : "58ab5165-1433-4c6a-b1c7-cbce38cf0526"
+    "Actions" : "Angel moves to 25,25 and attacks Skeleton. Angel deals 10+2 damage to Skeleton. Skeleton attacks Angel. Skeleton deals 1 damage to Angel. Japanese national guard battalion begins attacking Skeleton""
+    "Resource" : {
+      "monster_id" : "58ab5165-1433-4c6a-a1c7-cbce38cf0526",
+      "name" : "Japanese Emeralds",
+      "quantity": 2,
       }
-    ]
+
+    "Update" : [
+      {
+        "monster_id" : "58ab5165-1433-4c6a-b1c7-cbce38cf0526",
+        "new_state" : "dead",
+       },
+
+
+      },
+      {
+        "update_health": 8,
+        "m_id" : "58ab5165-1433-4c6a-a1c7-cbce38cf0526"
+      }
+    ],
   }
-  
+
+Example 2:
+
+Battle = {
+  "Map": {
+    "name": "Frozen Methane Lake"
+  },
+  "Monsters": [
+    {
+      "description": "The Mechanical Nimbus Ninja is a unique and powerful construct, born from the fusion of a Mechanical Griffon Sage and a Robot Ninja. It possesses advanced knowledge, relentless combat abilities, and the ability to adapt to new situations, all while being infused with the durability and strength of its mechanical parents.",
+      "power": 45,
+      "toughness": 38,
+      "health": 38,
+      "speed": 17,
+      "energy": 20,
+      "monster_types": ["Construct", "Griffon", "Ninja", "Hybrid"],
+      "weakness": ["Magic", "Fire"],
+      "immunity": ["Poison", "Physical Damage"],
+      "seed": "Mechanical Nimbus Ninja",
+      "monster_id": "a1b2c3d4-e5f6-7g8h-9i0j-k1l2m3n4o5p6"
+    }
+  ]
+} 
+
+Output = {
+  "Actions": "Mechanical Nimbus Ninja extracts 5 units of Frozen Methane from the lake. The ninja's mechanical components start to freeze up, causing a slight decrease in speed.",
+  "Resource": {
+    "monster_id": "a1b2c3d4-e5f6-7g8h-9i0j-k1l2m3n4o5p6",
+    "name": "Frozen Methane",
+    "quantity": 5
+  },
+  "Update": [
+    {
+      "update_speed": 15,
+      "monster_id": "a1b2c3d4-e5f6-7g8h-9i0j-k1l2m3n4o5p6"
+    }
+  ]
+}
+
+Example 3:
+
+{
+  "Map": {
+    "name": "Enchanted Forest of Moaning Trees"
+  },
+  "Monsters": [
+    {
+      "description": "The Starfish Cyber Chimera is a mechanical and aquatic monster, born from the fusion of the Cybernetic Chimera and the Starfish Queen. Its body is a blend of advanced technology and starfish features, making it a unique and powerful creature. It possesses the agility and intelligence of the Cybernetic Chimera, the strategic combat skills of the Starfish Queen, and the ability to call upon the power of the tides.",
+      "power": 90,
+      "toughness": 65,
+      "health": 65,
+      "speed": 48,
+      "energy": 30,
+      "monster_types": ["Cybernetic", "Starfish", "Hybrid"],
+      "weakness": ["Organic Attacks", "Fire"],
+      "immunity": ["Technology Malfunctions"],
+      "seed": "Starfish Cyber Chimera",
+      "monster_id": "1a2b3c4d-5e6f-7g8h-9i0j-1k2l3m4n5o6p"
+    },
+    {
+      "description": "The Mechanocyber Dragon is a unique creature born from the union of the Mechanical Dragon Engineer and the Cybernetic Dragon Necromancer. It possesses both the mechanical precision of its father and the cybernetic powers of its mother, making it a formidable and unpredictable foe.",
+      "power": 60,
+      "toughness": 35,
+      "health": 35,
+      "speed": 15,
+      "energy": 45,
+      "monster_types": ["Mechanic", "Cybernetic", "Dragon"],
+      "weakness": ["Holy Damage"],
+      "immunity": ["Fire", "Poison", "Magic"],
+      "seed": "Mechanocyber Dragon",
+      "monster_id": "a1b2c3d4-e5f6-7g8h-9i0j-k1l2m3n4o5p6"
+    }
+  ]
+}
+
+Output = 
+{
+  "Actions": "Starfish Cyber Chimera moves to 10,10 and attacks Mechanocyber Dragon with Tidal Surge, dealing 90 damage. Mechanocyber Dragon counters with Mecha Breath, dealing 60 damage to Starfish Cyber Chimera. The moaning trees whisper ancient secrets, temporarily boosting the energy of both monsters by 5.",
+  "Update": [
+    {
+      "monster_id": "a1b2c3d4-e5f6-7g8h-9i0j-k1l2m3n4o5p6",
+      "new_state": "dead"
+    },
+    {
+      "update_health": 5,
+      "update_energy": 35,
+      "monster_id": "1a2b3c4d-5e6f-7g8h-9i0j-1k2l3m4n5o6p"
+    }
+  ]
+}
+
+Example 4:
+  Battle = {
+  "Map": {
+    "name": "Enchanted Caverns of Crystal Waters"
+  },
+  "Monsters": [
+    {
+      "description": "The Starfish Cyber Chimera is a mechanical and aquatic monster, born from the fusion of the Cybernetic Chimera and the Starfish Queen. Its body is a blend of advanced technology and starfish features, making it a unique and powerful creature. It possesses the agility and intelligence of the Cybernetic Chimera, the strategic combat skills of the Starfish Queen, and the ability to call upon the power of the tides.",
+      "power": 90,
+      "toughness": 65,
+      "health": 65,
+      "speed": 48,
+      "energy": 30,
+      "monster_types": ["Cybernetic", "Starfish", "Hybrid"],
+      "weakness": ["Organic Attacks", "Fire"],
+      "immunity": ["Technology Malfunctions"],
+      "seed": "Starfish Cyber Chimera",
+      "monster_id": "1a2b3c4d-5e6f-7g8h-9i0j-1k2l3m4n5o6p"
+    },
+    {
+      "description": "The Mechanocyber Dragon is a unique creature born from the union of the Mechanical Dragon Engineer and the Cybernetic Dragon Necromancer. It possesses both the mechanical precision of its father and the cybernetic powers of its mother, making it a formidable and unpredictable foe.",
+      "power": 60,
+      "toughness": 35,
+      "health": 35,
+      "speed": 15,
+      "energy": 45,
+      "monster_types": ["Mechanic", "Cybernetic", "Dragon"],
+      "weakness": ["Holy Damage"],
+      "immunity": ["Fire", "Poison", "Magic"],
+      "seed": "Mechanocyber Dragon",
+      "monster_id": "a1b2c3d4-e5f6-7g8h-9i0j-k1l2m3n4o5p6"
+    },
+    {
+      "description": "The Mechanical Nimbus Ninja is a unique and powerful construct, born from the fusion of a Mechanical Griffon Sage and a Robot Ninja. It possesses advanced knowledge, relentless combat abilities, and the ability to adapt to new situations, all while being infused with the durability and strength of its mechanical parents.",
+      "power": 45,
+      "toughness": 38,
+      "health": 38,
+      "speed": 17,
+      "energy": 20,
+      "monster_types": ["Construct", "Griffon", "Ninja", "Hybrid"],
+      "weakness": ["Magic", "Fire"],
+      "immunity": ["Poison", "Physical Damage"],
+      "seed": "Mechanical Nimbus Ninja",
+      "monster_id": "b1c2d3e4-f5g6-7h8i-9j0k-1l2m3n4o5p6q"
+    }
+  ]
+}
+
+Output = {
+  "Actions": "Starfish Cyber Chimera moves to 5,5 and attacks Mechanocyber Dragon with Tidal Surge, dealing 90 damage. Mechanocyber Dragon counters with Mecha Breath, dealing 60 damage to Starfish Cyber Chimera. Mechanical Nimbus Ninja extracts 3 units of Enchanted Crystals from the cavern walls. The crystal waters shimmer, reflecting the battle and slightly healing all monsters by 5 health points.",
+  "Resource": {
+    "monster_id": "b1c2d3e4-f5g6-7h8i-9j0k-1l2m3n4o5p6q",
+    "name": "Enchanted Crystals",
+    "quantity": 3
+  },
+  "Update": [
+    {
+      "monster_id": "a1b2c3d4-e5f6-7g8h-9i0j-k1l2m3n4o5p6",
+      "new_state": "dead"
+    },
+    {
+      "update_health": 10,
+      "monster_id": "1a2b3c4d-5e6f-7g8h-9i0j-1k2l3m4n5o6p"
+    },
+    {
+      "update_health": 43,
+      "monster_id": "b1c2d3e4-f5g6-7h8i-9j0k-1l2m3n4o5p6q"
+    }
+  ]
+}
+
+Example 5: 
+
+Battle = 
+{
+  "Map": {
+    "name": "Ruins of the Forgotten Kingdom"
+  },
+  "Monsters": [
+    {
+      "description": "Azrael, the Archangel of Vengeance, is a celestial being of immense power. Wielding a flaming sword and a radiant shield, he descends upon the battlefield to smite the forces of darkness.",
+      "power": 120,
+      "toughness": 100,
+      "health": 100,
+      "speed": 80,
+      "energy": 90,
+      "monster_types": ["Celestial", "Angel", "Archangel"],
+      "weakness": ["Necrotic Energy", "Demonic Magic"],
+      "immunity": ["Radiant Damage", "Fear"],
+      "seed": "Azrael",
+      "monster_id": "1a2b3c4d-5e6f-7g8h-9i0j-1k2l3m4n5o6p"
+    },
+    {
+      "description": "Morrigan, the Queen of Ravens, is a powerful sorceress and shapeshifter. She commands a murder of enchanted ravens and weaves dark magic to deceive and destroy her enemies.",
+      "power": 90,
+      "toughness": 80,
+      "health": 80,
+      "speed": 100,
+      "energy": 110,
+      "monster_types": ["Human", "Sorceress", "Shapeshifter"],
+      "weakness": ["Dispel Magic", "True Sight"],
+      "immunity": ["Illusions", "Charm"],
+      "seed": "Morrigan",
+      "monster_id": "a1b2c3d4-e5f6-7g8h-9i0j-k1l2m3n4o5p6"
+    },
+    {
+      "description": "Tiamat, the Five-Headed Dragon Goddess, is a terrifying amalgamation of draconic power. Each of her heads breathes a different element, and her scales are harder than adamantine.",
+      "power": 140,
+      "toughness": 120,
+      "health": 120,
+      "speed": 60,
+      "energy": 100,
+      "monster_types": ["Dragon", "Deity", "Chromatic"],
+      "weakness": ["Dragon Slaying Weapons", "Divine Magic"],
+      "immunity": ["Fire", "Cold", "Acid", "Lightning", "Poison"],
+      "seed": "Tiamat",
+      "monster_id": "b1c2d3e4-f5g6-7h8i-9j0k-1l2m3n4o5p6q"
+    }
+  ]
+}
+
+Output = 
+{
+  "Actions": "In the ancient Ruins of the Forgotten Kingdom, three legendary beings clash in a battle that will shape the fate of the realm. Azrael charges forward, his flaming sword cutting through Tiamat's scales for 120 damage. Tiamat retaliates with a blast of prismatic energy from her five heads, dealing 140 damage to Azrael and 70 damage to Morrigan. Morrigan casts a spell of dark transformation, turning her ravens into shadowy blades that pierce Tiamat's hide for 90 damage. The ruins tremble with the force of their conflict, ancient statues crumbling and forgotten treasures revealing themselves.",
+  "Resource": [
+    {
+      "name": "Soulfire Greatsword",
+      "description": "A massive greatsword infused with the eternal flames of the celestial realms. It deals an additional 3d6 radiant damage on a hit and can cast the 'Daylight' spell once per day.",
+      "monster_id": "1a2b3c4d-5e6f-7g8h-9i0j-1k2l3m4n5o6p"
+    },
+    {
+      "name": "Cloak of the Raven Queen",
+      "description": "A shimmering cloak made from the feathers of the Morrigan's enchanted ravens. It grants the wearer advantage on stealth checks and the ability to cast the 'Polymorph' spell (raven form only) once per day.",
+      "monster_id": "a1b2c3d4-e5f6-7g8h-9i0j-k1l2m3n4o5p6"
+    },
+    {
+      "name": "Chromatic Dragon Scale",
+      "description": "A scale from Tiamat's hide, imbued with the power of all five chromatic dragon types. It can be crafted into a shield that grants resistance to fire, cold, acid, lightning, and poison damage.",
+      "monster_id": "b1c2d3e4-f5g6-7h8i-9j0k-1l2m3n4o5p6q"
+    }
+  ],
+  "Update": [
+    {
+      "update_health": 0,
+      "new_state": "dead",
+      "monster_id": "1a2b3c4d-5e6f-7g8h-9i0j-1k2l3m4n5o6p"
+    },
+    {
+      "update_health": 10,
+      "monster_id": "a1b2c3d4-e5f6-7g8h-9i0j-k1l2m3n4o5p6"
+    },
+    {
+      "update_health": 0,
+      "new_state": "dead",
+      "monster_id": "b1c2d3e4-f5g6-7h8i-9j0k-1l2m3n4o5p6q"
+    }
+  ]
+}
+
+Example 6: 
+
+Battle = 
+{
+  "Map": {
+    "name": "Fractured Reality Nexus"
+  },
+  "Monsters": [
+    {
+      "description": "The Quantum Chimera is a bizarre, ever-shifting amalgamation of different creatures from across the multiverse. Its form is constantly in flux, making it difficult to predict and counter its attacks.",
+      "power": 85,
+      "toughness": 70,
+      "health": 70,
+      "speed": 60,
+      "energy": 55,
+      "monster_types": ["Quantum", "Chimera", "Multiversal"],
+      "weakness": ["Void Energy", "Paradox"],
+      "immunity": ["Physical Damage", "Energy Damage"],
+      "seed": "Quantum Chimera",
+      "monster_id": "1a2b3c4d-5e6f-7g8h-9i0j-1k2l3m4n5o6p"
+    },
+    {
+      "description": "The Void Reaper is a nightmarish entity that feeds on the fabric of reality itself. It wields a scythe made of pure darkness, capable of rending through dimensions and erasing its victims from existence.",
+      "power": 95,
+      "toughness": 80,
+      "health": 80,
+      "speed": 40,
+      "energy": 70,
+      "monster_types": ["Void", "Reaper", "Cosmic Horror"],
+      "weakness": ["Light", "Reality Anchors"],
+      "immunity": ["Darkness", "Existential Attacks"],
+      "seed": "Void Reaper",
+      "monster_id": "a1b2c3d4-e5f6-7g8h-9i0j-k1l2m3n4o5p6"
+    },
+    {
+      "description": "The Paradox Golem is a self-contradictory construct that defies the laws of logic and causality. It is simultaneously ancient and newborn, indestructible and fragile, everywhere and nowhere.",
+      "power": 75,
+      "toughness": 90,
+      "health": 90,
+      "speed": 20,
+      "energy": 80,
+      "monster_types": ["Paradox", "Golem", "Temporal Anomaly"],
+      "weakness": ["Quantum Attacks", "Chronal Disruption"],
+      "immunity": ["Physical Damage", "Temporal Attacks"],
+      "seed": "Paradox Golem",
+      "monster_id": "b1c2d3e4-f5g6-7h8i-9j0k-1l2m3n4o5p6q"
+    }
+  ]
+}
+
+Output = 
+{
+  "Actions": "A dimensional rift opens in the center of the Fractured Reality Nexus, warping the fabric of space-time. Quantum Chimera's form shifts into a Void Serpent and lunges through the rift, emerging behind Paradox Golem and dealing 85 damage with Causality Fangs. Paradox Golem, existing in multiple timelines, retaliates with Temporal Fist from both the past and future, dealing 75 damage each (150 total) to Quantum Chimera. Void Reaper expands the dimensional rift, pulling Quantum Chimera and Paradox Golem towards the void. Both monsters resist the pull but take 20 damage from the chaotic energies. The rift destabilizes, randomly altering the speed of all monsters by -10 to +10.",
+  "Update": [
+    {
+      "update_health": 0,
+      "new_state": "dead",
+      "monster_id": "1a2b3c4d-5e6f-7g8h-9i0j-1k2l3m4n5o6p"
+    },
+    {
+      "update_health": 70,
+      "update_speed": 50,
+      "monster_id": "a1b2c3d4-e5f6-7g8h-9i0j-k1l2m3n4o5p6"
+    },
+    {
+      "update_health": 25,
+      "update_speed": 30,
+      "monster_id": "b1c2d3e4-f5g6-7h8i-9j0k-1l2m3n4o5p6q"
+    }
+  ]
+}
+
+Example 7 (Five Monsters - Elemental Convergence):
+
+Battle = 
+{
+  "Map": {
+    "name": "Eye of the Elemental Storm"
+  },
+  "Monsters": [
+    {
+      "description": "The Inferno Phoenix is a majestic, fiery bird that rises from the ashes of its own destruction. Its wings ignite the air with every flap, leaving trails of searing embers.",
+      "power": 90,
+      "toughness": 60,
+      "health": 60,
+      "speed": 80,
+      "energy": 70,
+      "monster_types": ["Fire", "Phoenix", "Elemental"],
+      "weakness": ["Water", "Ice"],
+      "immunity": ["Fire", "Heat"],
+      "seed": "Inferno Phoenix",
+      "monster_id": "1a2b3c4d-5e6f-7g8h-9i0j-1k2l3m4n5o6p"
+    },
+    {
+      "description": "The Tsunami Leviathan is a gargantuan sea serpent that commands the tides and storms. Its scales shimmer with the blue-green hues of the deep ocean, and its roar summons tidal waves.",
+      "power": 95,
+      "toughness": 90,
+      "health": 90,
+      "speed": 60,
+      "energy": 80,
+      "monster_types": ["Water", "Leviathan", "Elemental"],
+      "weakness": ["Lightning", "Nature"],
+      "immunity": ["Water", "Ice"],
+      "seed": "Tsunami Leviathan",
+      "monster_id": "a1b2c3d4-e5f6-7g8h-9i0j-k1l2m3n4o5p6"
+    },
+    {
+      "description": "The Terra Behemoth is a massive, living mountain that lumbers across the battlefield. Its body is composed of ancient stone, crystal, and precious metals, and its steps cause localized earthquakes.",
+      "power": 80,
+      "toughness": 120,
+      "health": 120,
+      "speed": 20,
+      "energy": 60,
+      "monster_types": ["Earth", "Behemoth", "Elemental"],
+      "weakness": ["Wind", "Erosion"],
+      "immunity": ["Physical Damage", "Poison"],
+      "seed": "Terra Behemoth",
+      "monster_id": "b1c2d3e4-f5g6-7h8i-9j0k-1l2m3n4o5p6q"
+    },
+    {
+      "description": "The Voltaic Wyvern is a sleek, draconic creature that soars through the skies on wings of pure energy. Its body crackles with electricity, and its breath releases devastating lightning bolts.",
+      "power": 85,
+      "toughness": 70,
+      "health": 70,
+      "speed": 90,
+      "energy": 90,
+      "monster_types": ["Lightning", "Wyvern", "Elemental"],
+      "weakness": ["Earth", "Insulation"],
+      "immunity": ["Electricity", "Magnetism"],
+      "seed": "Voltaic Wyvern",
+      "monster_id": "c1d2e3f4-g5h6-7i8j-9k0l-1m2n3o4p5q6r"
+    },
+    {
+      "description": "The Zephyr Djinn is an ethereal, shapeshifting entity made of living wind. It dances through the air like a miniature tornado, and its touch can buffet foes with gale-force winds.",
+      "power": 70,
+      "toughness": 50,
+      "health": 50,
+      "speed": 110,
+      "energy": 75,
+      "monster_types": ["Wind", "Djinn", "Elemental"],
+      "weakness": ["Fire", "Vacuum"],
+      "immunity": ["Physical Damage", "Sonic Attacks"],
+      "seed": "Zephyr Djinn",
+      "monster_id": "d1e2f3g4-h5i6-7j8k-9l0m-1n2o3p4q5r6s"
+    }
+  ]
+}
+
+Output = 
+{
+  "Actions": "The elements converge in the Eye of the Elemental Storm, creating a chaotic maelstrom of clashing energies. Inferno Phoenix soars into the storm, its fiery wings fanning the flames. Tsunami Leviathan rises from the depths, its tidal waves crashing against the shore. Terra Behemoth stands firm amidst the chaos, its stone body weathering the storm. Voltaic Wyvern rides the lightning, its electric breath striking at the heart of the tempest. Zephyr Djinn becomes one with the howling winds, its ethereal form weaving between the other elementals. The storm intensifies, empowering the elementals with +10 to their primary elemental attack stat, but the clashing energies deal 5 damage to all monsters each turn.",
+  "Update": [
+    {
+      "update_power": 100,
+      "update_health": 55,
+      "monster_id": "1a2b3c4d-5e6f-7g8h-9i0j-1k2l3m4n5o6p"
+    },
+    {
+      "update_power": 105,
+      "update_health": 85,
+      "monster_id": "a1b2c3d4-e5f6-7g8h-9i0j-k1l2m3n4o5p6"
+    },
+    {
+      "update_toughness": 130,
+      "update_health": 115,
+      "monster_id": "b1c2d3e4-f5g6-7h8i-9j0k-1l2m3n4o5p6q"
+    },
+    {
+      "update_energy": 100,
+      "update_health": 65,
+      "monster_id": "c1d2e3f4-g5h6-7i8j-9k0l-1m2n3o4p5q6r"
+    },
+    {
+      "update_speed": 120,
+      "update_health": 45,
+      "monster_id": "d1e2f3g4-h5i6-7j8k-9l0m-1n2o3p4q5r6s"
+    },
+    {
+      "effect": {
+        "type": "convergence",
+        "damage": 5,
+        "duration": -1,
+        "targets": ["all"]
+      }
+    }
+  ]
+}
+
+
   Battle = %s 
 
-  Monsters = %s
   Output = 
 """
 

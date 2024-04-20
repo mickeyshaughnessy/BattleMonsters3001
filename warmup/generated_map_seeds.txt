@@ -1,12 +1,17 @@
- 14. Haunted Abandoned Carnival
-15. Underwater Temple Ruins
-16. Enchanted Forest of Shimmering Trees
-17. Volcanic Island with Active Lava Flow
-18. Frozen Methane Lake
-19. Ancient Egyptian Sphinx Temple
-20. Alien Swamp Biome
-21. Iceberg Labyrinth
-22. Dusty Old Western Ghost Town
-23. Enchanted Forest of Moaning Trees
-24. Abandoned Spaceship Graveyard
-25. Enchanted Caverns of Crystal Waters.
+ 14. Sunken Atlantean Ruins
+15. Enchanted Forest of Whispers
+16. Volcanic Island of Fire Demons
+17. Haunted Carnival Grounds
+18. Crystal Caverns of the Deep Earth
+19. Ancient Egyptian Necropolis
+20. Savannah Plains of the Lost City
+21. The Blood Moon Swamp
+22. The Frozen Methane Seas of Saturn's Moon, Titan
+23. Ruins of an Ancient Mayan Civilization
+24. Cursed Haunted House in Transylvania
+25. Abandoned Arctic Research Station
+26. Dystopian Wasteland after a Nuclear War
+27. Magma Chambers beneath Mount Doom
+28. The Crystal Spires of Xanadu
+29. The hauntingly beautiful ghost ship "The Flying Dutchman"
+30. The enchanted forest of the Silver Elves.

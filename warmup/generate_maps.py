@@ -9,6 +9,8 @@ with open('generated_map_seeds.txt', 'w') as f:
 
 print("Generated Seeds: %s " % r)
 
+print('generating maps')
+
 with open('generated_maps.txt', 'w') as fout:
     for line in r.split('. '):
         res = execute_completion(
@@ -41,6 +43,5 @@ with open('generated_maps.txt', 'w') as fout:
     
          output = 
          """ % line)
-
-    print(res)
-    input()
+        fout.write(res)
+        print(res)

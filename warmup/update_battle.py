@@ -1,30 +1,28 @@
 # This script takes a Map JSON plus Monsters JSON objects and generates and update JSON output
-
-from prompt import p_update_battle
-
+import random, json
+from prompts import p_update_battle
+from utils import execute_completion
 
 monsters, maps, battles = [], [], []
 with open("generated_monsters.txt", 'r') as m_in:
     for line in m_in:
         monsters.append(line.rstrip())
-with open("generated_maps.txt", 'r') as m_in:
+with open("generated_map_seeds.txt", 'r') as m_in:
     for line in m_in:
         maps.append(line.rstrip())
 
 for _map in maps:
-    n_monsters = random.choice([2,3,4,5,6])
+    n_monsters = random.choice([2,3])
     chosen = [random.choice(monsters) for i in range(n_monsters)]
-    battles.append({"map" : _map, "monsters" : chosen}) 
-
+    battles.append({"map" : _map, "monsters" : str(chosen)}) 
 
 for b in battles:
-    _map = b.get('map')
-    monsters = b.get('monsters')
-    monsters = str(monsters) 
-    
-    res = execute_completion(p_update_battle % (_map, monsters))
+    res = execute_completion(p_update_battle % (b))
     # store result, update monsters, battle, players, etc
-    print("############### BATTLE #########")
-    print(_map)
-    print(monsters)
+    print("battle", b)
+    print("########## BATTLE UPDATE #########")
     print(res)
+    try:
+        json.loads(res)
+    except:
+        print("failed to load")

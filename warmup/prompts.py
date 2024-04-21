@@ -873,3 +873,18 @@ Pterodactyl Archer: (80, 80), 72 hit points
 
 The dinosaur jungle's thick vegetation provides cover for the monsters, increasing their evasion in the next step.
 """
+
+
+p_clean_to_json = """
+input: text string
+output : JSON string
+
+You are a json cleaning submodule in a computer game.
+You always respond with a JSON string and never anything else.
+You are given text input that may contain JSON and may contain other text.
+Your job is to remove everything except the JSON.
+
+input: %s
+
+output:
+"""
